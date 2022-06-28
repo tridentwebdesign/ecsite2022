@@ -1,14 +1,13 @@
 [
     {
         "itemphotos": [
-            "umaibo01.jpg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "dd_image.jpeg",
+            "dd_image2.jpeg"
         ],
-        "name": "うまい棒サラミ味",
-        "price": 12,
-        "state": "TRUE",
-        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
+        "name": "アジア版DDデッキパーツ",
+        "price": 22222,
+        "state": "true",
+        "text": "DD/DDDのアジア版デッキパーツです。あくまでプレイ用でお願いします。",
         "id": 27002,
         "colors": "黄色",
         "maker": "（株）やおきん",
