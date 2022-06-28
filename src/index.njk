@@ -1,0 +1,75 @@
+---
+
+title: 私の趣味商品
+
+sabtitle:
+  - name: BODYMAKERグローブ
+  - money: 9000円
+
+sabtitle2:
+  - name: バンダナ
+  - money: 200円
+
+sabtitle3:
+  - name: ボクシングシャツ
+  - money: 2500円
+
+sabtitle4:
+  - name: Winningバンテージ
+  - money: 1200円
+
+layout: layout.njk
+csspath: ./css/
+---
+
+<h1>{{ title }}</h1>
+<div class="inner">
+<section class="Product">
+<div>
+    <img src="./images/globe.png" alt="">
+<li><a href="./globeSingle">{{ sabtitle[0].name }}</a></li>
+<li>{{ sabtitle[1].money }}</li>
+</div>
+
+<div>
+<img src="./images/bandana.png" alt="">
+<li><a href="./globeSingle">{{ sabtitle2[0].name }}</a></li>
+<li>{{ sabtitle2[1].money }}</li>
+</div>
+
+<div>
+    <img src="./images/Tshirt.png" alt="">
+<li><a href="./article">{{ sabtitle3[0].name }}</a></li>
+<li>{{ sabtitle3[1].money }}</li>
+</div>
+
+<div>
+   <img src="./images/Vantage_main.png" alt="">
+<li><a href="./article">{{ sabtitle4[0].name }}</a></li>
+<li>{{ sabtitle4[1].money }}</li>
+
+
+</div>
+
+<div>
+
+    <img src="./images/bandana.png" alt="">
+<li><a href="./about">article</a></li>
+</div>
+
+<div>
+    <img src="./images/Tshirt.png" alt="">
+<li><a href="./article">article</a></li>
+</div>
+
+<div>
+   <img src="./images/Vantage_main.png" alt="">
+<li><a href="./article">article</a></li>
+</div>
+
+<div>
+   <img src="./images/Vantage_main.png" alt="">
+<li><a href="./article">article</a></li>
+</div>
+</section>
+</div>
