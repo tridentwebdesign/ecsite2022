@@ -5,6 +5,7 @@
             "umaibo02.jpg",
             "umaibo03.jpg"
         ],
+        "en": "yummy",
         "name": "うまい棒サラミ味",
         "price": 12,
         "state": true,
@@ -20,6 +21,7 @@
             "yochan03.jpg",
             "yochan04.jpg"
         ],
+        "en": "cut",
         "name": "カットよっちゃん（よっちゃんイカ）",
         "price": 50,
         "state": false,

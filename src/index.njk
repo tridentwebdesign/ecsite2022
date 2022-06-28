@@ -1,0 +1,21 @@
+---
+title: KitaitiShop
+layout: layout.njk
+path: ./css
+---
+    
+    <header>
+        <h1>{{ title }}</h1>
+        <ul>
+            <li><a href="./items/cut/">TOP</a></li>
+            <li><a href="./about/index.html">ABOUT</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>item</h2>
+        {% for content in items %}
+        <li><a href="./items/{{ content.en }}">{{content.name}}</a></li>
+        {% endfor %}
+    </main>
+    
+
