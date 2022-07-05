@@ -1,0 +1,58 @@
+---
+title: Myshop
+layout: layout.njk
+csspath: ./css/
+---
+
+<header>
+
+<h1>{{ title }}</h1>
+<ul>
+    <li>
+        <a href="#">home</a>
+    </li>
+    <li>
+        <a href="./about">about</a>
+    </li>
+    <li>
+        <a href="#">カート内</a>
+    </li>
+</ul>
+
+</header>
+
+<main>
+
+<h2>item</h2>
+
+<ul>
+    {% for item in items %}
+    <li>{{ item.name }}</li>
+    <li>{{ item.price }}</li>
+    {% endfor %}
+</ul>
+
+<h2>more</h2>
+
+<ul>
+    <li>
+        <a href="#">ホーム</a>
+        </li>
+    <li>
+        <a href="#">ツイッター</a>
+        </li>
+    <li>
+        <a href="#">フェイスブック</a>
+        </li>
+    <li>
+        <a href="#">インスタグラム</a>
+        </li>
+</ul>
+
+</main>
+
+<footer>
+
+<small></small>
+
+</footer>
