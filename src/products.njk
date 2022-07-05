@@ -1,0 +1,21 @@
+---
+pagination:
+  data: products
+  size: 1
+  alias: product
+permalink: 'products/{{ product.url | slugify }}/'
+layout: layout.njk
+csspath: ../../css/
+---
+
+{{ products | log }}
+
+<ul>
+  <li>{{ product.itemphotos }}</li>
+	<li>{{ product.name }}</li>
+	<li>{{ product.price }}</li>
+  <li>{{ product.state }}</li>
+  <li>{{ product.text }}</li>
+  <li>{{ product.id }}</li>
+  <li>{{ product.colors }}</li>
+</ul>

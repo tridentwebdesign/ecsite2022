@@ -1,0 +1,17 @@
+---
+title: 記事タイトル
+members:
+  - name: oda
+    title: Jamstackエンジニア
+  - name: toyotomi
+    title: フロントエンド・エンジニア
+layout: layout.njk
+csspath: ../css/
+---
+
+<h1>products</h1>
+<ul>
+	{% for product in products %}
+	<li><a href="../products/{{ product.url }}"> {{ product.url }} </a></li>
+	{% endfor %}
+</ul>
