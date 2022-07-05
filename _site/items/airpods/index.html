@@ -1,15 +1,15 @@
----
-title: KitaitiShop
-pagination:
-  data: item
-  size: 1
-  alias: product
-permalink: 'items/{{ product.url | slugify}}/'
-layout: layout.njk
-path: ../../css
----
-    <header class="header">
-        <h1 class="header__title">{{ title }}</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KitaitiShop</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href=../../css/style.css>
+<body>
+        <header class="header">
+        <h1 class="header__title">KitaitiShop</h1>
         <ul class="header__nav">
             <li class="header__list"><a href="../../index.html"class="header__link">TOP</a></li>
             <li class="header__list"><a href="../../about/index.html" class="header__link">ABOUT</a></li>
@@ -17,19 +17,19 @@ path: ../../css
     </header>
 
 
-    <h1>{{ product.name }}</h1>
+    <h1>AirPods</h1>
     <div class="item">
       <div class="item__inner">
         <div class="item__box">
-          <img src=../images/{{ item.en }}/{{ item.itemphotos[0]}} alt="itemのメイン画像" class="item__img">
+          <img src=../images// alt="itemのメイン画像" class="item__img">
           <div class="item__content">
-            <h2 class="item__name">{{ product.name }}</h2>
-            <h3 class="item__price">¥{{ product.price }}</h3>
-            <p class="item__text">{{ product.text }}</p>
+            <h2 class="item__name">AirPods</h2>
+            <h3 class="item__price">¥16,800</h3>
+            <p class="item__text">第２世代のAirPodsです。最高峰の音楽体験を提供します。</p>
             <ul class="item__detail">
-              <li class="item__list">{{ product.id }}</li>
-              <li class="item__list">{{ product.colors }}</li>
-              <li class="item__list">{{ product.size }}</li>
+              <li class="item__list">13785</li>
+              <li class="item__list">白色</li>
+              <li class="item__list">S</li>
             </ul>
             <input type="number" class="item__count">
             <input type="button" class="item__in">
@@ -44,3 +44,6 @@ path: ../../css
     </div>
 
 
+
+</body>
+</html>

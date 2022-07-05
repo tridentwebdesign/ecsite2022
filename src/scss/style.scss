@@ -1,0 +1,72 @@
+// header
+.header{
+    background-color: #fcad3d;
+    align-items: center;
+    padding-bottom: 7em;
+    &__title{
+        text-align: center;
+    }
+    &__nav{
+        display: none;
+        width: 30%;
+        justify-content: space-between;
+    }
+
+    &__list{
+        list-style-type: none;
+        margin: 0 0 0 2em;
+    }
+
+    &__link{
+        text-decoration: none;
+        display: block;
+        width: 30%;
+    }
+}
+
+// item
+.item{
+    &__in{
+        display: block;
+    }
+}
+
+
+// index
+.main{
+    margin-top: 3em;
+    &__title{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    &__inner{
+        max-width: 800px;
+        width: 90%;
+        margin: auto;
+    }
+
+    &__content{
+        width: 40%;
+    }
+
+    &__link{
+        width: 100%;
+        display: block;
+        background-color: green;
+    }
+
+    &__box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+
+
+.footer{
+    &__img{
+        width: 7%;
+    }
+}

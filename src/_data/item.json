@@ -1,0 +1,66 @@
+[
+    {
+        "itemphotos": [
+            "AirPods01.jpeg",
+            "AirPods02.jpeg",
+            "AirPods03.jpeg"
+        ],
+        "name": "AirPods",
+        "price": "16,800",
+        "state": true,
+        "text": "第２世代のAirPodsです。最高峰の音楽体験を提供します。",
+        "id": 13785,
+        "colors": "白色",
+        "maker": "株式会社Apple",
+        "url": "AirPods",
+        "size": "S"
+    },
+    {
+        "itemphotos": [
+            "book01.jpeg",
+            "book02.jpeg",
+            "book03.jpeg"
+        ],
+        "name": "どんどん橋落ちた",
+        "price": 880,
+        "state": false,
+        "text": "巧妙なトリックで有名な綾辻行人が送る、「犯人当て」小説。騙されるわけないと思うほど騙される。",
+        "id": "895-24",
+        "colors": "黒色",
+        "maker": "講談社文庫",
+        "url": "book",
+        "size": "M"
+    },
+    {
+        "itemphotos": [
+            "biore01.jpeg",
+            "biore02.jpeg",
+            "biore03.jpeg"
+        ],
+        "name": "MEMsBiore",
+        "price": 400,
+        "state": true,
+        "text": "定番の汗ふきシート。爽快感ときつすぎない香りで厳しい夏を乗り越えれます。",
+        "id": "58-6948",
+        "colors": "水色",
+        "maker": "花王株式会社",
+        "url": "sheat",
+        "size": "S"
+    },
+    {
+        "itemphotos": [
+            "case01.jpeg",
+            "case02.jpeg",
+            "case03.jpeg"
+        ],
+        "name": "cookyAirPodsケース",
+        "price": "1,200",
+        "state": false,
+        "text": "BT21のキャラクターのCookyのAirPodsケースです。キーホルダー付属",
+        "id": "471-35147",
+        "colors": "桃色",
+        "maker": "株式会社ソロモン商事",
+        "url": "case",
+        "size": "M"
+    }
+]

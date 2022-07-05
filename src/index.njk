@@ -4,18 +4,40 @@ layout: layout.njk
 path: ./css
 ---
     
-    <header>
-        <h1>{{ title }}</h1>
-        <ul>
-            <li><a href="./items/cut/">TOP</a></li>
-            <li><a href="./about/index.html">ABOUT</a></li>
+    <header class="header">
+        <h1 class="header__title">{{ title }}</h1>
+        <ul class="header__nav">
+            <li class="header__list"><a href=""class="header__link">TOP</a></li>
+            <li class="header__list"><a href="./about/index.html" class="header__link">ABOUT</a></li>
         </ul>
     </header>
+
     <main>
-        <h2>item</h2>
-        {% for content in items %}
-        <li><a href="./items/{{ content.en }}">{{content.name}}</a></li>
-        {% endfor %}
+        <div class="main">
+            <div class="main__inner">
+                <h2 class="main__title">item</h2>
+                <div class="main__box">
+                        {% for content in item %}
+                        <div class="main__content">
+                            <a href="./items/{{ content.url }}" class="main__link">{{content.itemphotos[0]}}</a>
+                            <p class="main__name">{{ content.name }}</p>
+                        </div>
+                        {% endfor %}
+                </div>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__inner">
+                <div class="footer__box">
+                    <img src="./images/other/instagram.png" alt="インスタグラムのアイコン" class="footer__img">
+                    <img src="./images/other/line.png" alt="ラインのアイコン" class="footer__img">
+                    <img src="./images/other/twitter.png" alt="ツイッターのアイコン" class="footer__img">
+                </div>
+            </div>
+        </div>
+    </footer>
     
 

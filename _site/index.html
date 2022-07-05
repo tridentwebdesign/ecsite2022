@@ -5,24 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KitaitiShop</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href=./css/style.css>
 <body>
         
-    <header>
-        <h1>KitaitiShop</h1>
-        <ul>
-            <li><a href="./items/cut/">TOP</a></li>
-            <li><a href="./about/index.html">ABOUT</a></li>
+    <header class="header">
+        <h1 class="header__title">KitaitiShop</h1>
+        <ul class="header__nav">
+            <li class="header__list"><a href=""class="header__link">TOP</a></li>
+            <li class="header__list"><a href="./about/index.html" class="header__link">ABOUT</a></li>
         </ul>
     </header>
+
     <main>
-        <h2>item</h2>
-        
-        <li><a href="./items/yummy">うまい棒サラミ味</a></li>
-        
-        <li><a href="./items/cut">カットよっちゃん（よっちゃんイカ）</a></li>
-        
+        <div class="main">
+            <div class="main__inner">
+                <h2 class="main__title">item</h2>
+                <div class="main__box">
+                        
+                        <div class="main__content">
+                            <a href="./items/AirPods" class="main__link">AirPods01.jpeg</a>
+                            <p class="main__name">AirPods</p>
+                        </div>
+                        
+                        <div class="main__content">
+                            <a href="./items/book" class="main__link">book01.jpeg</a>
+                            <p class="main__name">どんどん橋落ちた</p>
+                        </div>
+                        
+                        <div class="main__content">
+                            <a href="./items/sheat" class="main__link">biore01.jpeg</a>
+                            <p class="main__name">MEMsBiore</p>
+                        </div>
+                        
+                        <div class="main__content">
+                            <a href="./items/case" class="main__link">case01.jpeg</a>
+                            <p class="main__name">cookyAirPodsケース</p>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__inner">
+                <div class="footer__box">
+                    <img src="./images/other/instagram.png" alt="インスタグラムのアイコン" class="footer__img">
+                    <img src="./images/other/line.png" alt="ラインのアイコン" class="footer__img">
+                    <img src="./images/other/twitter.png" alt="ツイッターのアイコン" class="footer__img">
+                </div>
+            </div>
+        </div>
+    </footer>
     
 
 
