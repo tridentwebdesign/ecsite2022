@@ -1,15 +1,29 @@
 ---
+title: topページ
 layout: layout.njk
+css: ./css/style.css
+js: ./js/comon.js
 ---
 
-<div>
-    <ul>
-        <li>
-            <a href="./item/">
-            <img src={{items[0].itemphotos[0] }}  alt="">
-            <h4>{{items[0].name}}</h4>
-            <p>{{items[0].text}}</p>
-            </a>
-        </li>
+<main>
+<h1>{{ title }}</h1>
+
+<div class="main__content">
+    <ul class="main__content__product product">
     </ul>
 </div>
+
+
+<ul>
+    <li><a href="./goods/">商品1</a></li>
+    <li><a href="./goods/1/">商品2</a></li>
+    <li><a href="./goods/2/">商品3</a></li>
+    <li><a href="./goods/3/">商品4</a></li>
+    <li><a href="./goods/4/">商品5</a></li>
+    <li><a href="./goods/5/">商品6</a></li>
+    <li><a href="./goods/6/">商品7</a></li>
+    <li><a href="./goods/7/">商品8</a></li>
+    <li><a href="./goods/8/">商品9</a></li>
+    <li><a href="./goods/9/">商品10</a></li>
+</ul>
+</main>

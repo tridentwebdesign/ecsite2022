@@ -1,0 +1,19 @@
+---
+pagination:
+  data: goods
+  size: 1
+  
+layout: layout.njk
+css: ./css/style.css
+---
+
+<ul>
+	<li><img src={{ pagination.goods[0].itemphotos[0]}} alt=""></li>
+  <li>{{ pagination.goods[0].name}}</li>
+  <li>{{ pagination.goods[0].price}}</li>
+  <li>{{ pagination.goods[0].state}}</li>
+  <li>{{ pagination.goods[0].text}}</li>
+  <li>{{ pagination.goods[0].id}}</li>
+  <li>{{ pagination.goods[0].colors}}</li>
+  <li>{{ pagination.goods[0].maker}}</li>
+</ul>

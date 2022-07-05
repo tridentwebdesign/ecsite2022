@@ -1,0 +1,9 @@
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+h1 {
+  color: #f00;
+}
+/*# sourceMappingURL=style.css.map */

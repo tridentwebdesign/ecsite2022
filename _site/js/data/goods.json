@@ -1,0 +1,142 @@
+[
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト01",
+        "price": 12,
+        "state": true,
+        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
+        "id": 1,
+        "colors": "黄色",
+        "maker": "（株）やおきん"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト02",
+        "price": 50,
+        "state": false,
+        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
+        "id": 2,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト03",
+        "price": 100,
+        "state": false,
+        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "id": 3,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト04",
+        "price": 300,
+        "state": true,
+        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "id": 4,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト05",
+        "price": 80,
+        "state": false,
+        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "id": 5,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト06",
+        "price": 10,
+        "state": true,
+        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "id": 6,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト07",
+        "price": 45,
+        "state": true,
+        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "id": 7,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト08",
+        "price": 28,
+        "state": true,
+        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "id": 8,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト09",
+        "price": 99,
+        "state": true,
+        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "id": 9,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    },
+    {
+        "itemphotos": [
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png",
+            "/images/320x240_demo.png"
+        ],
+        "name": "テスト010",
+        "price": 8,
+        "state": true,
+        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "id": 10,
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    }
+]
