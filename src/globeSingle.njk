@@ -1,10 +1,10 @@
 ---
 title: bodyMakerグローブ
-members:
-  - name: oda
-    title: Jamstackエンジニア
-  - name: toyotomi
-    title: フロントエンド・エンジニア
+pagination:
+data: authors
+size: 1
+alias: good
+	permalink: 'goods/{{goods.name | slugify }}/'
 	layout: layout.njk
 	csspath: ../css/
 ---
@@ -17,9 +17,15 @@ members:
 	{% endfor %}
 </ul>
 
-<h1>authors</h1>
+
 <ul>
-	{% for author in authors %}
-	<li><a href="../authors/{{ author.name }}"> {{ author.name }} </a></li>
+	{% for goods in goods %}
+	<li> {{ goods.price }} </li>
 	{% endfor %}
 </ul>
+{# これ #}
+<ul>
+	<li>{{goods.name }}</li>
+	{# <li>{{ pagination.items[0].title }}</li> #}
+</ul>
+

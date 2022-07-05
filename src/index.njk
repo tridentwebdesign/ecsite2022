@@ -1,75 +1,105 @@
 ---
 
 title: 私の趣味商品
+item: 趣味の商品
+more: more
 
 sabtitle:
   - name: BODYMAKERグローブ
   - money: 9000円
+  - situation: 完売
 
 sabtitle2:
   - name: バンダナ
   - money: 200円
+  - situation: 販売
 
 sabtitle3:
   - name: ボクシングシャツ
   - money: 2500円
+  - situation: 販売
 
 sabtitle4:
   - name: Winningバンテージ
   - money: 1200円
+  - situation: 販売
 
 layout: layout.njk
 csspath: ./css/
 ---
+<section class="global_menu">
+  <img class="logo" src="./images/logo.png" alt="">
+  <img src="./images/cart.png" alt="">
+  </section>
+  <header></header>
 
-<h1>{{ title }}</h1>
+
+
+<h2 class="item">{{ item }}</h2>
+
+
 <div class="inner">
 <section class="Product">
 <div>
     <img src="./images/globe.png" alt="">
 <li><a href="./globeSingle">{{ sabtitle[0].name }}</a></li>
 <li>{{ sabtitle[1].money }}</li>
+<li>{{ sabtitle[2].situation }}</li>
 </div>
 
 <div>
 <img src="./images/bandana.png" alt="">
 <li><a href="./globeSingle">{{ sabtitle2[0].name }}</a></li>
 <li>{{ sabtitle2[1].money }}</li>
+<li>{{ sabtitle2[2].situation }}</li>
 </div>
 
 <div>
     <img src="./images/Tshirt.png" alt="">
 <li><a href="./article">{{ sabtitle3[0].name }}</a></li>
 <li>{{ sabtitle3[1].money }}</li>
+<li>{{ sabtitle3[2].situation }}</li>
 </div>
 
 <div>
    <img src="./images/Vantage_main.png" alt="">
 <li><a href="./article">{{ sabtitle4[0].name }}</a></li>
 <li>{{ sabtitle4[1].money }}</li>
-
-
+<li>{{ sabtitle4[2].situation }}</li>
 </div>
-
-<div>
-
-    <img src="./images/bandana.png" alt="">
-<li><a href="./about">article</a></li>
-</div>
-
-<div>
-    <img src="./images/Tshirt.png" alt="">
-<li><a href="./article">article</a></li>
-</div>
-
 <div>
    <img src="./images/Vantage_main.png" alt="">
-<li><a href="./article">article</a></li>
+<li><a href="./article">{{ sabtitle4[0].name }}</a></li>
+<li>{{ sabtitle4[1].money }}</li>
+<li>{{ sabtitle4[2].situation }}</li>
 </div>
-
 <div>
    <img src="./images/Vantage_main.png" alt="">
-<li><a href="./article">article</a></li>
+<li><a href="./article">{{ sabtitle4[0].name }}</a></li>
+<li>{{ sabtitle4[1].money }}</li>
+<li>{{ sabtitle4[2].situation }}</li>
 </div>
+<div>
+   <img src="./images/Vantage_main.png" alt="">
+<li><a href="./article">{{ sabtitle4[0].name }}</a></li>
+<li>{{ sabtitle4[1].money }}</li>
+<li>{{ sabtitle4[2].situation }}</li>
+</div>
+<div>
+   <img src="./images/Vantage_main.png" alt="">
+<li><a href="./article">{{ sabtitle4[0].name }}</a></li>
+<li>{{ sabtitle4[1].money }}</li>
+<li>{{ sabtitle4[2].situation }}</li>
+</div>
+
+
+
+
+
 </section>
+<h2 class="more">{{ more }}</h2>
 </div>
+<footer>
+  <hr>
+  <p class="footer_p">funahashi@2022.ecsite</p>
+</footer>
