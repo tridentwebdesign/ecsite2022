@@ -3,7 +3,10 @@ title: ラバーバンド
 layout: layout.njk
 csspath: ./css/
 ---
-<h1>{{ title }}</h1>
+
 <ul>
-	<li><a href="./article">article</a></li>
+
+	{% for item in goods %}
+	<li><a href="../item/{{ item.id }}"> {{ item.name }} </a></li>
+	{% endfor %}
 </ul>
