@@ -5,6 +5,7 @@ pagination:
   alias: item
 layout: layout.njk
 permalink: 'item/{{ pagination.items[0].id | slugify }}/'
+csspath: ../../css/
 ---
 <h1>{{ pagination.items[0].name }}</h1>
 <ul>
