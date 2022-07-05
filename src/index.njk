@@ -5,4 +5,12 @@ csspath: ./css/
 ---
 
 <h1>{{ title }}</h1>
+<h2>テスト</h2>
 
+<ul>
+    {% for item in items %}
+    <li>{{ item.images }}</li>
+    <li>{{ item.name }}</li>
+    <li>{{ item.price }}</li>
+    {% endfor %}
+</ul>
