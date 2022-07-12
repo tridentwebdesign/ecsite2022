@@ -6,7 +6,8 @@ permalink: 'globe/{{ pagination.items[0].url | slugify }}/'
 ---
 
 <ul>
-	<img src="../../images/{{goods.itemphotos[0]}}" alt="">
+	{% for good in good %}
+	<img src="../../images/{{itemphotos[0]}}" alt="">
 	<li>{{ pagination.items[0].name }}</li>
 	<li>{{ pagination.items[0].price }}</li>
 	<li>{{ pagination.items[0].state }}</li>
