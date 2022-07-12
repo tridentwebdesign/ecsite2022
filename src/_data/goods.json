@@ -1,33 +1,96 @@
-[
+﻿[
     {
-        "itemphotos": [
-            "umaibo01.jpg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+        "images": [
+            "1109100011516_d0.jpg",
+            "handy1.jpg",
+            "handy2.jpg"
         ],
-        "name": "うまい棒サラミ味",
-        "price": 12,
-        "state": true,
-        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
-        "id": 27002,
-        "colors": "黄色",
-        "maker": "（株）やおきん",
-        "": ""
+        "name": "手持ち扇風機オーロラ",
+        "price": 3200,
+        "state": false,
+        "text": "卓上でも携帯型でも使える2WAYタイプのフレハンディファン。パワフルな風量と静音性を兼ね備えているだけでなく、充電すれば最長9時間連続で使えるのも嬉しいポイント！",
+        "id": 1,
+        "colors": "水色",
+        "maker": "Francfranc",
+        "url": null
     },
     {
-        "itemphotos": [
+        "images": [
+            "1109100011516_d0.jpg",
+            "handy1.jpg",
+            "handy2.jpg"
+        ],
+        "name": "Airpods 第三世代",
+        "price": 24860,
+        "state": true,
+        "text": "AirPodsを設定するには、AirPodsが入ったケースの蓋を開けて、iPhoneまたはiPadに近付けてから、画面に表示される指示に従います。",
+        "id": 2,
+        "colors": "白",
+        "maker": "Apple",
+        "url": null
+    },
+    {
+        "images": [
             "yochan01.jpg",
             "yochan02.jpg",
             "yochan03.jpg",
             "yochan04.jpg"
         ],
-        "name": "カットよっちゃん（よっちゃんイカ）",
-        "price": 50,
+        "name": "mac book air",
+        "price": 124000,
         "state": false,
-        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
-        "id": "4710158-2",
-        "colors": "赤",
-        "maker": "よっちゃん食品工業（株）",
-        "": ""
+        "text": "業界をリードするプライバシー機能とクラス最高のセキュリティも用意されているので、安心して使えます。",
+        "id": 3,
+        "colors": "黒",
+        "maker": "Apple",
+        "url": null
+    },
+    {
+        "images": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "デモゴルゴン　キーホルダ",
+        "price": 980,
+        "state": true,
+        "text": "ストレンジャーシングスに登場するキャラクターのストラップ。",
+        "id": 4,
+        "colors": "黒",
+        "maker": "レゴ　キーリング",
+        "url": null
+    },
+    {
+        "images": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "水筒",
+        "price": 1580,
+        "state": true,
+        "text": "styleusの500mlの水筒。カラーはブラックで生産国は中国。",
+        "id": 5,
+        "colors": "黒",
+        "maker": "styleus",
+        "url": null
+    },
+    {
+        "images": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "座椅子",
+        "price": 5030,
+        "state": true,
+        "text": "Francfrancならではのフリルが可愛い座椅子です。起毛生地のフリルがかわいらしくFrancfrancの家具や雑貨とあわせやすいアイテムです。",
+        "id": 6,
+        "colors": "黒",
+        "maker": "Francfranc",
+        "url": null
     }
 ]

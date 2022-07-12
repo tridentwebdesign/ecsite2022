@@ -24,11 +24,9 @@ csspath: ./css/
 <main>
 
 <h2>item</h2>
-
 <ul>
-    {% for item in items %}
-    <li>{{ item.name }}</li>
-    <li>{{ item.price }}</li>
+    {% for good in goods %}
+    <li><a href="../about/{{ about.name }}"> {{ about.name }} </a></li>
     {% endfor %}
 </ul>
 

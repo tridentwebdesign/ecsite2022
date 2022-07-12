@@ -1,5 +1,6 @@
 {
     "dartsass.outputFormat": "cssonly",
     "git.autoStash": true,
-    "dartsass.targetDirectory": "./src/css"
+    "dartsass.targetDirectory": "./src/css",
+    "liveServer.settings.port": 5501
 }
