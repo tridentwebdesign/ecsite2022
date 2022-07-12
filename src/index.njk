@@ -1,12 +1,26 @@
 ---
-title: ラバーバンド
+title: ラバーバンドshop
 layout: layout.njk
 csspath: ./css/
 ---
-<h1>{{title}}</h1>
-<ul>
-	{% for item in goods %}
-	<li><a href="../item/{{ item.id }}"> {{ item.name }} </a></li>
-	{% endfor %}
-</ul>
-<a href="./about">アバウトページ</a>
+<main class="main">
+	<div class="main__inner">
+		<h2 class="main__title">Goods Lineup</h2>
+		<ul class="item main__flex">
+			{% for item in goods %}
+			<li>
+				<div class="item__list">
+					<a class="item__link" href="../item/{{ item.url }}"> 
+						<img class="item__img" src="../images/{{item.itemphotos[0]}}" alt="">
+						<p>{{ item.name }} </p>
+						<p>{{item.Artist}}</p>
+						<p>{{item.price}}</p>
+						<p>{{item.state}}</p>
+					</a>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+		<a href="./about">アバウトページ</a>
+	</div>
+</main>

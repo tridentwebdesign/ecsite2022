@@ -1,62 +1,33 @@
 [
     {
         "itemphotos": [
-            "umaibo01.jpg",
+            "mrseden.png",
             "umaibo02.jpg",
             "umaibo03.jpg"
         ],
-        "name": "うまい棒サラミ味",
-        "price": 12,
+        "name": "EDEN no SONO Wristband",
+        "price": 600,
         "state": true,
-        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
+        "Artist": "Mrs.GREENAPPLE",
+        "text": "Mrs. GREEN APPLE ARENA TOUR エデンの園で発売されたグッズです",
         "id": 27002,
-        "colors": "黄色",
-        "maker": "（株）やおきん"
+        "colors": "green&red",
+        "url": "umaibo"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
+            "macaenvo8.png",
             "yochan02.jpg",
             "yochan03.jpg",
             "yochan04.jpg"
         ],
-        "name": "カットよっちゃん（よっちゃんイカ）",
-        "price": 50,
+        "name": "旬のラバーバンド",
+        "price": 500,
         "state": "FALSE",
-        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
+        "Artist": "マカロニえんぴつ",
+        "text": "2019年から2020年にかけて行われたマカロックツアーvol.8で登場したグッズです。",
         "id": "4710158-2",
-        "colors": "赤",
-        "maker": "よっちゃん食品工業（株）"
-    },
-    {
-        "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
-        ],
-        "name": "ハイチュウ",
-        "price": 50,
-        "state": "FALSE",
-        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
-        "id": "4710-2",
-        "colors": "赤",
-        "maker": "よっちゃん食品工業（株）"
-    },
-    {
-        "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
-        ],
-        "name": "ラーメン",
-        "price": 5120,
-        "state": "FALSE",
-        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
-        "id": "473220-2",
-        "colors": "赤",
-        "maker": "よっちゃん食品工業（株）"
+        "colors": "グリーン",
+        "url": "yocchan"
     }
-    
 ]

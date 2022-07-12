@@ -4,3 +4,49 @@ h1{
 li{
     list-style: none;
 }
+img{
+    max-width: 100%;
+}
+.header{
+    &__inner{
+        width: 96%;
+        margin: 0 auto;
+    }
+    &__flex{
+        display: flex;
+        align-items: center;
+    }
+}
+.g-nav{
+    display: flex;
+}
+.main{
+    &__title{
+        text-align: center;
+    }
+    &__inner{
+        width: 70%;
+        margin: auto;
+    }
+    &__flex{
+        display: flex;
+    }
+}
+.item{
+    &__list{
+        width: 70%;
+    }
+    
+    &__link{
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+.footer{
+    &__copy{
+        
+        display: block;
+        text-align: center;
+    }
+}

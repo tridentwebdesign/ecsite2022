@@ -1,14 +1,17 @@
 ---
+title: ラバーバンドshop
 pagination:
   data: goods
   size: 1
   alias: item
 layout: layout.njk
-permalink: 'item/{{ pagination.items[0].id | slugify }}/'
+permalink: 'item/{{ pagination.items[0].url | slugify }}/'
 csspath: ../../css/
 ---
-<h1>{{ pagination.items[0].name }}</h1>
+<img src="../../images/{{item.itemphotos[0]}}" alt="">
 <ul>
 	<li>{{ pagination.items[0].name }}</li>
 	<li>{{ pagination.items[0].price }}円</li>
+  <li>アーテイスト名:{{pagination.items[0].Artist}}</li>
 </ul>
+<p>{{pagination.items[0].text}}</p>

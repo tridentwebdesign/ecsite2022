@@ -5,4 +5,45 @@ h1 {
 li {
   list-style: none;
 }
+
+img {
+  max-width: 100%;
+}
+
+.header__inner {
+  width: 96%;
+  margin: 0 auto;
+}
+.header__flex {
+  display: flex;
+  align-items: center;
+}
+
+.g-nav {
+  display: flex;
+}
+
+.main__title {
+  text-align: center;
+}
+.main__inner {
+  width: 70%;
+  margin: auto;
+}
+.main__flex {
+  display: flex;
+}
+
+.item__list {
+  width: 70%;
+}
+.item__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer__copy {
+  display: block;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

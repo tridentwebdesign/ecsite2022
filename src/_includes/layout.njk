@@ -9,8 +9,21 @@ title: レイアウトに指定したタイトル
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ title }}</title>
 		<link rel="stylesheet" href="{{ csspath }}style.css">
+		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 	</head>
 	<body>
+		<header class="header">
+			<div class="header__inner header__flex">
+				<h1 class="header__title" >{{title}}</h1>
+				<ul class="g-nav">
+					<li class="gnav__item">home</li>
+					<li class="gnav__item">about</li>
+				</ul>
+			</div>
+		</header>
 		{{ content | safe }}
+		<footer class="footer">
+			<small class="footer__copy">masuda_raba-bando</small>
+		</footer>
 	</body>
 </html>
