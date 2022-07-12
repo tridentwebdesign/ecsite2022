@@ -1,10 +1,28 @@
 ---
 title: 記事タイトル
 layout: layout.njk
-csspath: ./css/
+csspath: ../../css/
 ---
 
-<h1>{{ title }}</h1>
-<ul>
-	<li><a href="./article">article</a></li>
+<header class="header">
+	<div class="header__inner">
+	<h1 class="header__title">Myshop</h1>
+	<div class="header__cart">
+		<img src="../../images/cart.svg" alt="">
+	</div>
+	</div>
+</header>
+<main class="main">
+
+	<section class="main__products products">
+		<h2 class="products__title">item</h2>
+	</section>
+	<ul>
+	{% for product in products %}
+	<li><a href="../products/{{ product.url }}"> {{ product.url }} </a></li>
+	{% endfor %}
 </ul>
+<img src="../../images/dish01.jpg" alt="">
+</main>
+
+<footer class="footer"></footer>

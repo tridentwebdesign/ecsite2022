@@ -11,7 +11,7 @@ csspath: ../../css/
 {{ products | log }}
 
 <ul>
-  <li>{{ product.itemphotos }}</li>
+  <li><img src="../../images/{{ product.itemphotos[0] }}" alt=""></li>
 	<li>{{ product.name }}</li>
 	<li>{{ product.price }}</li>
   <li>{{ product.state }}</li>
