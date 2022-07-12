@@ -12,7 +12,7 @@
         "text": "Mrs. GREEN APPLE ARENA TOUR エデンの園で発売されたグッズです",
         "id": 27002,
         "colors": "green&red",
-        "url": "umaibo"
+        "url": "mrseden"
     },
     {
         "itemphotos": [
@@ -28,6 +28,22 @@
         "text": "2019年から2020年にかけて行われたマカロックツアーvol.8で登場したグッズです。",
         "id": "4710158-2",
         "colors": "グリーン",
-        "url": "yocchan"
+        "url": "macaenvo8"
+    },
+    {
+        "itemphotos": [
+            "macaenvo8.png",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "旬のラバーバンド",
+        "price": 500,
+        "state": "FALSE",
+        "Artist": "マカロニえんぴつ",
+        "text": "2019年から2020年にかけて行われたマカロックツアーvol.8で登場したグッズです。",
+        "id": "4710158-2",
+        "colors": "グリーン",
+        "url": "macaenvo10"
     }
 ]

@@ -30,11 +30,12 @@ img{
     }
     &__flex{
         display: flex;
+        justify-content: space-between;
     }
 }
 .item{
     &__list{
-        width: 70%;
+        
     }
     
     &__link{

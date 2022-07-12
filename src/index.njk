@@ -8,8 +8,7 @@ csspath: ./css/
 		<h2 class="main__title">Goods Lineup</h2>
 		<ul class="item main__flex">
 			{% for item in goods %}
-			<li>
-				<div class="item__list">
+			<li class="item__list">
 					<a class="item__link" href="../item/{{ item.url }}"> 
 						<img class="item__img" src="../images/{{item.itemphotos[0]}}" alt="">
 						<p>{{ item.name }} </p>
@@ -17,7 +16,6 @@ csspath: ./css/
 						<p>{{item.price}}</p>
 						<p>{{item.state}}</p>
 					</a>
-				</div>
 			</li>
 			{% endfor %}
 		</ul>

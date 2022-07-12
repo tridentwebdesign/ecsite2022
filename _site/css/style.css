@@ -32,11 +32,9 @@ img {
 }
 .main__flex {
   display: flex;
+  justify-content: space-between;
 }
 
-.item__list {
-  width: 70%;
-}
 .item__link {
   color: #000;
   text-decoration: none;
