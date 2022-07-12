@@ -1,0 +1,38 @@
+[
+    {
+        "itemphotos": [
+            "dd_image1.jpg",
+            "dd_image2.jpg"
+        ],
+        "name": "遊戯王 アジア版 DD デッキパーツ",
+        "price": "¥22,000",
+        "state": true,
+        "text": "DD/DDDのアジア版デッキパーツです。使用していたためにプレイ用でお願いいたします。",
+        "id": null,
+        "maker": "株式会社KONAMI",
+        "url": "dd",
+        "": ""
+    },
+    {
+        "itemphotos": "urara_image.jpg",
+        "name": "灰流うらら アジア版シークレットレア 3枚",
+        "price": "¥60,000",
+        "state": true,
+        "text": "灰流うららのアジア版シークレットです。アジア版特有の初期傷等ございますので、あくまでプレイ用でお願いいたします。",
+        "id": null,
+        "maker": "株式会社KONAMI",
+        "url": "urara",
+        "": ""
+    },
+    {
+        "itemphotos": "houyou_image",
+        "name": "無限泡影 アジア版シークレットレア 3枚",
+        "price": "¥15,000",
+        "state": true,
+        "text": "無限泡影のアジア版シークレットです。アジア版特有の初期傷等ございますので、あくまでプレイ用でお願いいたします。",
+        "id": null,
+        "maker": "株式会社KONAMI",
+        "url": "houyou",
+        "": ""
+    }
+]
