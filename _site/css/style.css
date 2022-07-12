@@ -1,7 +1,12 @@
 .header {
   background-color: #fcad3d;
   align-items: center;
-  padding-bottom: 7em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+.header__inner {
+  width: 90%;
+  margin: auto;
 }
 .header__title {
   text-align: center;
@@ -21,8 +26,35 @@
   width: 30%;
 }
 
+.item__title {
+  text-align: center;
+}
 .item__in {
   display: block;
+  vertical-align: bottom;
+}
+.item__img {
+  line-height: 1em;
+  width: 100%;
+  display: block;
+  vertical-align: bottom;
+}
+.item__img-box {
+  margin-top: 0.5em;
+  display: flex;
+}
+.item__slide {
+  width: 30%;
+  display: block;
+  vertical-align: bottom;
+}
+.item__inner {
+  width: 90%;
+  margin: auto;
+}
+.item__list {
+  display: block;
+  vertical-align: bottom;
 }
 
 .main {
@@ -50,7 +82,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.main__img {
+  display: block;
+  width: 100%;
+}
 
+.footer {
+  background-color: #f7740f;
+}
 .footer__img {
   width: 7%;
 }

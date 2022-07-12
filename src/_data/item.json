@@ -1,9 +1,9 @@
 [
     {
         "itemphotos": [
-            "AirPods01.jpeg",
-            "AirPods02.jpeg",
-            "AirPods03.jpeg"
+            "AirPods01.jpg",
+            "AirPods02.jpg",
+            "AirPods03.jpg"
         ],
         "name": "AirPods",
         "price": "16,800",
@@ -12,14 +12,14 @@
         "id": 13785,
         "colors": "白色",
         "maker": "株式会社Apple",
-        "url": "AirPods",
+        "url": "airpods",
         "size": "S"
     },
     {
         "itemphotos": [
-            "book01.jpeg",
-            "book02.jpeg",
-            "book03.jpeg"
+            "book01.jpg",
+            "book02.jpg",
+            "book03.jpg"
         ],
         "name": "どんどん橋落ちた",
         "price": 880,
@@ -33,9 +33,9 @@
     },
     {
         "itemphotos": [
-            "biore01.jpeg",
-            "biore02.jpeg",
-            "biore03.jpeg"
+            "biore01.jpg",
+            "biore02.jpg",
+            "biore03.jpg"
         ],
         "name": "MEMsBiore",
         "price": 400,
@@ -49,9 +49,9 @@
     },
     {
         "itemphotos": [
-            "case01.jpeg",
-            "case02.jpeg",
-            "case03.jpeg"
+            "case01.jpg",
+            "case02.jpg",
+            "case03.jpg"
         ],
         "name": "cookyAirPodsケース",
         "price": "1,200",
@@ -62,5 +62,101 @@
         "maker": "株式会社ソロモン商事",
         "url": "case",
         "size": "M"
+    },
+    {
+        "itemphotos": [
+            "path01.jpg",
+            "path02.jpg",
+            "path03.jpg"
+        ],
+        "name": "定期入れ",
+        "price": "1,500",
+        "state": true,
+        "text": "定期入れです。表と裏に定期を入れれます。バスと電車で通学・通勤する人におすすめです。ストラップもついているのでかばんにつけることが出来ます。",
+        "id": "487-325",
+        "colors": "黒色",
+        "maker": "株式会社ロフト",
+        "url": "path",
+        "size": "S"
+    },
+    {
+        "itemphotos": [
+            "wallet01.jpg",
+            "wallet02.jpg",
+            "wallet03.jpg"
+        ],
+        "name": "財布",
+        "price": "3,000",
+        "state": false,
+        "text": "Bianchiの折りたたみ財布です。革素材なので大人っぽい雰囲気を味わうことが出来ます。コンパクトなので持ち運びに便利です。",
+        "id": "84-412",
+        "colors": "黒色",
+        "maker": "Bianchi",
+        "url": "wallet",
+        "size": "S"
+    },
+    {
+        "itemphotos": [
+            "battery01.jpg",
+            "battery02.jpg",
+            "battery03.jpg"
+        ],
+        "name": "モバイルバッテリー",
+        "price": "1,000",
+        "state": false,
+        "text": "モバイルバッテリーです。出力はA-typeとC-type、入力はC-typeとmicroUSBに対応しています。",
+        "id": "89-35147",
+        "colors": "黒色",
+        "maker": "リーダーメディアテクノ株式会社",
+        "url": "battery",
+        "size": "S"
+    },
+    {
+        "itemphotos": [
+            "liquid01.jpg",
+            "liquid02.jpg",
+            "liquid03.jpg"
+        ],
+        "name": "ビオレｕ手指の消毒液",
+        "price": 400,
+        "state": true,
+        "text": "手指消毒ができる消毒液です。コンパクトなので持ち運びにも便利ですし、いつでも気になるときに消毒することが出来ます。無臭なので匂いも気にせず使うことが出来ます。",
+        "id": "4878-53",
+        "colors": "白色",
+        "maker": "花王株式会社",
+        "url": "liquid",
+        "size": "S"
+    },
+    {
+        "itemphotos": [
+            "pc01.jpg",
+            "pc02.jpg",
+            "pc03.jpg"
+        ],
+        "name": "MacBookAir",
+        "price": "150,000",
+        "state": true,
+        "text": "M1チップを搭載したMacBookAirです。メモリは16GB、ストレージは256GBです。",
+        "id": "769-21458",
+        "colors": "ゴールド",
+        "maker": "株式会社Apple",
+        "url": "pc",
+        "size": "L"
+    },
+    {
+        "itemphotos": [
+            "mouse01.jpg",
+            "mouse02.jpg",
+            "mouse03.jpg"
+        ],
+        "name": "コードレスマウス",
+        "price": "3,000",
+        "state": false,
+        "text": "コードレスのマウスです。コードがないので持ち運びやすいです。付属のUSBはC-typeなのでご注意ください",
+        "id": "482-1587",
+        "colors": "黒色",
+        "maker": "Microsoft",
+        "url": "mouse",
+        "size": "S"
     }
 ]

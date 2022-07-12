@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KitaitiShop</title>
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="../../css/style.css">
-<body>
-        <header class="header">
-        <h1 class="header__title">KitaitiShop</h1>
+---
+title: KitaitiShop
+pagination:
+  data: item
+  size: 1
+  alias: product
+permalink: 'items/{{ product.url | slugify}}/'
+layout: layout.njk
+path: ../../css
+---
+    <header class="header">
+        <h1 class="header__title">{{ title }}</h1>
         <ul class="header__nav">
             <li class="header__list"><a href="../../index.html"class="header__link">TOP</a></li>
             <li class="header__list"><a href="../../about/index.html" class="header__link">ABOUT</a></li>
@@ -17,22 +17,22 @@
     </header>
 
     <div class="item">
-    <h1 class="item__title">cookyAirPodsケース</h1>
+    <h1 class="item__title">{{ product.name }}</h1>
       <div class="item__inner">
         <div class="item__box">
-          <img src="../../images/case/case01.jpg" alt="itemのメイン画像" class="item__img">
+          <img src="../../images/{{ product.url }}/{{ product.itemphotos[0]}}" alt="itemのメイン画像" class="item__img">
           <div class="item__img-box">
-            <img src="../../images/case/case01.jpg" alt="" class="item__slide">
-            <img src="../../images/case/case02.jpg" alt="" class="item__slide">
-            <img src="../../images/case/case03.jpg" alt="" class="item__slide">
+            <img src="../../images/{{ product.url }}/{{ product.itemphotos[0]}}" alt="" class="item__slide">
+            <img src="../../images/{{ product.url }}/{{ product.itemphotos[1]}}" alt="" class="item__slide">
+            <img src="../../images/{{ product.url }}/{{ product.itemphotos[2]}}" alt="" class="item__slide">
           </div>
           <div class="item__content">
-            <h3 class="item__price">¥1,200</h3>
-            <p class="item__text">BT21のキャラクターのCookyのAirPodsケースです。キーホルダー付属</p>
+            <h3 class="item__price">¥{{ product.price }}</h3>
+            <p class="item__text">{{ product.text }}</p>
             <ul class="item__detail">
-              <li class="item__list">品番471-35147</li>
-              <li class="item__list">カラー桃色</li>
-              <li class="item__list">サイズM</li>
+              <li class="item__list">品番{{ product.id }}</li>
+              <li class="item__list">カラー{{ product.colors }}</li>
+              <li class="item__list">サイズ{{ product.size }}</li>
             </ul>
             <input type="number" class="item__count">
             <input type="button" class="item__in">
@@ -58,5 +58,3 @@
         </div>
     </footer>
     
-</body>
-</html>

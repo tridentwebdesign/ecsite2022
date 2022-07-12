@@ -1,11 +1,23 @@
+@mixin img {
+    display: block;
+    vertical-align: bottom;
+}
+
 // header
 .header{
     background-color: #fcad3d;
     align-items: center;
-    padding-bottom: 7em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    &__inner{
+        width: 90%;
+        margin: auto;
+    }
+
     &__title{
         text-align: center;
     }
+
     &__nav{
         display: none;
         width: 30%;
@@ -26,8 +38,36 @@
 
 // item
 .item{
+    &__title{
+        text-align: center;
+    }
+
     &__in{
-        display: block;
+        @include img();
+    }
+
+    &__img{
+        line-height: 1em;
+        width: 100%;
+        @include img();
+        &-box{
+            margin-top: 0.5em;
+            display: flex;
+        }
+    }
+
+    &__slide{
+        width: 30%;
+        @include img();
+    }
+
+    &__inner{
+        width: 90%;
+        margin: auto
+    }
+
+    &__list{
+        @include img();
     }
 }
 
@@ -61,11 +101,17 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
+    &__img{
+        display: block;
+        width: 100%;
+    }
 }
 
 
 
 .footer{
+    background-color: #f7740f;
     &__img{
         width: 7%;
     }
