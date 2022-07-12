@@ -1,0 +1,17 @@
+---
+pagination:
+  data: goods
+  size: 1
+permalink: 'globe/{{ pagination.items[0].url | slugify }}/'
+---
+
+<ul>
+	<img src="../../images/{{goods.itemphotos[0]}}" alt="">
+	<li>{{ pagination.items[0].name }}</li>
+	<li>{{ pagination.items[0].price }}</li>
+	<li>{{ pagination.items[0].state }}</li>
+	<li>{{ pagination.items[0].text }}</li>
+	<li>{{ pagination.items[0].id }}</li>
+	<li>{{ pagination.items[0].colors }}</li>
+	<li>{{ pagination.items[0].maker }}</li>
+</ul>

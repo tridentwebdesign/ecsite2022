@@ -1,33 +1,60 @@
 [
     {
         "itemphotos": [
-            "umaibo01.jpg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "globe.png",
+            "globe_back.png",
+            "blobe_side.png"
         ],
-        "name": "うまい棒サラミ味",
+        "name": "BODYMAKERグローブ",
         "price": 12,
-        "state": true,
-        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
+        "state": "TRUE",
+        "text": "BODYMAKERのRIZIN使用グローブ",
         "id": 27002,
-        "colors": "黄色",
-        "maker": "（株）やおきん",
-        "": ""
-    }, 
+        "colors": "カーキー",
+        "maker": "BODYMAKER",
+        "url": "umaibo"
+    },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "vandana_main.png",
+            "bandana_tatami.png"
         ],
-        "name": "カットよっちゃん（よっちゃんイカ）",
+        "name": "バンダナ",
         "price": 50,
-        "state": false,
-        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
+        "state": "FALSE",
+        "text": "黒のバンダナ　生地は綿１００％　長持ちします。どんな時に使っても大丈夫。料理、スポーツ、ファッションなどに適しています。",
         "id": "4710158-2",
-        "colors": "赤",
-        "maker": "よっちゃん食品工業（株）",
-        "": ""
+        "colors": "黒",
+        "maker": "ダイソー",
+        "url": "yocyan"
+    },
+    {
+        "itemphotos": [
+            "globe.png",
+            "globe_beside.png"
+        ],
+        "name": "Tshirt",
+        "price": 2400,
+        "state": "TRUE",
+        "text": "asics",
+        "id": 2400,
+        "colors": "黒",
+        "maker": "asics",
+        "url": "shirt"
+    },
+    {
+        "itemphotos": [
+            "vantege.png",
+            "vantege_sozai.png",
+            "vantage_sozai2.png"
+        ],
+        "name": "バンテージ",
+        "price": 1400,
+        "state": "TRUE",
+        "text": "Winning",
+        "id": 1342,
+        "colors": "白",
+        "maker": "Winning",
+        "url": "Winning"
     }
 ]
