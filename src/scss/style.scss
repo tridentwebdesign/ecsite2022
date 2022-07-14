@@ -1,3 +1,9 @@
+@function rem($v){
+    @return ($v/16)+rem;
+}
+body{
+    text-align: center;
+}
 h1{
     font-weight: normal;
 }
@@ -9,39 +15,60 @@ img{
 }
 .header{
     &__inner{
-        width: 96%;
+        width: 70%;
         margin: 0 auto;
     }
     &__flex{
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 }
 .g-nav{
     display: flex;
+    &__item{
+        margin-right: 20px;
+    }
+    &__link{
+        text-decoration: none;
+        color: #000;
+    }
 }
 .main{
+    margin: rem(20) 0;
     &__title{
-        text-align: center;
+        margin: 0 auto
     }
     &__inner{
+        margin: 0 auto;
+        max-width: 1200px;
         width: 70%;
-        margin: auto;
     }
     &__flex{
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
     }
 }
 .item{
-    &__list{
-        
+    margin: 50px 0;
+    &__link{
+        text-decoration: none;
+        display: block;
+        width: 25%;
+        padding-bottom: rem(50);
+        margin-right: 10%;
+        overflow: hidden;
+    }
+    &__link:nth-child(3n){
+        margin-right: 0;
+    }
+    &__text{
+        text-align: left;
+        color: #000;
     }
     
-    &__link{
-        color: #000;
-        text-decoration: none;
-    }
 }
 
 .footer{

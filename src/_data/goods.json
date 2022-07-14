@@ -45,5 +45,20 @@
         "id": "4710158-2",
         "colors": "グリーン",
         "url": "macaenvo10"
+    },
+    {
+        "itemphotos": [
+            "mrseden.png",
+            "umaibo02.jpg",
+            "umaibo03.jpg"
+        ],
+        "name": "EDEN no SONO Wristband",
+        "price": 600,
+        "state": true,
+        "Artist": "Mrs.GREENAPPLE",
+        "text": "Mrs. GREEN APPLE ARENA TOUR エデンの園で発売されたグッズです",
+        "id": 2702702,
+        "colors": "green&red",
+        "url": "mrseden32"
     }
 ]

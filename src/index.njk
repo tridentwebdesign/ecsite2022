@@ -6,19 +6,17 @@ csspath: ./css/
 <main class="main">
 	<div class="main__inner">
 		<h2 class="main__title">Goods Lineup</h2>
-		<ul class="item main__flex">
+		<div class="item main__flex">
 			{% for item in goods %}
-			<li class="item__list">
-					<a class="item__link" href="../item/{{ item.url }}"> 
-						<img class="item__img" src="../images/{{item.itemphotos[0]}}" alt="">
-						<p>{{ item.name }} </p>
-						<p>{{item.Artist}}</p>
-						<p>{{item.price}}</p>
-						<p>{{item.state}}</p>
-					</a>
-			</li>
+				<a class="item__link" href="../item/{{ item.url }}"> 
+					<img class="item__img" src="../images/{{item.itemphotos[0]}}" alt="">
+					<p class="item__text">{{ item.name }} </p>
+					<p class="item__text">{{item.Artist}}</p>
+					<p class="item__text">{{item.price}}</p>
+					<p class="item__text">{{item.state}}</p>
+				</a>
 			{% endfor %}
-		</ul>
-		<a href="./about">アバウトページ</a>
+		</div>
+		
 	</div>
 </main>
