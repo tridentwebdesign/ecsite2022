@@ -26,12 +26,13 @@ path: ./css
                             </a>
                             <p class="main__name">{{ content.name }}</p>
                             <p class="main__price">¥{{ content.price }}</p>
-                            {% if content.state %}
-                            <div class="status">soldout</div>
+                            {% if content.state === false %}
+                            <div class="main__status">soldout</div>
                             {% endif %}
                         </div>
                         {% endfor %}
                 </div>
+                <span class="main__more">MORE</span>
             </div>
         </div>
     </main>
@@ -44,6 +45,7 @@ path: ./css
                     <img src="./images/other/line.png" alt="ラインのアイコン" class="footer__img">
                     <img src="./images/other/twitter.png" alt="ツイッターのアイコン" class="footer__img">
                 </div>
+                <small class="footer__copy">&copy;2022KitaitiShop</small>
             </div>
         </div>
     </footer>

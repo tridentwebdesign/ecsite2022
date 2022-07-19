@@ -19,18 +19,20 @@ path: ../../css
     <div class="item">
       <div class="item__inner">
         <div class="item__box">
-          <img src="../../images/{{ product.url }}/{{ product.itemphotos[0]}}" alt="itemのメイン画像" class="item__img">
-          <div class="item__img-box">
-            <img src="../../images/{{ product.url }}/{{ product.itemphotos[0]}}" alt="" class="item__slide">
-            <img src="../../images/{{ product.url }}/{{ product.itemphotos[1]}}" alt="" class="item__slide">
-            <img src="../../images/{{ product.url }}/{{ product.itemphotos[2]}}" alt="" class="item__slide">
+          <div class="item__bisual">
+            <img src="../../images/{{ product.url }}/{{ product.itemphotos[0]}}" alt="itemのメイン画像" class="item__img">
+            <div class="item__img-box">
+              <img src="../../images/{{ product.url }}/{{ product.itemphotos[0]}}" alt="" class="item__slide">
+              <img src="../../images/{{ product.url }}/{{ product.itemphotos[1]}}" alt="" class="item__slide">
+              <img src="../../images/{{ product.url }}/{{ product.itemphotos[2]}}" alt="" class="item__slide">
+            </div>
           </div>
           <div class="item__content">
             <h1 class="item__title">{{ product.name }}</h1>
             <h3 class="item__price">¥{{ product.price }}</h3>
             <p class="item__text">{{ product.text }}</p>
             <ul class="item__detail">
-              <li class="item__list">■品番<span class="item__span">{{ product.id }}</span></li>
+              <li class="item__list">■品番<span class="item__span ml">{{ product.id }}</span></li>
               <li class="item__list">■カラー<span class="item__span">{{ product.colors }}</span></li>
               <li class="item__list">■サイズ<span class="item__span">{{ product.size }}</span></li>
               <li class="item__list item-box">■数量<input type="number" class="item__count" name="count"></li>
