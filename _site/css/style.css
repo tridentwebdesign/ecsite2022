@@ -97,6 +97,7 @@
   width: 30%;
   display: block;
   vertical-align: bottom;
+  cursor: pointer;
 }
 .item__inner {
   width: 90%;

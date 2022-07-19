@@ -115,6 +115,7 @@
     &__slide{
         width: 30%;
         @include img();
+        cursor: pointer;
     }
 
     &__inner{
