@@ -21,10 +21,14 @@ path: ./css
                 <div class="main__box">
                         {% for content in item %}
                         <div class="main__content">
-                            <a href="./items/{{ content.url }}" class="main__link">
+                            <a href="./item/{{ content.url }}" class="main__link">
                             <img src="./images/{{ content.url }}/{{ content.itemphotos[0] }}" alt="メイン画像" class="main__img">
                             </a>
                             <p class="main__name">{{ content.name }}</p>
+                            <p class="main__price">¥{{ content.price }}</p>
+                            {% if content.state %}
+                            <div class="status">soldout</div>
+                            {% endif %}
                         </div>
                         {% endfor %}
                 </div>
@@ -43,5 +47,4 @@ path: ./css
             </div>
         </div>
     </footer>
-    
-
+    <script src="./js/main.js"></script>
