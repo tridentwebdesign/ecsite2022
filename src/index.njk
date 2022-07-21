@@ -1,29 +1,9 @@
----
-title: topページ
-layout: layout.njk
-css: ./css/style.css
-js: ./js/comon.js
----
-
-<main>
-<h1>{{ title }}</h1>
-
-<div class="main__content">
-    <ul class="main__content__product product">
-    </ul>
-</div>
-
-
-<ul>
-    <li><a href="./goods/">商品1</a></li>
-    <li><a href="./goods/1/">商品2</a></li>
-    <li><a href="./goods/2/">商品3</a></li>
-    <li><a href="./goods/3/">商品4</a></li>
-    <li><a href="./goods/4/">商品5</a></li>
-    <li><a href="./goods/5/">商品6</a></li>
-    <li><a href="./goods/6/">商品7</a></li>
-    <li><a href="./goods/7/">商品8</a></li>
-    <li><a href="./goods/8/">商品9</a></li>
-    <li><a href="./goods/9/">商品10</a></li>
-</ul>
-</main>
+<!-- 各sectionをループで作成 -->
+{% for topPhoto in products %}
+<section class="{{ topPhoto.url }}">
+	<h2>{{ topPhoto.name }}</h2>
+	<div class="mainimage">
+		<img src="images/{{ topPhoto.itemphotos[0] }}" alt="{{ topPhotos.name }}メイン画像" />
+	</div>
+</section>
+{% endfor %}

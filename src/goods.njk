@@ -1,19 +1,20 @@
 ---
 pagination:
-  data: goods
+  data: products
   size: 1
-
-layout: layout.njk
-css: ./css/style.css
+permalink: 'products/{{ pagination.goods[0].url | slugify }}/'
 ---
 
 <ul>
-	<li><img src={{ pagination.goods[0].itemphotos[0]}} alt=""></li>
-  <li>{{ pagination.goods}}</li>
-  <li>{{ pagination.goods[0].price}}</li>
-  <li>{{ pagination.goods[0].state}}</li>
-  <li>{{ pagination.goods[0].text}}</li>
-  <li>{{ pagination.goods[0].id}}</li>
-  <li>{{ pagination.goods[0].colors}}</li>
-  <li>{{ pagination.goods[0].maker}}</li>
+	<li>{{ pagination.goods[0].name }}</li>
+	<li>{{ pagination.goods[0].price }}</li>
 </ul>
+
+{# <img src="/images/{{ pagination.goods[0].itemphotos[0] }}" />
+<img src="/images/{{ pagination.goods[0].itemphotos[1] }}" />
+<img src="/images/{{ pagination.goods[0].itemphotos[2] }}" />
+
+<!--  画像をループで取得 -->
+{% for photo in pagination.goods[0].itemphotos %}
+<img src="/images/{{ photo }}" />
+{% endfor %} #}
