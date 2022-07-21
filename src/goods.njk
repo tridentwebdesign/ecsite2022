@@ -1,8 +1,8 @@
 ---
 pagination:
-  data: products
+  data: goods
   size: 1
-permalink: 'products/{{ pagination.goods[0].url | slugify }}/'
+permalink: 'goods/{{ pagination.goods.url | slugify }}/'
 ---
 
 <ul>
@@ -10,11 +10,11 @@ permalink: 'products/{{ pagination.goods[0].url | slugify }}/'
 	<li>{{ pagination.goods[0].price }}</li>
 </ul>
 
-{# <img src="/images/{{ pagination.goods[0].itemphotos[0] }}" />
+<img src="/images/{{ pagination.goods[0].itemphotos[0] }}" />
 <img src="/images/{{ pagination.goods[0].itemphotos[1] }}" />
 <img src="/images/{{ pagination.goods[0].itemphotos[2] }}" />
 
-<!--  画像をループで取得 -->
+{# <!--  画像をループで取得 -->
 {% for photo in pagination.goods[0].itemphotos %}
 <img src="/images/{{ photo }}" />
 {% endfor %} #}
