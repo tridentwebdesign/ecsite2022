@@ -4,24 +4,65 @@ body{
     
 }
 
-header{
-    
-    background-image: url(../images/test.png);
-    padding: 130px;
-  
-}
 
+header {
+    background-image: url(../images/test.png);
+    max-width:1568px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    height: 35px;
+  }
+  
+  nav ul li {
+    padding: 0 10px;
+    height: 100%;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    font-weight: bold;
+    position: relative;
+    padding: 0 10px;
+    transition: .3s;
+  }
+
+footer{
+    background-color: #ffffff;
+}
+footer p{
+    margin: 0;
+}
 h1{
     font-size: 24px;
 }
 
 li{
+   
     margin-bottom: 10px;
     font-size: 16px;
     list-style: none;
 }
+
 hr{
     width: 50%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
 
 .logo{
@@ -48,7 +89,7 @@ hr{
     justify-content: space-between;
 }
 .inner{
-    padding: 216px;
+        padding: 74px;
 }
 
 .more{
@@ -57,4 +98,46 @@ text-align: center;
 .footer_p{
 margin-top: 300px;
 text-align: center;
+}
+
+
+
+.kazu_2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.kobetu_main{
+    justify-content: center;
+    display: flex;
+}
+.small{
+    width: 10%;
+}
+.kazu_kobetu{
+    display: flex;
+}
+
+
+
+.cart_in{
+    background-color: aliceblue;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+
+.logo_menu{
+    margin-top: 40px;
+    width: 30%;
+}
+.big{
+    width: 70%;
+}
+.kobetu_single2 h1{
+    margin-top: 0;
+}
+.kobetu_single{
+    width: 60%;
 }

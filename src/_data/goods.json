@@ -12,7 +12,7 @@
         "id": 27002,
         "colors": "カーキー",
         "maker": "BODYMAKER",
-        "url": "umaibo"
+        "url": "global"
     },
     {
         "itemphotos": [
@@ -22,11 +22,11 @@
         "name": "バンダナ",
         "price": 50,
         "state": "FALSE",
-        "text": "黒のバンダナ　生地は綿１００％　長持ちします。どんな時に使っても大丈夫。料理、スポーツ、ファッションなどに適しています。",
+        "text": "黒のバンダナ　生地は綿１００％",
         "id": "4710158-2",
         "colors": "黒",
         "maker": "ダイソー",
-        "url": "yocyan"
+        "url": "bandana"
     },
     {
         "itemphotos": [
