@@ -9,8 +9,8 @@
         "price": 600,
         "state": true,
         "Artist": "Mrs.GREENAPPLE",
-        "text": "Mrs. GREEN APPLE ARENA TOUR エデンの園で発売されたグッズです",
-        "id": 27002,
+        "text": "2019年から2020年にかけて行われたMrs. GREEN APPLE ARENA TOUR エデンの園で発売されたグッズです",
+        "id": 0,
         "colors": "green&red",
         "url": "mrseden"
     },
@@ -26,39 +26,98 @@
         "state": "FALSE",
         "Artist": "マカロニえんぴつ",
         "text": "2019年から2020年にかけて行われたマカロックツアーvol.8で登場したグッズです。",
-        "id": "4710158-2",
+        "id": 1,
         "colors": "グリーン",
         "url": "macaenvo8"
     },
     {
         "itemphotos": [
-            "macaenvo8.png",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
-        ],
-        "name": "旬のラバーバンド",
-        "price": 500,
-        "state": "FALSE",
-        "Artist": "マカロニえんぴつ",
-        "text": "2019年から2020年にかけて行われたマカロックツアーvol.8で登場したグッズです。",
-        "id": "4710158-2",
-        "colors": "グリーン",
-        "url": "macaenvo10"
-    },
-    {
-        "itemphotos": [
-            "mrseden.png",
+            "macaenred.png",
             "umaibo02.jpg",
             "umaibo03.jpg"
         ],
-        "name": "EDEN no SONO Wristband",
-        "price": 600,
+        "name": "ユニフォームのロゴみたいなフォントのラババン",
+        "price": 500,
         "state": true,
-        "Artist": "Mrs.GREENAPPLE",
-        "text": "Mrs. GREEN APPLE ARENA TOUR エデンの園で発売されたグッズです",
-        "id": 2702702,
-        "colors": "green&red",
-        "url": "mrseden32"
+        "Artist": "マカロニえんぴつ",
+        "text": "2021年春に行われたマカロックツアーvol.11 〜いま会いに行くをする篇〜」のツアーグッズです。",
+        "id": 2,
+        "colors": "レッド",
+        "url": "macaenvo11"
+    },
+    {
+        "itemphotos": [
+            "dorsuwhite.png",
+            "umaibo02.jpg",
+            "umaibo03.jpg"
+        ],
+        "name": "RUBBER BAND",
+        "price": 550,
+        "state": true,
+        "Artist": "[Alexandros]",
+        "text": "Alexandrosのラバーバンドグッズです。",
+        "id": 3,
+        "colors": "CLEAR",
+        "url": "alewhite"
+    },
+    {
+        "itemphotos": [
+            "dorsublack.png",
+            "umaibo02.jpg",
+            "umaibo03.jpg"
+        ],
+        "name": "RUBBER BAND",
+        "price": 550,
+        "state": true,
+        "Artist": "[Alexandros]",
+        "text": "Alexandrosのラバーバンドグッズです。",
+        "id": 4,
+        "colors": "BLACK",
+        "url": "aleblack"
+    },
+    {
+        "itemphotos": [
+            "onakama.png",
+            "umaibo02.jpg",
+            "umaibo03.jpg"
+        ],
+        "name": "Rubber Band",
+        "price": 500,
+        "state": true,
+        "Artist": "ONAKAMA",
+        "text": "2021年に行われたライブイベントONAKAMAで発売されたグッズです",
+        "id": 5,
+        "colors": "Ash",
+        "url": "onakama"
+    },
+    {
+        "itemphotos": [
+            "oralgreen.png",
+            "umaibo02.jpg",
+            "umaibo03.jpg"
+        ],
+        "name": "目玉ロゴラバーバンド",
+        "price": 500,
+        "state": true,
+        "Artist": "THE ORAL CIGARETTES",
+        "text": "2020春に発売された目玉ロゴラバーバンドのグリーンイエローです。",
+        "id": 6,
+        "colors": "グリーンイエロー",
+        "url": "oralgreen"
+    },
+    {
+        "itemphotos": [
+            "yonexpo.png",
+            "umaibo02.jpg",
+            "umaibo03.jpg"
+        ],
+        "name": "Rubber Band",
+        "price": 500,
+        "state": true,
+        "Artist": "04 Limited Sazabys",
+        "text": "2020年に開催されたYON EXPO'20で発売されたラバーバンドです。",
+        "id": 7,
+        "colors": "Gray",
+        "url": "yonexpo"
     }
 ]
