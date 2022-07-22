@@ -3,11 +3,18 @@ body {
   height: 100%;
   font-size: 16px;
   letter-spacing: 0.1em;
+  font-family: "Kiwi Maru", serif;
+  color: #614815;
+  background-color: #FFF8F0;
 }
 
-h1 {
-  color: red;
-  font-size: 5rem;
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #614815;
 }
 
 img {
@@ -26,13 +33,55 @@ img {
   width: 85%;
   max-width: 1630px;
   margin: 0 auto;
+}
+.header__menu {
+  padding-top: 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__title {
+  width: 6%;
 }
 .header__cart {
   width: 3%;
   min-width: 40px;
   max-width: 50px;
+}
+
+.main {
+  margin: 4em 0 4em;
+}
+.main__inner {
+  width: 85%;
+  max-width: 1630px;
+  margin: 0 auto;
+}
+.main .products__title {
+  margin-bottom: 2em;
+  text-align: center;
+  color: #049DBF;
+}
+.main .products__item-all {
+  display: flex;
+  justify-content: space-around;
+}
+.main .products__item {
+  width: 28%;
+}
+.main .products__name {
+  margin-top: 1em;
+}
+.main .products__price {
+  margin: 6px 0 1em;
+}
+.main .products__sell {
+  padding: 6px;
+  width: 100px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #B5AA99;
 }
 /*# sourceMappingURL=style.css.map */

@@ -7,21 +7,72 @@
 		<title>記事タイトル</title>
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
 		<link rel="stylesheet" href="../../css//style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		
 <header class="header">
 	<div class="header__inner">
-	<h1 class="header__title">Myshop</h1>
+		<div class="header__menu">
+			<h1 class="header__title">
+				<a href="../../index.html">
+		<img src="../../images/logo.png" alt="MOFU">
+		</a>
+	</h1>
 	<div class="header__cart">
 		<img src="../../images/cart.svg" alt="">
 	</div>
+		</div>
 	</div>
 </header>
 <main class="main">
-
+<div class="main__inner">
 	<section class="main__products products">
 		<h2 class="products__title">item</h2>
+		<div class="products__item-all">
+		
+		<article class="products__item">
+			<a href="../../products/harness">
+			<div class="products__img">
+				<img src="../../images/harness01.jpg" alt="">
+			</div>
+			<p class="products__name">フラワーハーネス</p>
+			<p class="products__price">¥2,800</p>
+			
+				<p class="products__sell">sold out</p>
+			
+			</a>
+		</article>
+		
+		<article class="products__item">
+			<a href="../../products/dish">
+			<div class="products__img">
+				<img src="../../images/dish01.jpg" alt="">
+			</div>
+			<p class="products__name">おさら</p>
+			<p class="products__price">¥400</p>
+			
+				<p class="products__sell">sold out</p>
+			
+			</a>
+		</article>
+		
+		<article class="products__item">
+			<a href="../../products/yocchan">
+			<div class="products__img">
+				<img src="../../images/yochan01.jpg" alt="">
+			</div>
+			<p class="products__name">カットよっちゃん（よっちゃんイカ）</p>
+			<p class="products__price">¥50</p>
+			
+				<p class="products__sell">sold out</p>
+			
+			</a>
+		</article>
+		
+		</div>
 	</section>
 	<ul>
 	
@@ -32,9 +83,11 @@
 	<li><a href="../products/yocchan"> yocchan </a></li>
 	
 </ul>
-<img src="../../images/dish01.jpg" alt="">
+</div>
 </main>
 
 <footer class="footer"></footer>
 	</body>
+
+	<script src="../../js//sell.js"></script>
 </html>

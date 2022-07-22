@@ -2,27 +2,52 @@
 title: 記事タイトル
 layout: layout.njk
 csspath: ../../css/
+jspath: ../../js/
+imgpath: ../../images/
 ---
 
 <header class="header">
 	<div class="header__inner">
-	<h1 class="header__title">Myshop</h1>
+		<div class="header__menu">
+			<h1 class="header__title">
+				<a href="../../index.html">
+		<img src="{{ imgpath }}logo.png" alt="MOFU">
+		</a>
+	</h1>
 	<div class="header__cart">
-		<img src="../../images/cart.svg" alt="">
+		<img src="{{ imgpath }}cart.svg" alt="">
 	</div>
+		</div>
 	</div>
 </header>
 <main class="main">
-
+<div class="main__inner">
 	<section class="main__products products">
 		<h2 class="products__title">item</h2>
+		<div class="products__item-all">
+		{% for product in products %}
+		<article class="products__item">
+			<a href="../../products/{{ product.url }}">
+			<div class="products__img">
+				<img src="{{ imgpath }}{{ product.itemphotos[0] }}" alt="">
+			</div>
+			<p class="products__name">{{ product.name }}</p>
+			<p class="products__price">¥{{ product.price }}</p>
+			{# {% if  {{ product.state }} %}
+			{% else %} #}
+				<p class="products__sell">sold out</p>
+			{# {% endif %} #}
+			</a>
+		</article>
+		{% endfor %}
+		</div>
 	</section>
 	<ul>
 	{% for product in products %}
 	<li><a href="../products/{{ product.url }}"> {{ product.url }} </a></li>
 	{% endfor %}
 </ul>
-<img src="../../images/dish01.jpg" alt="">
+</div>
 </main>
 
 <footer class="footer"></footer>

@@ -7,19 +7,57 @@
 		<title>レイアウトに指定したタイトル</title>
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
 		<link rel="stylesheet" href="../../css//style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		
 
 
-<ul>
-  <li><img src="../../images/yochan01.jpg" alt=""></li>
-	<li>カットよっちゃん（よっちゃんイカ）</li>
-	<li>50</li>
-  <li>false</li>
-  <li>世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。</li>
-  <li>4710158-2</li>
-  <li>赤</li>
+
+
+<header class="header">
+	<div class="header__inner">
+		<div class="header__menu">
+			<h1 class="header__title">
+				<a href="../../index.html">
+		<img src="../../images/logo.png" alt="MOFU">
+		</a>
+	</h1>
+	<div class="header__cart">
+		<img src="../../images/cart.svg" alt="">
+	</div>
+		</div>
+	</div>
+</header>
+
+<main class="main">
+<div class="main__inner">
+	<section class="main__products products">
+			<div class="products__img">
+				<img src="../../images/yochan01.jpg" alt="">
+			</div>
+			<p class="products__name">カットよっちゃん（よっちゃんイカ）</p>
+			<p class="products__price">¥50</p>
+			
+				<p class="products__sell">sold out</p>
+			
+	</section>
+	<ul>
+	
+	<li><a href="../products/harness"> harness </a></li>
+	
+	<li><a href="../products/dish"> dish </a></li>
+	
+	<li><a href="../products/yocchan"> yocchan </a></li>
+	
 </ul>
+</div>
+</main>
+
+<footer class="footer"></footer>
 	</body>
+
+	<script src="../../js//sell.js"></script>
 </html>

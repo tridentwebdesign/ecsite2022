@@ -6,11 +6,13 @@ pagination:
 permalink: 'products/{{ product.url | slugify }}/'
 layout: layout.njk
 csspath: ../../css/
+jspath: ../../js/
+imgpath: ../../images/
 ---
 
 {{ products | log }}
 
-<ul>
+{# <ul>
   <li><img src="../../images/{{ product.itemphotos[0] }}" alt=""></li>
 	<li>{{ product.name }}</li>
 	<li>{{ product.price }}</li>
@@ -18,4 +20,42 @@ csspath: ../../css/
   <li>{{ product.text }}</li>
   <li>{{ product.id }}</li>
   <li>{{ product.colors }}</li>
+</ul> #}
+
+<header class="header">
+	<div class="header__inner">
+		<div class="header__menu">
+			<h1 class="header__title">
+				<a href="../../index.html">
+		<img src="{{ imgpath }}logo.png" alt="MOFU">
+		</a>
+	</h1>
+	<div class="header__cart">
+		<img src="{{ imgpath }}cart.svg" alt="">
+	</div>
+		</div>
+	</div>
+</header>
+
+<main class="main">
+<div class="main__inner">
+	<section class="main__products products">
+			<div class="products__img">
+				<img src="{{ imgpath }}{{ product.itemphotos[0] }}" alt="">
+			</div>
+			<p class="products__name">{{ product.name }}</p>
+			<p class="products__price">¥{{ product.price }}</p>
+			{# {% if  {{ product.state }} %}
+			{% else %} #}
+				<p class="products__sell">sold out</p>
+			{# {% endif %} #}
+	</section>
+	<ul>
+	{% for product in products %}
+	<li><a href="../products/{{ product.url }}"> {{ product.url }} </a></li>
+	{% endfor %}
 </ul>
+</div>
+</main>
+
+<footer class="footer"></footer>

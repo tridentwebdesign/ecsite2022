@@ -7,19 +7,57 @@
 		<title>レイアウトに指定したタイトル</title>
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
 		<link rel="stylesheet" href="../../css//style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		
 
 
-<ul>
-  <li><img src="../../images/harness01.jpg" alt=""></li>
-	<li>フラワーハーネス</li>
-	<li>2800</li>
-  <li>true</li>
-  <li>こぶりなレースのお花がついた、シンプルでかわいらしいデザインのハーネスです。キナリの綿布を使用しており、柔らかく着心地が良いです。サイズ調整可能の金具もついているので、わんちゃんにフィットさせることができます。お洋服が苦手なわんちゃんにもおすすめです。</li>
-  <li>GO001</li>
-  <li>キナリ</li>
+
+
+<header class="header">
+	<div class="header__inner">
+		<div class="header__menu">
+			<h1 class="header__title">
+				<a href="../../index.html">
+		<img src="../../images/logo.png" alt="MOFU">
+		</a>
+	</h1>
+	<div class="header__cart">
+		<img src="../../images/cart.svg" alt="">
+	</div>
+		</div>
+	</div>
+</header>
+
+<main class="main">
+<div class="main__inner">
+	<section class="main__products products">
+			<div class="products__img">
+				<img src="../../images/harness01.jpg" alt="">
+			</div>
+			<p class="products__name">フラワーハーネス</p>
+			<p class="products__price">¥2,800</p>
+			
+				<p class="products__sell">sold out</p>
+			
+	</section>
+	<ul>
+	
+	<li><a href="../products/harness"> harness </a></li>
+	
+	<li><a href="../products/dish"> dish </a></li>
+	
+	<li><a href="../products/yocchan"> yocchan </a></li>
+	
 </ul>
+</div>
+</main>
+
+<footer class="footer"></footer>
 	</body>
+
+	<script src="../../js//sell.js"></script>
 </html>

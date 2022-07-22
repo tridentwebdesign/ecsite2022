@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+$color-main: #FFF8F0;
+$color-text: #614815;
+$color-accent: #049DBF;
+$color-accent2: #F09773;
+$color-accent3: #00C9B0;
+$color-sold: #B5AA99;
+$color-white: #fff;
+
+
 @mixin inner($width: 85%) {
     width: $width;
     max-width: 1630px;
@@ -11,11 +20,18 @@ body{
   height: 100%;
   font-size: 16px;
   letter-spacing: 0.1em;
+  font-family: 'Kiwi Maru', serif;
+  color: $color-text;
+  background-color: $color-main;
 }
 
-h1{
-    color:red;
-    font-size: 5rem;
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: $color-text;
 }
 
 img {
@@ -33,16 +49,70 @@ img {
 
     &__inner{
         @include inner();
-        display: flex;
+    }
+
+    &__menu{
+      padding-top:round(32em/16);
+      display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-   
+   &__title{
+     width: 6%;
+   }
 
     &__cart{
         width: 3%;
         min-width: 40px;
         max-width: 50px;
     }
+}
+
+.main{
+  margin: round(56em/16) 0 round(56em/16);
+
+  &__inner{
+    @include inner();
+  }
+
+  .products{
+
+    &__title{ 
+      margin-bottom: round(32em/16);
+      text-align: center;
+      color: $color-accent;
+    }
+
+    &__item-all{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    &__item{
+      width: 28%;
+    }
+
+    // &__img{
+    //   width: 28%;
+    // }
+
+    &__name{
+      margin-top: round(16em/16);
+    }
+
+    &__price{
+      margin: 6px 0 round(10em/16);
+    }
+
+    &__sell{
+      padding: 6px;
+      width: 100px;
+      border-radius: 4px;
+      font-size: 14px;
+      text-align: center;
+      color: $color-white;
+      background-color: $color-sold;
+    }
+  }
 }

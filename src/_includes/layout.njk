@@ -10,8 +10,13 @@ title: レイアウトに指定したタイトル
 		<title>{{ title }}</title>
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
 		<link rel="stylesheet" href="{{ csspath }}/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		{{ content | safe }}
 	</body>
+
+	<script src="{{ jspath }}/sell.js"></script>
 </html>
