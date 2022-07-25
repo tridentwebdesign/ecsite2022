@@ -2,6 +2,7 @@
 title: ラバーバンドshop
 layout: layout.njk
 csspath: ./css/
+jspath: ./js/
 ---
 <main class="main">
 	<div class="main__inner">
@@ -13,7 +14,7 @@ csspath: ./css/
 					<p class="item__text">{{ item.name }} </p>
 					<p class="item__text">{{item.Artist}}</p>
 					<p class="item__text">{{item.price}}</p>
-					<p class="item__text">{{item.state}}</p>
+					<p class="item__text item__state">{{item.state}}</p>
 				</a>
 			{% endfor %}
 		</div>
