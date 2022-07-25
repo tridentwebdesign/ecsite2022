@@ -141,3 +141,29 @@ text-align: center;
 .kobetu_single{
     width: 60%;
 }
+
+@media screen and (max-width: 408px) {
+
+    .inner{
+        padding: 10px;
+    }
+	.kobetu_main{
+        display: block;
+    }
+    .big{
+        margin-top: 16px;
+        width: 168%;
+    }
+    .small{
+        width: 30%;
+    }
+    .cart_in{
+      margin: 10px;  
+    }
+    .footer_p{
+        margin-top: 118px;
+    }
+    .main_w{
+        width: 100%;
+    }
+}
