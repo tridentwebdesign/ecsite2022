@@ -70,6 +70,9 @@ img {
 .item__link:nth-child(3n) {
   margin-right: 0;
 }
+.item__artist {
+  margin: 0.3125rem 0;
+}
 .item__text {
   text-align: left;
   color: #000;
