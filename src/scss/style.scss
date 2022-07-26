@@ -25,6 +25,7 @@ img{
     }
     &__title{
         margin: 30px 0 ;
+        font-size: rem(24);
     }
 }
 .g-nav{
@@ -73,11 +74,66 @@ img{
     }
     
 }
+.rababan{
+    &__flex{
+        display: flex;
+        justify-content: center;
+    }
+    &__title{
+        margin-bottom: 30px;
+    }
+    &__box{
+        text-align: left;
+    }
+    &__textbox{
+        margin-left: 30px;
+    }
+    &__text{
+        width: 60%;
+        margin-left: 30px;
+    }
+    &__img{
+        width: 30%;
+    }
+}
 
 .footer{
     &__copy{
         padding: 100px 0 60px;
         display: block;
         text-align: center;
+    }
+}
+@media (max-width:600px){
+    .header{
+        &__inner{
+            width: 95%;
+        }
+        
+    }
+    .main{
+        &__inner{
+            width: 95%;
+        }
+        &__flex{
+            justify-content: center;
+    
+        }
+    }
+    .item{
+        &__link{
+            text-decoration: none;
+            display: block;
+            width: 40%;
+            padding-bottom: rem(50);
+            margin-right: 10%;
+            overflow: hidden;
+        }
+        &__link:nth-child(3n){
+            margin-right: 10%;
+        }
+        &__link:nth-child(2n){
+            margin-right: 0;
+        }
     }
 }

@@ -9,10 +9,14 @@ permalink: 'item/{{ pagination.items[0].url | slugify }}/'
 csspath: ../../css/
 jspath: ../../js/
 ---
-<img src="../../images/{{item.itemphotos[0]}}" alt="">
-<ul>
-	<li>{{ pagination.items[0].name }}</li>
-	<li>{{ pagination.items[0].price }}円</li>
-  <li>アーテイスト名:{{pagination.items[0].Artist}}</li>
-</ul>
-<p>{{pagination.items[0].text}}</p>
+<div class="rababan rababan__flex">
+  <img class="rababan__img" src="../../images/{{item.itemphotos[0]}}" alt="">
+  <div class="rababan__box">
+    <ul class="rababan__textbox">
+      <li><h2 class="rababan__title">{{ pagination.items[0].name }}</h2></li>
+      <li>{{ pagination.items[0].price }}円</li>
+      <li>アーテイスト名:{{pagination.items[0].Artist}}</li>
+    </ul>
+    <p class="rababan__text">{{pagination.items[0].text}}</p>
+  </div>
+</div>
