@@ -70,27 +70,37 @@ img {
 }
 
 .main{
-  margin: round(56em/16) 0 round(56em/16);
+  margin: round(160em/16) 0 round(160em/16);
 
   &__inner{
-    @include inner();
+    @include inner($width: 70%);
+    max-width: 800px;
   }
 
   .products{
 
     &__title{ 
-      margin-bottom: round(32em/16);
+      margin-bottom: round(48em/16);
       text-align: center;
       color: $color-accent;
     }
 
     &__item-all{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      &::after{
+        content: "";
+    display: block;
+    width: 28%;  /* .boxに指定したwidthと同じ幅を指定する */
+    height: 0;
+      }
     }
 
     &__item{
       width: 28%;
+      margin-bottom: round(56em/16);
     }
 
     // &__img{

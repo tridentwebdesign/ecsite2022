@@ -45,7 +45,14 @@ imgpath: ../../images/
 			</div>
 			<p class="products__name">{{ product.name }}</p>
 			<p class="products__price">¥{{ product.price }}</p>
+			<p class="products__text">{{ product.text }}</p>
+			<ul class="products__data">
+				<li class="products__pNumber">{{ product.id }}</li>
+				<li class="products__pColor">{{ product.colors }}</li>
+				<li class="products__pSize">サイズ</li>
+			</ul>
 			{# {% if  {{ product.state }} %}
+			//==を書く
 			{% else %} #}
 				<p class="products__sell">sold out</p>
 			{# {% endif %} #}

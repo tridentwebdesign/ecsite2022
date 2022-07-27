@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   width: 100%;
   height: 100%;
@@ -50,24 +51,33 @@ img {
 }
 
 .main {
-  margin: 4em 0 4em;
+  margin: 10em 0 10em;
 }
 .main__inner {
-  width: 85%;
+  width: 70%;
   max-width: 1630px;
   margin: 0 auto;
+  max-width: 800px;
 }
 .main .products__title {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   text-align: center;
   color: #049DBF;
 }
 .main .products__item-all {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main .products__item-all::after {
+  content: "";
+  display: block;
+  width: 28%; /* .boxに指定したwidthと同じ幅を指定する */
+  height: 0;
 }
 .main .products__item {
   width: 28%;
+  margin-bottom: 4em;
 }
 .main .products__name {
   margin-top: 1em;
