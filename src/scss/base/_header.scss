@@ -1,0 +1,18 @@
+.header{
+    &__inner{
+
+    }
+    &__nav{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        &__list{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            &__contnet{
+    
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
----
+{# ---
 pagination:
   data: goods
   size: 1
@@ -12,7 +12,7 @@ permalink: 'goods/{{ pagination.goods.url | slugify }}/'
 
 <img src="/images/{{ pagination.goods[0].itemphotos[0] }}" />
 <img src="/images/{{ pagination.goods[0].itemphotos[1] }}" />
-<img src="/images/{{ pagination.goods[0].itemphotos[2] }}" />
+<img src="/images/{{ pagination.goods[0].itemphotos[2] }}" /> #}
 
 {# <!--  画像をループで取得 -->
 {% for photo in pagination.goods[0].itemphotos %}

@@ -1,2 +1,2 @@
-.header__content{display:flex;justify-content:space-between;flex-wrap:nowrap}h1{color:red}
+ul{padding:0}li{list-style:none}.header__nav{display:flex;flex-wrap:nowrap;justify-content:space-evenly}.header__nav__list{display:flex;flex-wrap:nowrap;justify-content:flex-end}h1{color:red}
 /*# sourceMappingURL=style.min.css.map */

@@ -1,20 +1,7 @@
+ul{
+    padding: 0;
+}
 
-.header{
-    &__inner{
-
-    }
-    &__content{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        &__nav-left{
-
-        }
-        &__icon{
-
-        }
-        &__nav-right{
-
-        }
-    }
+li{
+    list-style: none;
 }

@@ -1,7 +1,20 @@
-.header__content {
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header__nav {
   display: flex;
-  justify-content: space-between;
   flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.header__nav__list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
 }
 h1 {
   color: #f00;
