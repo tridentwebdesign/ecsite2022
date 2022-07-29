@@ -5,8 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>ラバーバンドshop</title>
-		<link rel="stylesheet" href="../../css/style.css">
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+		<link rel="stylesheet" href="../../css/style.css">
 	</head>
 	<body>
 		<header class="header">
@@ -19,14 +19,25 @@
 			</div>
 		</header>
 		<div class="rababan rababan__flex">
-  <img class="rababan__img" src="../../images/dorsuwhite.png" alt="">
+  <div class="rababan__imagbox">
+    <img class="rababan__img" src="../../images/dorsuwhite.png" alt="">
+    <div class="rababan__imglist">
+      <img class="rababan__imgitem" src="../../images/dorsuwhite.png" alt="">
+      <img class="rababan__imgitem" src="../../images/dorsuwhite2.png" alt="">
+      <img class="rababan__imgitem" src="../../images/dorsuwhite2.png" alt="">
+    </div>
+  </div>
   <div class="rababan__box">
     <ul class="rababan__textbox">
       <li><h2 class="rababan__title">RUBBER BAND</h2></li>
-      <li>550円</li>
-      <li>アーテイスト名:[Alexandros]</li>
+      <li class="rababan__item">値段　550円</li>
+      <li class="rababan__item">アーテイスト名　[Alexandros]</li>
+      <li><p class="rababan__text rababan__item">Alexandrosのラバーバンドグッズです。</p><li>
+      <li>数量<input class="rababan__number" type="number" min="0" placeholder="個数の入力" value="0"></li>
+    <li><a href="#" class="rababan__button">カートに入れる</a>
+    <li class="rababan__attention">返品交換は受け付けておりません。ご了承くだいさい。こちらの商品は受注生産限定となっております</li>
     </ul>
-    <p class="rababan__text">Alexandrosのラバーバンドグッズです。</p>
+    
   </div>
 </div>
 		<footer class="footer">

@@ -22,7 +22,7 @@
         ],
         "name": "旬のラバーバンド",
         "price": 500,
-        "state": false,
+        "state": "FALSE",
         "Artist": "マカロニえんぴつ",
         "text": "2019年から2020年にかけて行われたマカロックツアーvol.8で登場したグッズです。",
         "id": 1,
@@ -32,8 +32,8 @@
     {
         "itemphotos": [
             "macaenred.png",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "macaenred2.png",
+            "macaenred2.png"
         ],
         "name": "ユニフォームのロゴみたいなフォントのラババン",
         "price": 500,
@@ -47,8 +47,8 @@
     {
         "itemphotos": [
             "dorsuwhite.png",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "dorsuwhite2.png",
+            "dorsuwhite2.png"
         ],
         "name": "RUBBER BAND",
         "price": 550,
@@ -62,8 +62,8 @@
     {
         "itemphotos": [
             "dorsublack.png",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "dorsublack2.png",
+            "dorsublack2.png"
         ],
         "name": "RUBBER BAND",
         "price": 550,
@@ -77,8 +77,8 @@
     {
         "itemphotos": [
             "onakama.png",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "onakama2.png",
+            "onakama2.png"
         ],
         "name": "Rubber Band",
         "price": 500,
@@ -92,8 +92,8 @@
     {
         "itemphotos": [
             "oralgreen.png",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "oralgreen2.png",
+            "oralgreen2.png"
         ],
         "name": "目玉ロゴラバーバンド",
         "price": 500,
@@ -107,8 +107,8 @@
     {
         "itemphotos": [
             "yonexpo.png",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "yonexpo2.png",
+            "yonexpo2.png"
         ],
         "name": "Rubber Band",
         "price": 500,
@@ -118,5 +118,35 @@
         "id": 7,
         "colors": "Gray",
         "url": "yonexpo"
+    },
+    {
+        "itemphotos": [
+            "04clahuru.png",
+            "04clahuru2.png",
+            "04clahuru2.png"
+        ],
+        "name": "Rubber Band",
+        "price": 500,
+        "state": false,
+        "Artist": "04 Limited Sazabys",
+        "text": "2020年に開催されたYON EXPO'20で発売されたラバーバンドです。",
+        "id": 8,
+        "colors": "Gray",
+        "url": "04clahuru"
+    },
+    {
+        "itemphotos": [
+            "mrseden.png",
+            "yonexpo2.png",
+            "yonexpo2.png"
+        ],
+        "name": "EDEN no SONO Wristband",
+        "price": 600,
+        "state": true,
+        "Artist": "Mrs.GREENAPPLE",
+        "text": "2019年から2020年にかけて行われたMrs. GREEN APPLE ARENA TOUR エデンの園で発売されたグッズです",
+        "id": 0,
+        "colors": "green&red",
+        "url": "mrsedsaen"
     }
 ]

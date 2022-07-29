@@ -46,13 +46,17 @@ img{
     &__inner{
         margin: 0 auto;
         max-width: 1200px;
-        width: 70%;
+        width: 65%;
     }
     &__flex{
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
 
+    }
+    &__viewbutton{
+        border: #000 1px solid;
+        padding: 10px 20px;
     }
 }
 .item{
@@ -86,17 +90,43 @@ img{
         margin-bottom: 30px;
     }
     &__box{
+        width: 50%;
         text-align: left;
     }
     &__textbox{
         margin-left: 30px;
     }
     &__text{
-        width: 60%;
-        margin-left: 30px;
+        width: 80%;
+    }
+    &__item{
+        margin: rem(20) 0;
+    }
+    &__number{
+        border: #000 1px solid;
+        margin: 0 0 rem(20) rem(10);
+    }
+    &__imagbox{
+        width: 35%;
+    }
+    &__imgitem{
+        width: 28%;
     }
     &__img{
-        width: 35%;
+        width: 80%;
+    }
+    &__attention{
+        font-size: rem(12);
+    }
+    &__button{
+        width: 40%;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: rem(15) rem(40);
+        border-radius: 20px;
+        color: #fff;
+        background-color: #ffa436;
     }
 }
 
@@ -116,18 +146,14 @@ img{
     }
     .main{
         &__inner{
-            width: 95%;
-        }
-        &__flex{
-            justify-content: center;
-    
+            width: 85%;
         }
     }
     .item{
         &__link{
             text-decoration: none;
             display: block;
-            width: 40%;
+            width: 45%;
             padding-bottom: rem(50);
             margin-right: 10%;
             overflow: hidden;
@@ -137,6 +163,36 @@ img{
         }
         &__link:nth-child(2n){
             margin-right: 0;
+        }
+    }
+    .rababan{
+        &__flex{
+            display: block;
+        }
+        &__textbox{
+            margin-left: 0;
+        }
+        &__box{
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        &__imagbox{
+            margin: 0 auto;
+            width: 80%;
+        }
+        &__imgitem{
+            width: 32%;
+        }
+        &__text{
+            width: 100%;
+        }
+        &__img{
+            width: 100%;
+        }
+        &__button{
+            width: 100%;
+            margin: 0 auto;
         }
     }
 }
