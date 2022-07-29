@@ -19,4 +19,13 @@ li {
 h1 {
   color: #f00;
 }
+
+.main__goods {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main__goods__item.gitem {
+  width: 426px;
+}
 /*# sourceMappingURL=style.css.map */

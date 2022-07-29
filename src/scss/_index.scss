@@ -1,3 +1,53 @@
 h1{
     color: #f00;
 }
+
+.main{
+    &__inner{
+
+    }
+    // 検索バー
+    &__search{
+
+    }
+    // 表示切り替え
+    &__type{
+        &__list{
+            &__item{
+
+            }
+        }
+    }
+    // 商品表示
+    &__goods{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+
+        &__item.gitem{
+            width: 426px;
+            .gitem{
+                &__link{
+                    // 商品画像
+                    &__img{
+
+                    }
+                    // 商品名
+                    &__title{
+
+                    }
+                    // 商品値段
+                    &__price{
+
+                    }
+                    // 商品購入ボタン・お気に入り登録
+                    &__box{
+                        &__btn{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -10,26 +10,24 @@ layout: layout.njk
 		{# 表示切り替え #}
 		<div class="main__type">
 			<ul class="main__type__list">
-				<li class="main__type__item">商品１</li>
-				<li class="main__type__item">商品２</li>
-				<li class="main__type__item">商品３</li>
+				<li class="main__type__list__item">商品１</li>
+				<li class="main__type__list__item">商品２</li>
+				<li class="main__type__list__item">商品３</li>
 			</ul>
 		</div>
 		{# 商品表示 #}
 		<section class="main__goods">
 			{% for topPhoto in goods %}
 			{# 商品 #}
-			<div class="{{ topPhoto.url }}">
-				<a href="./goods/{{topPhoto.url}}">
-				<div class="mainimage">
-					<img src="images/{{ topPhoto.itemphotos[0] }}" alt="{{ topPhotos.name }}メイン画像" />
-					</div>
-					<h2>{{ topPhoto.name }}</h2>
-					<p>￥{{ topPhoto.price }}税込み</p>
+			<div class="main__goods__item gitem {{ topPhoto.url }}">
+				<a href="./goods/{{topPhoto.url}}" class="gitem__link">
+					<img src="images/{{ topPhoto.itemphotos[0] }}" alt="{{ topPhotos.name }}メイン画像" class="gitem__img"/>
+					<h2 class="gitem__title">{{ topPhoto.name }}</h2>
+					<p class="gitem__price">￥{{ topPhoto.price }}税込み</p>
 				</a>
-				<div class="goods__box">
-					<a href="#" class="main__goods__box__btn"><P class="">カートに追加</p></a>
-					<a href="#" class="main__goods__box__btn"><P>カートに追加</p></a>
+				<div class="gitem__box">
+					<a href="#" class="gitem__box__btn"><P class="">カートに追加</p></a>
+					<a href="#" class="gitem__box__btn"><ion-icon name="heart-outline"></ion-icon></a>
 				</div>
 			</div>
 			{% endfor %}
