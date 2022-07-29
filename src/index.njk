@@ -35,11 +35,15 @@ imgpath: ../../images/
 			<p class="products__price">¥{{ product.price }}</p>
 			{# {% if  {{ product.state }} %}
 			{% else %} #}
-				<p class="products__sell">sold out</p>
+				<p class="products__sell">{{product.state}}</p>
 			{# {% endif %} #}
 			</a>
 		</article>
 		{% endfor %}
+		</div>
+
+		<div class="products__btn">
+			<button class="products__btnA">view more</button>
 		</div>
 	</section>
 	<ul>

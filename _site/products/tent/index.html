@@ -17,7 +17,7 @@
 
 
 
-<header class="header">
+<header class="header sHeader">
 	<div class="header__inner">
 		<div class="header__menu">
 			<h1 class="header__title">
@@ -33,22 +33,50 @@
 </header>
 
 <main class="main">
-<div class="main__inner">
+<div class="main__sInner">
 	<section class="main__products products">
-			<div class="products__img">
-				<img src="../../images/tent01.jpg" alt="">
+
+		<div class="products__flex">
+			<div class="products__sImg-all">
+				<div class="products__sImg">
+					<img class="products__mainimg" src="../../images/tent01.jpg" alt="">
+				</div>
+				<div class="products__oImg-all">
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/tent01.jpg" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/" alt="">
+					</div>
+				</div>
 			</div>
-			<p class="products__name">モダンペットテント</p>
-			<p class="products__price">¥6400</p>
+
+			<div class="products__info">
+			<p class="products__sName">モダンペットテント</p>
+			<p class="products__sell">sold out</p>
+			<p class="products__sPrice">¥6400</p>
 			<p class="products__text">ナチュラルな原木とベーシックなカラーのモダンデザインのペットテントです。淡いベージュで、部屋のインテリアにもよく馴染みます。クッションのソリッド生地の面は柔らかく、肌触りが気持ちいいので、オールシーズン使用できます。ファー生地の面はふわふわで、温かいので寒い季節にご利用いただけます。</p>
 			<ul class="products__data">
-				<li class="products__pNumber">IN001</li>
-				<li class="products__pColor">ベージュ</li>
+				<li class="products__pNumber">品番：IN001</li>
+				<li class="products__pColor">カラー：ベージュ</li>
 				<li class="products__pSize">サイズ</li>
 			</ul>
+			<input type="number" class="products__number" name="iNumber" min="0" max="30" value="0">
 			
-				<p class="products__sell">sold out</p>
 			
+
+			<button class="products__btn">カートに入れる</button>
+			</div>
+		</div>
 	</section>
 	<ul>
 	
@@ -79,6 +107,6 @@
 <footer class="footer"></footer>
 	</body>
 
-	<script src="../../js//sell.js"></script>
-	<script src="../../js//left.js"></script>
+	<script src="../../js//more.js"></script>
+	<script src="../../js//img.js"></script>
 </html>

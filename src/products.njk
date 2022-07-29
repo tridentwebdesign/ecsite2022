@@ -22,7 +22,7 @@ imgpath: ../../images/
   <li>{{ product.colors }}</li>
 </ul> #}
 
-<header class="header">
+<header class="header sHeader">
 	<div class="header__inner">
 		<div class="header__menu">
 			<h1 class="header__title">
@@ -38,24 +38,52 @@ imgpath: ../../images/
 </header>
 
 <main class="main">
-<div class="main__inner">
+<div class="main__sInner">
 	<section class="main__products products">
-			<div class="products__img">
-				<img src="{{ imgpath }}{{ product.itemphotos[0] }}" alt="">
+
+		<div class="products__flex">
+			<div class="products__sImg-all">
+				<div class="products__sImg">
+					<img class="products__mainimg" src="{{ imgpath }}{{ product.itemphotos[0] }}" alt="">
+				</div>
+				<div class="products__oImg-all">
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="{{ imgpath }}{{ product.itemphotos[0] }}" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="{{ imgpath }}{{ product.itemphotos[1] }}" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="{{ imgpath }}{{ product.itemphotos[2] }}" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="{{ imgpath }}{{ product.itemphotos[3] }}" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="{{ imgpath }}{{ product.itemphotos[4] }}" alt="">
+					</div>
+				</div>
 			</div>
-			<p class="products__name">{{ product.name }}</p>
-			<p class="products__price">¥{{ product.price }}</p>
+
+			<div class="products__info">
+			<p class="products__sName">{{ product.name }}</p>
+			<p class="products__sell">sold out</p>
+			<p class="products__sPrice">¥{{ product.price }}</p>
 			<p class="products__text">{{ product.text }}</p>
 			<ul class="products__data">
-				<li class="products__pNumber">{{ product.id }}</li>
-				<li class="products__pColor">{{ product.colors }}</li>
+				<li class="products__pNumber">品番：{{ product.id }}</li>
+				<li class="products__pColor">カラー：{{ product.colors }}</li>
 				<li class="products__pSize">サイズ</li>
 			</ul>
+			<input type="number" class="products__number" name="iNumber" min="0" max="30" value="0">
 			{# {% if  {{ product.state }} %}
 			//==を書く
 			{% else %} #}
-				<p class="products__sell">sold out</p>
 			{# {% endif %} #}
+
+			<button class="products__btn">カートに入れる</button>
+			</div>
+		</div>
 	</section>
 	<ul>
 	{% for product in products %}

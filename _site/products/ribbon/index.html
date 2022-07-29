@@ -17,7 +17,7 @@
 
 
 
-<header class="header">
+<header class="header sHeader">
 	<div class="header__inner">
 		<div class="header__menu">
 			<h1 class="header__title">
@@ -33,22 +33,50 @@
 </header>
 
 <main class="main">
-<div class="main__inner">
+<div class="main__sInner">
 	<section class="main__products products">
-			<div class="products__img">
-				<img src="../../images/ribbon01.jpg" alt="">
+
+		<div class="products__flex">
+			<div class="products__sImg-all">
+				<div class="products__sImg">
+					<img class="products__mainimg" src="../../images/ribbon01.jpg" alt="">
+				</div>
+				<div class="products__oImg-all">
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/ribbon01.jpg" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/" alt="">
+					</div>
+					<div class="products__other-sImg">
+						<img class="products__imglist" src="../../images/" alt="">
+					</div>
+				</div>
 			</div>
-			<p class="products__name">いちごのリボン</p>
-			<p class="products__price">¥250</p>
+
+			<div class="products__info">
+			<p class="products__sName">いちごのリボン</p>
+			<p class="products__sell">sold out</p>
+			<p class="products__sPrice">¥250</p>
 			<p class="products__text">小さないちごが可愛らしい２個で１セットのリボンです。つけるだけでおしゃれさんに！お出かけも楽しくなりますね。</p>
 			<ul class="products__data">
-				<li class="products__pNumber">FA003</li>
-				<li class="products__pColor">アイボリー</li>
+				<li class="products__pNumber">品番：FA003</li>
+				<li class="products__pColor">カラー：アイボリー</li>
 				<li class="products__pSize">サイズ</li>
 			</ul>
+			<input type="number" class="products__number" name="iNumber" min="0" max="30" value="0">
 			
-				<p class="products__sell">sold out</p>
 			
+
+			<button class="products__btn">カートに入れる</button>
+			</div>
+		</div>
 	</section>
 	<ul>
 	
@@ -79,6 +107,6 @@
 <footer class="footer"></footer>
 	</body>
 
-	<script src="../../js//sell.js"></script>
-	<script src="../../js//left.js"></script>
+	<script src="../../js//more.js"></script>
+	<script src="../../js//img.js"></script>
 </html>
