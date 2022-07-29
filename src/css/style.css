@@ -4,6 +4,12 @@
   }
 }
 
+@media (min-width: 800px) {
+  .on {
+    display: block;
+  }
+}
+
 .header {
   background-color: #fcad3d;
   align-items: center;

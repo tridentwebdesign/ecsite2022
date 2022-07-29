@@ -3,5 +3,8 @@
     "dartsass.targetDirectory": "./src/css",
     "emmet.syntaxProfiles": {
     
-    }
+    },
+    "cSpell.enableFiletypes": [
+        "!scss"
+    ]
 }

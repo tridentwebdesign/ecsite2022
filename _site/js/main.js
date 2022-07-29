@@ -13,8 +13,14 @@ console.log(more);
 
 more.addEventListener("click" , function(){
     for(let i=0;i<cont.length;i++){
-        if(cont[i].classList.contains("off") === true){
-            cont[i].classList.toggle("off");
+        if(cont[i].classList.contains("off")){
+            cont[i].classList.remove("off");
+            cont[i].classList.add("on");
+            more.innerHTML = "CLOSE";
+        }else if(cont[i].classList.contains("on")){
+            cont[i].classList.remove("on");
+            cont[i].classList.add("off");
+            more.innerHTML = "MORE";
         }
     }
 })

@@ -15,6 +15,12 @@
     }
 }
 
+.on{
+    @include pc(){
+        display: block;
+    }
+}
+
 // ヘッダー
 .header{
     background-color: #fcad3d;
