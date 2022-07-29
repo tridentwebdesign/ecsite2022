@@ -17,7 +17,7 @@ console.log(imglist)
 for(let i=0;i<imglist.length;i++){
     imglist[i].addEventListener("click",function(){
         let code = imglist[i].getAttribute("src")
-        mainimg.setAttribute("src",`../../images/`+code)
+        mainimg.setAttribute("src",code)
     })
 }
 let view = document.querySelectorAll(".item__link");
