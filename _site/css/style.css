@@ -1,13 +1,28 @@
 body{
     margin: 0;
-    background-color: #50dcc7;
+    background-color: #b0b0b0;
     
 }
+a{
+    color:rgb(103, 103, 103);
+}
+.pc_title{
+font-size: 0;
+}
 
+.button{
+
+    margin-top: 36px;
+    margin-bottom: 40px;
+    text-align:center;
+    font-size: 24px;
+}
 
 header {
-    background-image: url(../images/test.png);
-    max-width:1568px;
+    background-color: #ffffff;
+    padding-bottom: 24px;
+    
+   
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -74,6 +89,7 @@ ul{
     text-align: center;
 }
 .Product{
+    justify-content: center;
     display: flex; /* flexbox */
     flex-wrap: wrap; /* 折返し指定 */
   }
@@ -149,6 +165,10 @@ text-align: center;
 
 @media screen and (max-width: 600px) {
 
+    header{
+        padding-bottom: 0;
+    }
+
     .inner{
         padding: 10px;
     }
@@ -175,4 +195,16 @@ text-align: center;
         margin: 0;
         display: block;
     }
+
+    .sumaho_title{
+        font-size: 0;
+    }
+
+    .pc_title{
+font-size: 25px;
+    }
+    .logo_menu{
+        margin-top: 15px;
+    }
+    
 }

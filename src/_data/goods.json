@@ -3,44 +3,31 @@
         "itemphotos": [
             "globe.png",
             "globe_back.png",
-            "blobe_side.png"
+            "globe_side.png"
         ],
-        "name": "BODYMAKERグローブ",
-        "price": 12,
-        "state": "TRUE",
-        "text": "BODYMAKERのRIZIN使用グローブ",
+        "name": "グローブ",
+        "price": 9000,
+        "state": true,
+        "text": "BODYMAKERのグローブ",
         "id": 27002,
         "colors": "カーキー",
         "maker": "BODYMAKER",
-        "url": "global"
+        "url": "globe1"
     },
     {
         "itemphotos": [
-            "vandana_main.png",
+            "bandana_main.png",
+            "bandana_kobetu.jpg",
             "bandana_tatami.png"
         ],
         "name": "バンダナ",
-        "price": 50,
-        "state": "FALSE",
-        "text": "黒のバンダナ　生地は綿１００％",
-        "id": "4710158-2",
+        "price": 100,
+        "state": false,
+        "text": "額に巻いて汗防止",
+        "id": 12313,
         "colors": "黒",
-        "maker": "ダイソー",
+        "maker": "DAISO",
         "url": "bandana"
-    },
-    {
-        "itemphotos": [
-            "globe.png",
-            "globe_beside.png"
-        ],
-        "name": "Tshirt",
-        "price": 2400,
-        "state": "TRUE",
-        "text": "asics",
-        "id": 2400,
-        "colors": "黒",
-        "maker": "asics",
-        "url": "shirt"
     },
     {
         "itemphotos": [
@@ -48,13 +35,116 @@
             "vantege_sozai.png",
             "vantage_sozai2.png"
         ],
-        "name": "バンテージ",
-        "price": 1400,
-        "state": "TRUE",
-        "text": "Winning",
-        "id": 1342,
+        "name": "ヴァンテージ",
+        "price": 1200,
+        "state": true,
+        "text": "これで拳を守るよ",
+        "id": 12343,
         "colors": "白",
         "maker": "Winning",
-        "url": "Winning"
+        "url": "Vantage"
+    },
+    {
+        "itemphotos": [
+            "hansode_main.jpg",
+            "hansode_kobetu21.jpg",
+            "hansode_kobetu.jpg"
+        ],
+        "name": "le coq sportifのスポーツシャツ",
+        "price": 2000,
+        "state": false,
+        "text": "動きやすいスポーツシャツ",
+        "id": 43553,
+        "colors": "紺",
+        "maker": "le coq sportif",
+        "url": "Tshirt"
+    },
+    {
+        "itemphotos": [
+            "nagasode_main.jpg",
+            "nagasode_kobetu2.jpg",
+            "nagasode_kobetu.jpg"
+        ],
+        "name": "長袖",
+        "price": 4000,
+        "state": false,
+        "text": "ランニングにピッタリだ！",
+        "id": 65343,
+        "colors": "黒と黄色",
+        "maker": "BODYMAKER",
+        "url": "nagasode"
+    },
+    {
+        "itemphotos": [
+            "book_main.jpg",
+            "book_kobetu3.jpg",
+            "book_kobetu2.jpg"
+        ],
+        "name": "星の王子さま",
+        "price": 450,
+        "state": true,
+        "text": "世界で愛された本：サンテグジュペリ",
+        "id": 23454,
+        "colors": "白",
+        "maker": "文庫",
+        "url": "book"
+    },
+    {
+        "itemphotos": [
+            "Shoes_main.jpg",
+            "Shoes_kobetu2.jpg",
+            "Shoes_kobetu.jpg"
+        ],
+        "name": "ボクシングシューズ",
+        "price": 13000,
+        "state": false,
+        "text": "RIVALのShoesです",
+        "id": 75477,
+        "colors": "シルバー",
+        "maker": "RIVAL",
+        "url": "Shoes"
+    },
+    {
+        "itemphotos": [
+            "okou_main.jpg",
+            "okou_dan.jpg",
+            "okou_kobetu.jpg"
+        ],
+        "name": "お香",
+        "price": 600,
+        "state": true,
+        "text": "色んな匂いがするお香セット",
+        "id": 85645,
+        "colors": "赤",
+        "maker": "？？？",
+        "url": "okou"
+    }, {
+        "itemphotos": [
+            "globe.png",
+            "globe_back.png",
+            "globe_side.png"
+        ],
+        "name": "グローブ",
+        "price": 9000,
+        "state": true,
+        "text": "BODYMAKERのグローブ",
+        "id": 27002,
+        "colors": "カーキー",
+        "maker": "BODYMAKER",
+        "url": "globe3"
+    },{
+        "itemphotos": [
+            "globe.png",
+            "globe_back.png",
+            "globe_side.png"
+        ],
+        "name": "グローブ",
+        "price": 9000,
+        "state": true,
+        "text": "BODYMAKERのグローブ",
+        "id": 27002,
+        "colors": "カーキー",
+        "maker": "BODYMAKER",
+        "url": "globe2"
     }
 ]

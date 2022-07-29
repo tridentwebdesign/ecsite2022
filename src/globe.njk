@@ -8,10 +8,11 @@ layout: layout.njk
 csspath: ../../css/
 ---
   <header>
-  <h1><img class="logo_menu" src="../../images/logo.png" alt=""></h1>
+  <h1><a href="../../index.html"><img class="logo_menu" src="../../images/logo.png" alt=""></a></h1>
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
+		 <li><a href="../../index.html">Home</a></li>
+		<li><a href="../../index.html">about</a></li>
       <li><img src="../../images/cart_icon.png" alt=""></li>
     </ul>
   </nav>
@@ -23,19 +24,22 @@ csspath: ../../css/
 	<section class="kobetu_main">
 		
 		<div class="kobetu_single">
+				<h1 class="pc_title">{{ pagination.items[0].name }}</h1>
 	<img class="big"src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="">
 	<br>
+	<img class="small" src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="">
 	<img class="small" src="../../images/{{ pagination.items[0].itemphotos[1] }}" alt="">
-	<img class="small" src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="">
-	<img class="small" src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="">
-	<img class="small" src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="">
+	<img class="small" src="../../images/{{ pagination.items[0].itemphotos[2] }}" alt="">
+	<img class="small" src="../../images/{{ pagination.items[0].itemphotos[3] }}" alt="">
 	</div>
 	
 	<div class="kobetu_single2">
+
+		
 	
-	<h1>{{ pagination.items[0].name }}</h1>
+	<h1 class="sumaho_title">{{ pagination.items[0].name }}</h1>
 	<h2>¥{{ pagination.items[0].price }}</h2>
-	<li>{{ pagination.items[0].state }}</li>
+	<li class="statas">{{ pagination.items[0].state }}</li>
 	<li>説明:{{ pagination.items[0].text }}</li>
 	<li>ID:{{ pagination.items[0].id }}</li>
 	<li>カラー:{{ pagination.items[0].colors }}</li>
