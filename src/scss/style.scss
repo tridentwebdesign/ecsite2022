@@ -55,22 +55,47 @@ img{
 
     }
     &__viewbutton{
-        border: #000 1px solid;
-        padding: 10px 20px;
+        
+        padding: rem(10) rem(35);
+        background-color: #65C1CC;
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+    &__viewbutton:hover{
+        background-color: #fff;
+        color: #65C1CC;
+        border: #65C1CC 1px solid;
     }
 }
 .item{
     margin: 50px 0;
+    
     &__link{
         text-decoration: none;
         display: block;
         width: 25%;
         padding-bottom: rem(50);
         margin-right: 10%;
-        overflow: hidden;
+       
+    }
+    &__itemanime{
+        border: 1px solid #ddd;
+        width: 300px;
+        height: 226px;
+        margin: 20px auto 0;
+        transition-duration: 0.5s;
+    }
+    &__img:hover{
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+        transform: translateY(-10px);
+        transition-duration: 0.5s;
     }
     &__link:nth-child(3n){
         margin-right: 0;
+    }
+    &__img{
+        cursor: pointer;
+        width: 100%;
     }
     &__artist{
         margin: rem(5) 0;

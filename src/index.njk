@@ -10,7 +10,9 @@ jspath: ./js/
 		<div class="item main__flex">
 			{% for item in goods %}
 				<a class="item__link" href="../item/{{ item.url }}"> 
-					<img class="item__img" src="../images/{{item.itemphotos[0]}}" alt="">
+					<div class="itemanime">
+						<img class="item__img" src="../images/{{item.itemphotos[0]}}" alt="">
+					</div>
 					<p class="item__text">{{ item.name }} </p>
 					<p class="item__text item__artist">{{item.Artist}}</p>
 					<p class="item__text">¥{{item.price}}</p>

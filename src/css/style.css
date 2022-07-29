@@ -56,8 +56,15 @@ img {
   justify-content: flex-start;
 }
 .main__viewbutton {
-  border: #000 1px solid;
-  padding: 10px 20px;
+  padding: 0.625rem 2.1875rem;
+  background-color: #65C1CC;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.main__viewbutton:hover {
+  background-color: #fff;
+  color: #65C1CC;
+  border: #65C1CC 1px solid;
 }
 
 .item {
@@ -69,10 +76,25 @@ img {
   width: 25%;
   padding-bottom: 3.125rem;
   margin-right: 10%;
-  overflow: hidden;
+}
+.item__itemanime {
+  border: 1px solid #ddd;
+  width: 300px;
+  height: 226px;
+  margin: 20px auto 0;
+  transition-duration: 0.5s;
+}
+.item__img:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
 }
 .item__link:nth-child(3n) {
   margin-right: 0;
+}
+.item__img {
+  cursor: pointer;
+  width: 100%;
 }
 .item__artist {
   margin: 0.3125rem 0;
