@@ -23,7 +23,7 @@ layout: layout.njk
 				<a href="./goods/{{topPhoto.url}}" class="gitem__link">
 					<img src="images/{{ topPhoto.itemphotos[0] }}" alt="{{ topPhotos.name }}メイン画像" class="gitem__img"/>
 					<h2 class="gitem__title">{{ topPhoto.name }}</h2>
-					<p class="gitem__price">￥{{ topPhoto.price }}税込み</p>
+					<p class="gitem__price">￥{{ topPhoto.price }}<span class="gitem__price__span">税込み</span></p>
 				</a>
 				<div class="gitem__box">
 					<a href="#" class="gitem__box__btn"><P class="">カートに追加</p></a>

@@ -25,12 +25,12 @@ h1{
         flex-wrap:wrap;
 
         &__item.gitem{
-            width: 426px;
+            width: 425px;
             .gitem{
                 &__link{
                     // 商品画像
                     &__img{
-
+                        margin: 0 auto;
                     }
                     // 商品名
                     &__title{
@@ -38,13 +38,18 @@ h1{
                     }
                     // 商品値段
                     &__price{
-
+                        &__span{
+                            color: #999;
+                        }
                     }
                     // 商品購入ボタン・お気に入り登録
-                    &__box{
-                        &__btn{
-
-                        }
+                    
+                }
+                &__box{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: nowrap;
+                    &__btn{
                     }
                 }
             }
