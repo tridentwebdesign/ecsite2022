@@ -2,18 +2,56 @@
 pagination:
   data: goods
   size: 1
-  alias: goods
-permalink: 'goods/{{ pagination.goods[0].url | slugify }}/'
 ---
 
-<ul>
-	<li>{{ goods.name }}</li>
-	<li>{{ goods.price }}</li>
-</ul>
+    <div class="main__inner">
+      <div class="main__content">
+        <!-- 商品画像 -->
+        <div class="main__visaul">
+          <img src="./images/320x240_demo.png" alt="" class="main__visaul__img" width="320px" height="240px">
+        </div>
+        <!-- 商品紹介テキスト -->
+        <div class="main__text">
+          <h2 class="main__text__title">商品名</h2>
+          <!-- 値段・購入ボタン -->
+          <div class="main__text__bay bay">
+            <p class="bay__price">¥値段 <span class="bay__price__span">税込</span></p>
+            <!-- 購入ボタン -->
+            <a href="#" class="bay__btn"><p class="buy__btn__p">カート追加</p></a>
+          </div>
+          <!-- 商品紹介 -->
+          <p class="main__text__discriot">商品紹介　サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+          <!-- タグ -->
+          <ul class="main__text__g-tag g-tag">
+            <li class="g-tag__item">オモチャ</li>
+            <li class="g-tag__item">ミニカー</li>
+            <li class="g-tag__item">車</li>
+            <li class="g-tag__item">タカラトミー</li>
+          </ul>
+          <!-- 商品使用 -->
+          <div class="main__specification">
+            
+            <table border="1" class="main__table" >
+              <tr>
+                <th>ナンバー</th>
+                <td>09</td>
+              </tr>
+              <tr>
+                <th>タイプ</th>
+                <td>自動車</td>
+              </tr>
+              <tr>
+                <th>色</th>
+                <td>白</td>
+              </tr>
+            </table>
+          </div>
+        </div>
 
-<img src="/images/{{ goods.itemphotos[0] }}" />
-<img src="/images/{{ goods.itemphotos[1] }}" />
-<img src="/images/{{ goods.itemphotos[2] }}" />
+      </div>
+    </div>
+  </main>
+
 
 {# <!--  画像をループで取得 -->
 {% for photo in goods.itemphotos %}
