@@ -35,10 +35,16 @@ path: ../../css
               <li class="item__list">■品番<span class="item__span ml">{{ product.id }}</span></li>
               <li class="item__list">■カラー<span class="item__span">{{ product.colors }}</span></li>
               <li class="item__list">■サイズ<span class="item__span">{{ product.size }}</span></li>
-              {% if product.state === %}
+              {% if product.state === true %}
               <li class="item__list item-box">■数量<input type="number" class="item__count" name="count"></li>
+              {% endif %}
             </ul>
+            {% if product.state === true %}
             <input type="button" class="item__in" value="カートに入れる">
+            {% endif %}
+            {% if product.state === false %}
+            <input type="button" class="item__in" value="Sold Out">
+            {% endif %}
             <ul class="item__attention">
               <li class="item__matter">※発送は注文日から一週間ほどかかる場合がございます。</li>
               <li class="item__matter">※お問い合わせは各種SNSからお問い合わせください</li>
