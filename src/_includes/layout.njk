@@ -1,6 +1,8 @@
 ---
 title: レイアウトに指定したタイトル
 css: レイアウトに指定したスタイル
+js: JavaScript
+path: index.html
 ---
 
 <!DOCTYPE html>
@@ -14,15 +16,26 @@ css: レイアウトに指定したスタイル
 	</head>
 	<body>
 		<header class="header">
-			<h1 class="header__title">Card RARE</h1>
+			<h1 class="header__title"><a href="{{ path }}">CardRARE</a></h1>
 			<nav class="header__nav">
 				<ul class="header__flex">
-					<li class="header__item"><a href="index.html">HOME</a></li>
-					<li class="header__item"><a href="#product">ABOUT</a></li>
+					<li class="header__item"><a href="{{ path }}">HOME</a></li>
+					<li class="header__item"><a href="{{ path }}#product">ABOUT</a></li>
 				</ul>
 			</nav>
 		</header>
-		{{ content | safe }}
-		<script src="js/script.js"></script>
+		<main class="main">
+			{{ content | safe }}
+		</main>
+		<footer class="footer">
+			<h1 class="footer__title"><a href="{{ path }}">CardRARE</a></h1>
+			<nav class="footer__nav">
+				<ul class="footer__flex">
+					<li class="footer__item"><a href="{{ path }}">HOME</a></li>
+					<li class="footer__item"><a href="{{ path }}#product">PRODUCT</a></li>
+				</ul>
+			</nav>
+		</footer>
+		<script src="{{ js }}"></script>
 	</body>
 </html>

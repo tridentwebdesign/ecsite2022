@@ -6,13 +6,30 @@ pagination:
 permalink: 'products/{{ pagination.items[0].url | slugify }}/'
 title: 商品ページ | CardRARE
 css: ../../css/style.css
+js: ../../js/script2.js
+path: ../../index.html
 ---
 
-<ul>
-	<li>{{ pagination.items[0].name }}</li>
-	<li>{{ pagination.items[0].price }}</li>
-</ul>
+<div class="single">
+  <div class="single__block">
+    <div class="single__image">
+      <div class="single__image-main"><img src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt=""></div>
+      <img class="single__soldout single__soldout-{{ pagination.items[0].state }}" src="../../images/soldout.png" alt="">
+    </div>
+    <div class="single__flex">
+      <div class="single__item"><img src="../../images/{{ pagination.items[0].itemphotos[0] }}"/></div>
+      <div class="single__item"><img src="../../images/{{ pagination.items[0].itemphotos[1] }}"/></div>
+      <div class="single__item"><img src="../../images/{{ pagination.items[0].itemphotos[2] }}"/></div>
+    </div>
+  </div>
 
-<img src="../../images/{{ pagination.items[0].itemphotos[0] }}" />
-<img src="../../images/{{ pagination.items[0].itemphotos[1] }}" />
-<img src="../../images/{{ pagination.items[0].itemphotos[2] }}" />
+  <div class="single__block">
+    <h2 class="single__title">{{ pagination.items[0].name }}</h2>
+    <p class="single__price">{{ pagination.items[0].price }}</p>
+    <h3 class="single__subtitle">商品説明</h3>
+    <p class="single__text">{{ pagination.items[0].text }}</p>
+    <button class="single__button">購入画面へ進む</button>
+    <button class="single__button-sub">後で買うに追加する</button>
+    <a href="../../index.html" class="single__return">RETURN TO TOP</a>
+  </div>
+</div>
