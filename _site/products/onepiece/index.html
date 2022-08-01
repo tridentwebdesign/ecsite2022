@@ -37,6 +37,7 @@
 	<section class="main__products products">
 
 		<div class="products__flex">
+			<p class="products__sName2">フラワーハーネス</p>
 			<div class="products__sImg-all">
 				<div class="products__sImg">
 					<img class="products__mainimg" src="../../images/onepiece01.jpg" alt="">
@@ -46,10 +47,10 @@
 						<img class="products__imglist" src="../../images/onepiece01.jpg" alt="">
 					</div>
 					<div class="products__other-sImg">
-						<img class="products__imglist" src="../../images/" alt="">
+						<img class="products__imglist" src="../../images/onepiece02.jpg" alt="">
 					</div>
 					<div class="products__other-sImg">
-						<img class="products__imglist" src="../../images/" alt="">
+						<img class="products__imglist" src="../../images/onepiece03.jpg" alt="">
 					</div>
 					<div class="products__other-sImg">
 						<img class="products__imglist" src="../../images/" alt="">
@@ -68,43 +69,60 @@
 			<ul class="products__data">
 				<li class="products__pNumber">品番：FA002</li>
 				<li class="products__pColor">カラー：ブルーオレンジ</li>
-				<li class="products__pSize">サイズ</li>
+				<li class="products__pSize">サイズ：Mサイズ</li>
 			</ul>
 			<input type="number" class="products__number" name="iNumber" min="0" max="30" value="0">
 			
 			
 
-			<button class="products__btn">カートに入れる</button>
+			<button class="products__btnB">カートに入れる</button>
+
+			<div class="products__notes notes">
+                <p class="notes__text">
+                  ※こちらの価格には消費税が含まれています。
+                </p>
+                <p class="notes__text">※全品送料無料です。</p>
+              </div>
 			</div>
 		</div>
 	</section>
-	<ul>
-	
-	<li><a href="../products/harness"> harness </a></li>
-	
-	<li><a href="../products/dish"> dish </a></li>
-	
-	<li><a href="../products/bear-m"> bear-m </a></li>
-	
-	<li><a href="../products/bear-s"> bear-s </a></li>
-	
-	<li><a href="../products/onepiece"> onepiece </a></li>
-	
-	<li><a href="../products/rope"> rope </a></li>
-	
-	<li><a href="../products/tent"> tent </a></li>
-	
-	<li><a href="../products/ribbon"> ribbon </a></li>
-	
-	<li><a href="../products/alan"> alan </a></li>
-	
-	<li><a href="../products/icecream"> icecream </a></li>
-	
-</ul>
 </div>
 </main>
 
-<footer class="footer"></footer>
+<footer class="footer">
+	<div class="footer__inner">
+		<div class="footer__logo">
+			<h1 class="footer__title">
+				<a href="../index.html">
+              		<img src="../../images/logo.png" alt="MOFU" />
+            	</a>
+			</h1>
+		</div>
+	</div>
+	<div class="footer__mMagazine mMaga">
+          <p class="mMaga__title">MAIL MAGAZINE</p>
+          <p class="mMaga__text">最新情報をお届けします</p>
+          <div class="mMaga__textBox">
+            <input
+              type="email"
+              class="mMaga__email"
+              size="30"
+              placeholder="mof@example.com"
+            />
+            <input type="submit" class="mMaga__btn" value="&gt;" />
+          </div>
+        </div>
+		<nav class="footer__nav nav">
+          <ul class="nav__ul">
+            <li class="nav__li"><a href="#">FAQ</a></li>
+            <li class="nav__li"><a href="#">お問い合わせ</a></li>
+            <li class="nav__li"><a href="#">利用規約</a></li>
+            <li class="nav__li"><a href="#">特定商取引法に基づく表記</a></li>
+            <li class="nav__li"><a href="#">プライパシーポリシー</a></li>
+          </ul>
+        </nav>
+        <p class="footer__copy">©2022mofu_goodsshop</p>
+</footer>
 	</body>
 
 	<script src="../../js//more.js"></script>
