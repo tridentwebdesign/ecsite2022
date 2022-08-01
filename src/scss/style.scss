@@ -266,7 +266,7 @@ img {
       border-radius: 4px;
   }
     &__sell{
-      margin-top: 8px;
+      margin-top: 20px;
       padding: 6px;
       width: 100px;
       border-radius: 4px;
@@ -454,7 +454,7 @@ img {
 
       &__flex{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
       }
 
       &__sName{
@@ -468,7 +468,7 @@ img {
       }
 
       &__info{
-        margin-left: round(24em/16);
+        margin-left: round(40em/16);
         width: 40%;
       }
 

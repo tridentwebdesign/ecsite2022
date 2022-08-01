@@ -217,7 +217,7 @@ img {
   border-radius: 4px;
 }
 .main .products__sell {
-  margin-top: 8px;
+  margin-top: 20px;
   padding: 6px;
   width: 100px;
   border-radius: 4px;
@@ -356,7 +356,7 @@ img {
   }
   .main .products__flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .main .products__sName {
     display: block;
@@ -367,7 +367,7 @@ img {
     display: none;
   }
   .main .products__info {
-    margin-left: 2em;
+    margin-left: 3em;
     width: 40%;
   }
   .main .products__number {
