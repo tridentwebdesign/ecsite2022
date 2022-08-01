@@ -4,6 +4,14 @@ body{
     
 }
 
+.nasi{
+    width: 50%;
+    text-align: center;
+    color: aqua;
+    background-color: #8388e6;
+}
+
+
 
 a{
     color:rgb(103, 103, 103);
@@ -116,6 +124,7 @@ ul{
     justify-content: space-between;
 }
 .inner{
+    padding: 40px 0 40px 0 ;
         width: 80%;
         margin: auto;
 }

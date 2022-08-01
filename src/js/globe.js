@@ -14,6 +14,7 @@ for(let i=0;i<statas.length;i++){
         statas[i].innerHTML="在庫あり"
     }else{
         statas[i].innerHTML="在庫なし"
+        statas[i].classList.add("nasi");
     }
 }
 
