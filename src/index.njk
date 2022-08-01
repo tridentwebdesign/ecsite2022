@@ -30,17 +30,19 @@ csspath: ./css/
 
 
   
+  <div class="inner">
 <section class="Product">
  
   {%for i in goods%}
    <div class="main__box">
   <img class="main_w" src="./images/{{i.itemphotos[0]}}" alt="">
   <li><a href="./globe/{{i.url}}">{{i.name}}</a></li>
-  <li>{{i.price}}</li>
+  <li>¥{{i.price}}</li>
   <li class="statas">{{i.state}}</li>
    </div>
   {%endfor%}
 </section>
+  </div>
 <h1 class="button">もっと見る</h1>
 </div>
 <footer>

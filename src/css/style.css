@@ -95,7 +95,7 @@ ul{
     text-align: center;
 }
 .Product{
-    justify-content: center;
+    justify-content: space-between;
     display: flex; /* flexbox */
     flex-wrap: wrap; /* 折返し指定 */
   }
@@ -116,7 +116,8 @@ ul{
     justify-content: space-between;
 }
 .inner{
-        padding: 74px;
+        width: 80%;
+        margin: auto;
 }
 
 .more{
