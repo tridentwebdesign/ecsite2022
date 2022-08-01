@@ -136,17 +136,47 @@
     },
     {
         "itemphotos": [
-            "04clahuru.png",
-            "04clahuru2.png",
-            "04clahuru2.png"
+            "vanillas.png",
+            "vanillas2.png",
+            "vanillas.png"
         ],
-        "name": "Rubber Band",
+        "name": "でこ！ぼこ！LOGOラバーバンド",
         "price": 500,
+        "state": true,
+        "Artist": "go!go!vanillas",
+        "text": "2022年に開催された「青いの。ツアー 2022」で発売されたラバーバンドです。",
+        "id": 9,
+        "colors": "BLUE",
+        "url": "vanillas"
+    },
+    {
+        "itemphotos": [
+            "thisislast.png",
+            "thisislast2.png",
+            "thisislast.png"
+        ],
+        "name": "ウサギラバーバンド",
+        "price": 500,
+        "state": "subtle",
+        "Artist": "This is LAST",
+        "text": "2021年に開催されたライブで発売されたラバーバンドです。",
+        "id": 10,
+        "colors": "sky",
+        "url": "thisislast"
+    },
+    {
+        "itemphotos": [
+            "saidagarl.png",
+            "saidagarl2.png",
+            "saidagarl.png"
+        ],
+        "name": "スクエアロゴ・ラバーバンド",
+        "price": 600,
         "state": false,
-        "Artist": "04 Limited Sazabys",
-        "text": "2020年に開催されたYON EXPO'20で発売されたラバーバンドです。",
-        "id": 8,
-        "colors": "Gray",
-        "url": "04clahurus"
+        "Artist": "サイダーガール",
+        "text": "2020年に開催された東名阪自主企画「ぼくらのサイダーウォーズ4」で発売されたラバーバンドです。",
+        "id": 11,
+        "colors": "BLACK",
+        "url": "saidagarl"
     }
 ]
