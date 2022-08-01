@@ -14,6 +14,7 @@ img{
     max-width: 100%;
 }
 .header{
+    background-color: #65C1CC;
     &__inner{
         width: 70%;
         margin: 0 auto;
@@ -23,9 +24,17 @@ img{
         align-items: center;
         justify-content: space-between;
     }
+    &__link{
+        text-decoration: none;
+    }
     &__title{
+        color: #000;
+        text-decoration: none;
         margin: 30px 0 ;
-        font-size: rem(24);
+        font-size: rem(26);
+    }
+    &__img{
+        width: 10%;
     }
 }
 .g-nav{
@@ -107,6 +116,7 @@ img{
     
 }
 .rababan{
+    margin: rem(50) 0;
     &__flex{
         display: flex;
         justify-content: center;
@@ -156,6 +166,7 @@ img{
 }
 
 .footer{
+    background-color: #65C1CC;
     &__copy{
         padding: 100px 0 60px;
         display: block;
