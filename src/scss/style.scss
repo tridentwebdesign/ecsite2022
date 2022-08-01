@@ -404,6 +404,7 @@
         }
     
         .main{
+
         &__inner{
             @include inner-mb();
         }
@@ -413,6 +414,7 @@
     
             &__wrap{
                 @include inner-mb();
+                margin-bottom: 30px;
             }
             
             
