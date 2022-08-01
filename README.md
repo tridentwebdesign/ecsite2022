@@ -1,16 +1,10 @@
-# ecsite2022
-
-<!-- 初期データは削除します。 -->
-
-2022 年度 Web デザイン学科 WS1「JavaScript 演習」課題 SSG で EC サイト初期データ
-
 ## 完成品
 
-<!-- 完成後、ここにURLを貼ってください。-->
+https://harunixi.secret.jp/ecsite/
 
 ## Features
 
-<!-- セールスポイントや差別化などを説明する。-->
+メルカリを参考に、カードを売買できるようなECサイトの作成を目指しました。
 
 ## Requirement
 

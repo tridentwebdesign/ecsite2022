@@ -70,6 +70,11 @@ a {
             transition: .3s all;
         }
     }
+
+    &__text {
+        font-size: 1.25rem;
+        margin-top: 20px;
+    }
 }
 
 .card {
