@@ -97,7 +97,7 @@ img {
   .products{
 
     &__title{ 
-      margin-bottom: round(40em/16);
+      margin-bottom: round(32em/16);
       text-align: center;
       color: $color-accent;
     }
@@ -106,7 +106,6 @@ img {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-bottom: round(40em/16);
 
       &::after{
         content: "";
@@ -399,7 +398,15 @@ img {
     }
 
     .products{
+
+      &__title{ 
+        margin-bottom: round(40em/16);
+      }
+
       &__item-all{
+
+        margin-bottom: round(40em/16);
+
         &::after{
           width: 28%; /* .boxに指定したwidthと同じ幅を指定する */
         }

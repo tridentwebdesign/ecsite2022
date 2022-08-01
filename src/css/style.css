@@ -74,7 +74,7 @@ img {
   margin: 0 auto;
 }
 .main .products__title {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   text-align: center;
   color: #049DBF;
 }
@@ -82,7 +82,6 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 3em;
 }
 .main .products__item-all::after {
   content: "";
@@ -324,6 +323,12 @@ img {
     width: 70%;
     max-width: 1630px;
     margin: 0 auto;
+  }
+  .main .products__title {
+    margin-bottom: 3em;
+  }
+  .main .products__item-all {
+    margin-bottom: 3em;
   }
   .main .products__item-all::after {
     width: 28%; /* .boxに指定したwidthと同じ幅を指定する */
