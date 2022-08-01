@@ -96,7 +96,10 @@
     },
     {
         "itemphotos": [
-            "tent01.jpg"
+            "tent01.jpg",
+            "tent02.jpg",
+            "tent03.jpg",
+            "tent04.jpg"
         ],
         "name": "モダンペットテント",
         "price": 6400,
