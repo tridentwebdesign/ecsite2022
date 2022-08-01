@@ -1,4 +1,5 @@
 {
     "dartsass.outputFormat": "cssonly",
-    "dartsass.targetDirectory": "./src/css"
+    "dartsass.targetDirectory": "./src/css",
+    "liveServer.settings.port": 5501
 }
