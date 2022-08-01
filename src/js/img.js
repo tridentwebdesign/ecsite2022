@@ -2,9 +2,10 @@ let aa = document.querySelectorAll(".products__sell")
 for(let i=0;i<aa.length;i++){
     let text = aa[i].innerHTML;
     if(text =="true"){
-        aa[i].innerHTML="在庫有"
+        // aa[i].innerHTML="在庫有"
+        aa[i].remove();
     }else{
-        aa[i].innerHTML="在庫無"
+        aa[i].innerHTML="sold out"
     }
 }
 let imglist = document.querySelectorAll(".products__imglist")

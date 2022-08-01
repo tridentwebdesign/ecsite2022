@@ -1,21 +1,20 @@
 ---
 title: 記事タイトル
 layout: layout.njk
-csspath: ../../css/
-jspath: ../../js/
-imgpath: ../../images/
+csspath: ./css/
+jspath: ./js/
 ---
 
 <header class="header">
 	<div class="header__inner">
 		<div class="header__menu">
 			<h1 class="header__title">
-				<a href="../../index.html">
-		<img src="{{ imgpath }}logo.png" alt="MOFU">
+				<a href="../index.html">
+		<img src="./images/logo.png" alt="MOFU">
 		</a>
 	</h1>
 	<div class="header__cart">
-		<img src="{{ imgpath }}cart.svg" alt="">
+		<img src="./images/cart.svg" alt="">
 	</div>
 		</div>
 	</div>
@@ -29,7 +28,7 @@ imgpath: ../../images/
 		<article class="products__item">
 			<a href="../../products/{{ product.url }}">
 			<div class="products__img">
-				<img src="{{ imgpath }}{{ product.itemphotos[0] }}" alt="">
+				<img src="./images/{{ product.itemphotos[0] }}" alt="">
 			</div>
 			<p class="products__name">{{ product.name }}</p>
 			<p class="products__price">¥{{ product.price }}</p>
@@ -54,4 +53,37 @@ imgpath: ../../images/
 </div>
 </main>
 
-<footer class="footer"></footer>
+<footer class="footer">
+	<div class="footer__inner">
+		<div class="footer__logo">
+			<h1 class="footer__title">
+				<a href="../index.html">
+              		<img src="./images/logo.png" alt="MOFU" />
+            	</a>
+			</h1>
+		</div>
+	</div>
+	<div class="footer__mMagazine mMaga">
+          <p class="mMaga__title">MAIL MAGAZINE</p>
+          <p class="mMaga__text">最新情報をお届けします</p>
+          <div class="mMaga__textBox">
+            <input
+              type="email"
+              class="mMaga__email"
+              size="30"
+              placeholder="mof@example.com"
+            />
+            <input type="submit" class="mMaga__btn" value="&gt;" />
+          </div>
+        </div>
+		<nav class="footer__nav nav">
+          <ul class="nav__ul">
+            <li class="nav__li"><a href="#">FAQ</a></li>
+            <li class="nav__li"><a href="#">お問い合わせ</a></li>
+            <li class="nav__li"><a href="#">利用規約</a></li>
+            <li class="nav__li"><a href="#">特定商取引法に基づく表記</a></li>
+            <li class="nav__li"><a href="#">プライパシーポリシー</a></li>
+          </ul>
+        </nav>
+        <p class="footer__copy">©2022mofu_goodsshop</p>
+</footer>
