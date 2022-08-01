@@ -138,6 +138,9 @@ img {
 .rababan__item {
   margin: 1.25rem 0;
 }
+.rababan__state {
+  margin-bottom: 1.875rem;
+}
 .rababan__number {
   border: #000 1px solid;
   margin: 0 0 1.875rem 0.625rem;

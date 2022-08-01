@@ -22,7 +22,7 @@
         ],
         "name": "旬のラバーバンド",
         "price": 500,
-        "state": "FALSE",
+        "state": false,
         "Artist": "マカロニえんぴつ",
         "text": "2019年から2020年にかけて行われたマカロックツアーvol.8で登場したグッズです。",
         "id": 1,
@@ -37,7 +37,7 @@
         ],
         "name": "ユニフォームのロゴみたいなフォントのラババン",
         "price": 500,
-        "state": true,
+        "state": "subtle",
         "Artist": "マカロニえんぴつ",
         "text": "2021年春に行われたマカロックツアーvol.11 〜いま会いに行くをする篇〜」のツアーグッズです。",
         "id": 2,
@@ -67,7 +67,7 @@
         ],
         "name": "RUBBER BAND",
         "price": 550,
-        "state": true,
+        "state": "subtle",
         "Artist": "[Alexandros]",
         "text": "Alexandrosのラバーバンドグッズです。",
         "id": 4,
@@ -97,7 +97,7 @@
         ],
         "name": "目玉ロゴラバーバンド",
         "price": 500,
-        "state": true,
+        "state": "subtle",
         "Artist": "THE ORAL CIGARETTES",
         "text": "2020春に発売された目玉ロゴラバーバンドのグリーンイエローです。",
         "id": 6,
@@ -136,17 +136,17 @@
     },
     {
         "itemphotos": [
-            "mrseden.png",
-            "yonexpo2.png",
-            "yonexpo2.png"
+            "04clahuru.png",
+            "04clahuru2.png",
+            "04clahuru2.png"
         ],
-        "name": "EDEN no SONO Wristband",
-        "price": 600,
-        "state": true,
-        "Artist": "Mrs.GREENAPPLE",
-        "text": "2019年から2020年にかけて行われたMrs. GREEN APPLE ARENA TOUR エデンの園で発売されたグッズです",
-        "id": 0,
-        "colors": "green&red",
-        "url": "mrsedsaen"
+        "name": "Rubber Band",
+        "price": 500,
+        "state": false,
+        "Artist": "04 Limited Sazabys",
+        "text": "2020年に開催されたYON EXPO'20で発売されたラバーバンドです。",
+        "id": 8,
+        "colors": "Gray",
+        "url": "04clahurus"
     }
 ]
