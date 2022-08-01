@@ -9,7 +9,7 @@ https://ryukii-aroi-5021.sub.jp/_site/index.html
 
 ## Features
 
-<!-- セールスポイントや差別化などを説明する。-->
+自分の趣味の物が売っています。在庫なしのデザインを変えて差別化をしました。　
 
 ## Requirement
 
