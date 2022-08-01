@@ -120,31 +120,32 @@
         "url": "okou"
     }, {
         "itemphotos": [
-            "globe.png",
-            "globe_back.png",
-            "globe_side.png"
+            "volley_main.jpg",
+            "volley_kobetu.jpg",
+            "volley_kobetu2.jpg"
         ],
-        "name": "グローブ",
-        "price": 9000,
+        "name": "バレーボールシューズ",
+        "price": 10000,
         "state": true,
-        "text": "BODYMAKERのグローブ",
-        "id": 27002,
-        "colors": "カーキー",
-        "maker": "BODYMAKER",
+        "text": "ミズノのバレーボールシューズ",
+        "id": 30002,
+        "colors": "黄色　青",
+        "maker": "ミズノ",
         "url": "globe3"
-    },{
+    },
+    {
         "itemphotos": [
-            "globe.png",
-            "globe_back.png",
-            "globe_side.png"
+            "bottle_main.jpg",
+            "bottle_kobetu2.jpg",
+            "bottle_kobetu.jpg"
         ],
-        "name": "グローブ",
-        "price": 9000,
+        "name": "ボトル",
+        "price": 500,
         "state": true,
-        "text": "BODYMAKERのグローブ",
-        "id": 27002,
-        "colors": "カーキー",
-        "maker": "BODYMAKER",
+        "text": "SAVASのボトル",
+        "id": 27042,
+        "colors": "黒",
+        "maker": "SAVAS",
         "url": "globe2"
     }
 ]

@@ -4,11 +4,16 @@ body{
     
 }
 
+
 a{
     color:rgb(103, 103, 103);
 }
 .pc_title{
 font-size: 0;
+}
+
+.main_Vi{
+width: 100%;
 }
 
 .button{
