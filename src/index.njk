@@ -20,7 +20,7 @@ layout: layout.njk
 			{% for topPhoto in goods %}
 			{# 商品 #}
 			<div class="main__goods__item gitem {{ topPhoto.url }}">
-				<a href="goods/{{pagination.goods[0].url}}" class="gitem__link">
+				<a href="./goods/{{ topPhoto.url }}" class="gitem__link">
 					<img src="images/{{ topPhoto.itemphotos[0] }}" alt="{{ topPhotos.name }}メイン画像" class="gitem__img"/>
 					<h2 class="gitem__title">{{ topPhoto.name }}</h2>
 					<p class="gitem__price">￥{{ topPhoto.price }}<span class="gitem__price__span">税込み</span></p>
