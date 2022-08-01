@@ -60,10 +60,12 @@ button.addEventListener("click",function(){
        console.log("テスト")
     for(let i= 9;i<view.length;i++){
         view[i].setAttribute("style","display:block");
+        button.innerHTML = "view close"
     }
    }else{
     for(let i= 9;i<view.length;i++){
         view[i].setAttribute("style","display:none");
+        button.innerHTML = "view more"
     }
    }
     
