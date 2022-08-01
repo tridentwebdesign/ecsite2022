@@ -40,7 +40,10 @@
     }
 
     &__cart{
-        width: 6%;
+        width: 10%;
+        @include pc{
+            width: 6%;
+        }
     }
 
     &__icon{

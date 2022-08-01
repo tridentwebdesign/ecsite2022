@@ -27,7 +27,12 @@
   text-align: center;
 }
 .header__cart {
-  width: 6%;
+  width: 10%;
+}
+@media (min-width: 800px) {
+  .header__cart {
+    width: 6%;
+  }
 }
 .header__icon {
   width: 100%;

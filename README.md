@@ -5,13 +5,13 @@
 2022 年度 Web デザイン学科 WS1「JavaScript 演習」課題 SSG で EC サイト
 
 ## 完成品
-
 <!-- 完成後、ここにURLを貼ってください。-->
 https://kita-yuiti.boy.jp/ecsite/
 
 ## Features
 
 <!-- セールスポイントや差別化などを説明する。-->
+自分の周りの物を売っています。soldoutしたものは買えないようにしています。
 
 ## Requirement
 
