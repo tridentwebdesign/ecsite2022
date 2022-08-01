@@ -140,7 +140,7 @@ img {
 }
 .rababan__number {
   border: #000 1px solid;
-  margin: 0 0 1.25rem 0.625rem;
+  margin: 0 0 1.875rem 0.625rem;
 }
 .rababan__imagbox {
   width: 35%;
@@ -152,7 +152,11 @@ img {
   width: 80%;
 }
 .rababan__attention {
-  margin: 1.25rem 0;
+  margin: 0.625rem 0;
+  font-size: 0.75rem;
+}
+.rababan__kesai {
+  margin: 0.3125rem 0;
   font-size: 0.75rem;
 }
 .rababan__button {

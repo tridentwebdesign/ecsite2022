@@ -139,7 +139,7 @@ img{
     }
     &__number{
         border: #000 1px solid;
-        margin: 0 0 rem(20) rem(10);
+        margin: 0 0 rem(30) rem(10);
     }
     &__imagbox{
         width: 35%;
@@ -151,7 +151,11 @@ img{
         width: 80%;
     }
     &__attention{
-        margin: rem(20) 0;
+        margin: rem(10) 0;
+        font-size: rem(12);
+    }
+    &__kesai{
+        margin: rem(5) 0;
         font-size: rem(12);
     }
     &__button{
