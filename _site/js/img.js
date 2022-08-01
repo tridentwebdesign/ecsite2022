@@ -16,4 +16,3 @@ for(let i=0;i<imglist.length;i++){
         mainimg.setAttribute("src",code)
     })
 }
-

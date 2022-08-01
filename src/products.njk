@@ -76,7 +76,7 @@ imgpath: ../../images/
 				<li class="products__pColor">カラー：{{ product.colors }}</li>
 				<li class="products__pSize">サイズ：{{ product.size }}</li>
 			</ul>
-			<input type="number" class="products__number" name="iNumber" min="0" max="30" value="0">
+			<input type="number" class="products__number" name="iNumber" min="0" max="30">
 			{# {% if  {{ product.state }} %}
 			//==を書く
 			{% else %} #}
@@ -86,7 +86,7 @@ imgpath: ../../images/
 
 			<div class="products__notes notes">
                 <p class="notes__text">
-                  ※こちらの価格には消費税が含まれています。
+                  ※こちらの商品の価格には消費税が含まれています。
                 </p>
                 <p class="notes__text">※全品送料無料です。</p>
               </div>
@@ -100,7 +100,7 @@ imgpath: ../../images/
 	<div class="footer__inner">
 		<div class="footer__logo">
 			<h1 class="footer__title">
-				<a href="../index.html">
+				<a href="../../index.html">
               		<img src="{{ imgpath }}logo.png" alt="MOFU" />
             	</a>
 			</h1>

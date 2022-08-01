@@ -59,7 +59,7 @@ img {
     }
 
     &__menu{
-      padding-top:round(32em/16);
+      padding-top:round(20em/16);
       display: flex;
         justify-content: space-between;
         align-items: center;
@@ -87,7 +87,7 @@ img {
 }
 
 .main{
-  margin: round(88em/16) 0 round(88em/16);
+  margin: round(64em/16) 0 round(64em/16);
 
   &__inner{
     @include inner($width: 85%);
@@ -148,6 +148,7 @@ img {
     }
 
     &__sell{
+      margin-top: round(16em/16);
       padding: 6px;
       width: 100px;
       border-radius: 4px;
@@ -255,7 +256,7 @@ img {
     }
 
     &__text{
-      margin: round(20em/16) 0 round(20em/16);
+      margin: round(20em/16) 0 round(24em/16);
     }
 
     &__number{
@@ -274,6 +275,23 @@ img {
       text-align: center;
       color: $color-white;
       background-color: $color-sold;
+    }
+
+    &__pNumber{
+      margin-bottom: 6px;
+    }
+
+    &__pColor{
+      margin-bottom: 6px;
+    }
+
+    .notes{
+      margin-top: round(16em/16);
+
+      &__text{
+        margin-top: 8px;
+        font-size: 14px;
+      }
     }
   }
 
@@ -367,6 +385,10 @@ img {
     &__title{
       width: 16%;
     }
+
+    &__menu{
+      padding-top:round(32em/16);
+    }
   }
 
   .main{
@@ -386,6 +408,10 @@ img {
       &__item{
         width: 28%;
         margin-bottom: round(32em/16);
+      }
+
+      &__sell{
+        margin-top: 8px;
       }
     }
   }
