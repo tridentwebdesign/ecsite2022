@@ -1,0 +1,18 @@
+---
+layout: layout.njk
+pagination:
+  data: products
+  size: 1
+permalink: 'products/{{ pagination.items[0].url | slugify }}/'
+title: 商品ページ | CardRARE
+css: ../../css/style.css
+---
+
+<ul>
+	<li>{{ pagination.items[0].name }}</li>
+	<li>{{ pagination.items[0].price }}</li>
+</ul>
+
+<img src="../../images/{{ pagination.items[0].itemphotos[0] }}" />
+<img src="../../images/{{ pagination.items[0].itemphotos[1] }}" />
+<img src="../../images/{{ pagination.items[0].itemphotos[2] }}" />

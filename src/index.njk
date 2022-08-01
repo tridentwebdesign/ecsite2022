@@ -1,9 +1,21 @@
 ---
-title: 記事タイトル
+title: CardRARE
 layout: layout.njk
+css: ./css/style.css
 ---
-
-<h1>{{ title }}</h1>
-<ul>
-	<li><a href="./about/index.html">article</a></li>
-</ul>
+<div class="product">
+<!-- 各sectionをループで作成 -->
+{% for topPhoto in products %}
+	<section class="product__card {{ topPhoto.url }}">
+		<a href="products/{{ topPhoto.url }}/">
+		<div class="main">
+			<img class="main__image" src="images/{{ topPhoto.itemphotos[0] }}" alt="{{ topPhoto.name }}メイン画像" />
+			<img class="main__soldout main__soldout-{{ topPhoto.state }}" src="images/soldout.png" alt="">
+			<p class="main__price">{{ topPhoto.price }}</p>
+		</div>
+		<p class="product__text">{{ topPhoto.name }}</p>
+		</a>
+	</section>
+{% endfor %}
+<button class="product__button">MORE</button>
+</div>

@@ -1,7 +1,3 @@
----
-title: レイアウトに指定したタイトル
-css: レイアウトに指定したスタイル
----
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -9,8 +5,8 @@ css: レイアウトに指定したスタイル
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-		<link rel="stylesheet" href="{{ css }}" />
-		<title>{{ title }}</title>
+		<link rel="stylesheet" href="../../css/style.css" />
+		<title>商品ページ | CardRARE</title>
 	</head>
 	<body>
 		<header class="header">
@@ -22,7 +18,15 @@ css: レイアウトに指定したスタイル
 				</ul>
 			</nav>
 		</header>
-		{{ content | safe }}
+		
+<ul>
+	<li>遊戯王 アジア版 引退品</li>
+	<li>¥60,000</li>
+</ul>
+
+<img src="../../images/asian_version1.jpg" />
+<img src="../../images/asian_version2.jpg" />
+<img src="../../images/asian_version3.jpg" />
 		<script src="js/script.js"></script>
 	</body>
 </html>
