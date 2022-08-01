@@ -1,12 +1,12 @@
 [
     {
         "itemphotos": [
-            "バングル3トップ.jpg",
-            "バングル3−1.jpg",
-            "バングル3−2.jpg",
-            "バングル3−3.jpg",
-            "バングル3−4.jpg",
-            "バングル3−5.jpg"
+            "bangle3top.jpg",
+            "bangle3−1.jpg",
+            "bangle3−2.jpg",
+            "bangle3−3.jpg",
+            "bangle3−4.jpg",
+            "bangle3−5.jpg"
         ],
         "name": "バングル",
         "price": "15,000",
@@ -19,12 +19,12 @@
     },
     {
         "itemphotos": [
-            "イヤリングトップ.jpg",
-            "イヤリング１.jpg",
-            "イヤリング２.jpg",
-            "イヤリング３.jpg",
-            "イヤリング４.jpg",
-            "イヤリング５.jpg"
+            "earringstop.jpg",
+            "earrings1.jpg",
+            "earrings2.jpg",
+            "earrings3.jpg",
+            "earrings4.jpg",
+            "earrings5.jpg"
         ],
         "name": "イヤリング",
         "price": "1,500",
@@ -37,12 +37,12 @@
     },
     {
         "itemphotos": [
-            "リング1トップ.jpg",
-            "リング1−1.jpg",
-            "リング1−2.jpg",
-            "リング1−3.jpg",
-            "リング1−4.jpg",
-            "リング1−5.jpg"
+            "ring1top.jpg",
+            "ring1−1.jpg",
+            "ring1−2.jpg",
+            "ring1−3.jpg",
+            "ring1−4.jpg",
+            "ring1−5.jpg"
         ],
         "name": "リング",
         "price": "1,000",
@@ -55,12 +55,12 @@
     },
     {
         "itemphotos": [
-            "バングル1トップ.jpg",
-            "バングル1−1.jpg",
-            "バングル1−2.jpg",
-            "バングル1−3.jpg",
-            "バングル1−4.jpg",
-            "バングル1−5.jpg"
+            "bangle1top.jpg",
+            "bangle1−1.jpg",
+            "bangle1−2.jpg",
+            "bangle1−3.jpg",
+            "bangle1−4.jpg",
+            "bangle1−5.jpg"
         ],
         "name": "バングル",
         "price": "5,000",
@@ -89,12 +89,12 @@
     },
     {
         "itemphotos": [
-            "リング2−1.jpg",
-            "リング2−2.jpg",
-            "リング2−3.jpg",
-            "リング2−4.jpg",
-            "リング2−5.jpg",
-            "リング2−6.jpg"
+            "ring2−1.jpg",
+            "ring2−2.jpg",
+            "ring2−3.jpg",
+            "ring2−4.jpg",
+            "ring2−5.jpg",
+            "ring2−6.jpg"
         ],
         "name": "チェーンリング",
         "price": "7,000",
@@ -107,12 +107,12 @@
     },
     {
         "itemphotos": [
-            "バングル2トップ.jpg",
-            "バングル2−1.jpg",
-            "バングル2−2.jpg",
-            "バングル2−3.jpg",
-            "バングル2−4.jpg",
-            "バングル2−5.jpg"
+            "bangle2top.jpg",
+            "bangle2−1.jpg",
+            "bangle2−2.jpg",
+            "bangle2−3.jpg",
+            "bangle2−4.jpg",
+            "bangle2−5.jpg"
         ],
         "name": "ブレスレット",
         "price": 500,
@@ -125,12 +125,12 @@
     },
     {
         "itemphotos": [
-            "バングル6トップ.jpg",
-            "バングル6−1.jpg",
-            "バングル6−2.jpg",
-            "バングル6−3.jpg",
-            "バングル6−4.jpg",
-            "バングル6−5.jpg"
+            "bangle6top.jpg",
+            "bangle6−1.jpg",
+            "bangle6−2.jpg",
+            "bangle6−3.jpg",
+            "bangle6−4.jpg",
+            "bangle6−5.jpg"
         ],
         "name": "ブレスレット",
         "price": "1,000",
@@ -143,12 +143,12 @@
     },
     {
         "itemphotos": [
-            "バングル5トップ.jpg",
-            "バングル5−1.jpg",
-            "バングル5−2.jpg",
-            "バングル5−3.jpg",
-            "バングル5−4.jpg",
-            "バングル5−5.jpg"
+            "bangle5top.jpg",
+            "bangle5−1.jpg",
+            "bangle5−2.jpg",
+            "bangle5−3.jpg",
+            "bangle5−4.jpg",
+            "bangle5−5.jpg"
         ],
         "name": "ブレスレット",
         "price": "1,250",
@@ -161,11 +161,11 @@
     },
     {
         "itemphotos": [
-            "バングル4トップ.jpg",
-            "バングル4−1.jpg",
-            "バングル4−2.jpg",
-            "バングル4−3.jpg",
-            "バングル4−4.jpg"
+            "bangle4top.jpg",
+            "bangle4−1.jpg",
+            "bangle4−2.jpg",
+            "bangle4−3.jpg",
+            "bangle4−4.jpg"
         ],
         "name": "ブレスレット",
         "price": "3,520",
