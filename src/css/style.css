@@ -138,11 +138,11 @@ img {
   width: 80%;
 }
 .rababan__attention {
+  margin: 1.25rem 0;
   font-size: 0.75rem;
 }
 .rababan__button {
   width: 40%;
-  display: block;
   text-decoration: none;
   text-align: center;
   padding: 0.9375rem 2.5rem;
@@ -203,6 +203,7 @@ img {
     width: 100%;
   }
   .rababan__button {
+    display: block;
     width: 100%;
     margin: 0 auto;
   }
