@@ -5,52 +5,69 @@ csspath: ./css/
 ---
 
 <header>
-
 <h1>{{ title }}</h1>
-<ul>
-    <li>
-        <a href="#">home</a>
-    </li>
-    <li>
-        <a href="./about">about</a>
-    </li>
-    <li>
-        <a href="#">カート内</a>
-    </li>
-</ul>
-
+<div class="nav">
+    <ul class="nav__Ulist">
+        <li class="nav__list">
+            <a class="nav__link" href="#">home</a>
+        </li>
+        <li class="nav__list">
+            <a class="nav__link"href="./about">about</a>
+        </li>
+        <li class="nav__list">
+            <a class="nav__link" href="#">カ</a>
+        </li>
+    </ul>
+</div>
 </header>
 
 <main>
-
-<h2>item</h2>
-<ul>
-    {% for good in goods %}
-    <li><a href="../about/{{ about.name }}"> {{ about.name }} </a></li>
-    {% endfor %}
-</ul>
-
-<h2>more</h2>
-
-<ul>
-    <li>
-        <a href="#">ホーム</a>
-        </li>
-    <li>
-        <a href="#">ツイッター</a>
-        </li>
-    <li>
-        <a href="#">フェイスブック</a>
-        </li>
-    <li>
-        <a href="#">インスタグラム</a>
-        </li>
-</ul>
-
+    <div class="item">
+        <div class="item__h2">
+            <h2 class="item__title">商品一覧</h2>
+        </div>
+        
+        <div class="item__list inner">
+            {% for good in goods %}
+            <section class="item__group">
+                <a class="item__link" href="./goods/{{ good.url }}"> 
+                    <img src="./images/{{ good.images[0] }}" />
+                    <ul class="item__ul">
+                    <li class="item__name">{{ good.name }} </li>
+                    <li class="item__price">¥{{ good.price }}</li>
+                    {% if good.state === false %}
+                    <li class="item__stock">Sold out</li>
+                    {% endif %}
+                    </ul>
+                </a>
+            </section>
+            {% endfor %}
+        </div> 
+        
+        
+        <div class="btn__area">
+            <button class="btn__more">もっと見る</button>
+        </div>
+    </div>
 </main>
 
 <footer>
-
-<small></small>
-
+    <div class="foot">
+        <ul class="foot__Ulist">
+            <li class="foot__list">
+                <a class="foot__link" href="#">
+                    <img src="images/home.png"/>
+                </a>
+            </li>
+            <li class="foot__list">
+                <a class="foot__link" href="#"><img src="images/LINE.png"/></a>
+            </li>
+            <li class="foot__list"><a class="foot__link" href="#"><img src="images/twitter.png"/></a>
+            </li>
+            <li class="foot__list">
+                <a class="foot__link" href="#"><img src="images/instagram.png"/></a>
+            </li>
+        </ul>
+    </div>
+    <small>@oota manaya</small>
 </footer>

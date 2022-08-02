@@ -7,69 +7,159 @@
 		<title>Myshop</title>
         <link rel="stylesheet" href="./css/ress.min.css">
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/5-2-4.css">
 	</head>
 	<body>
 		
 <header>
-
 <h1>Myshop</h1>
-<ul>
-    <li>
-        <a href="#">home</a>
-    </li>
-    <li>
-        <a href="./about">about</a>
-    </li>
-    <li>
-        <a href="#">カート内</a>
-    </li>
-</ul>
-
+<div class="nav">
+    <ul class="nav__Ulist">
+        <li class="nav__list">
+            <a class="nav__link" href="#">home</a>
+        </li>
+        <li class="nav__list">
+            <a class="nav__link"href="./about">about</a>
+        </li>
+        <li class="nav__list">
+            <a class="nav__link" href="#">カ</a>
+        </li>
+    </ul>
+</div>
 </header>
 
 <main>
-
-<h2>item</h2>
-<ul>
-    
-    <li><a href="../about/">  </a></li>
-    
-    <li><a href="../about/">  </a></li>
-    
-    <li><a href="../about/">  </a></li>
-    
-    <li><a href="../about/">  </a></li>
-    
-    <li><a href="../about/">  </a></li>
-    
-    <li><a href="../about/">  </a></li>
-    
-</ul>
-
-<h2>more</h2>
-
-<ul>
-    <li>
-        <a href="#">ホーム</a>
-        </li>
-    <li>
-        <a href="#">ツイッター</a>
-        </li>
-    <li>
-        <a href="#">フェイスブック</a>
-        </li>
-    <li>
-        <a href="#">インスタグラム</a>
-        </li>
-</ul>
-
+    <div class="item">
+        <div class="item__h2">
+            <h2 class="item__title">商品一覧</h2>
+        </div>
+        
+        <div class="item__list inner">
+            
+            <section class="item__group">
+                <a class="item__link" href="./goods/fun"> 
+                    <img src="./images/handy1.png" />
+                    <ul class="item__ul">
+                    <li class="item__name">手持ち扇風機オーロラ </li>
+                    <li class="item__price">¥3,200</li>
+                    
+                    <li class="item__stock">Sold out</li>
+                    
+                    </ul>
+                </a>
+            </section>
+            
+            <section class="item__group">
+                <a class="item__link" href="./goods/AirPods"> 
+                    <img src="./images/airpods1.png" />
+                    <ul class="item__ul">
+                    <li class="item__name">Airpods 第三世代 </li>
+                    <li class="item__price">¥24,860</li>
+                    
+                    </ul>
+                </a>
+            </section>
+            
+            <section class="item__group">
+                <a class="item__link" href="./goods/demo"> 
+                    <img src="./images/demo1.png" />
+                    <ul class="item__ul">
+                    <li class="item__name">デモゴルゴン　キーホルダ </li>
+                    <li class="item__price">¥980</li>
+                    
+                    </ul>
+                </a>
+            </section>
+            
+            <section class="item__group">
+                <a class="item__link" href="./goods/cap"> 
+                    <img src="./images/cap1.png" />
+                    <ul class="item__ul">
+                    <li class="item__name">ニューエラ　キャップ </li>
+                    <li class="item__price">¥7,000</li>
+                    
+                    </ul>
+                </a>
+            </section>
+            
+            <section class="item__group">
+                <a class="item__link" href="./goods/chair"> 
+                    <img src="./images/chair1.png" />
+                    <ul class="item__ul">
+                    <li class="item__name">座椅子 </li>
+                    <li class="item__price">¥5,030</li>
+                    
+                    <li class="item__stock">Sold out</li>
+                    
+                    </ul>
+                </a>
+            </section>
+            
+            <section class="item__group">
+                <a class="item__link" href="./goods/perfume"> 
+                    <img src="./images/perfume1.png" />
+                    <ul class="item__ul">
+                    <li class="item__name">CHANEL 香水 </li>
+                    <li class="item__price">¥12,000</li>
+                    
+                    </ul>
+                </a>
+            </section>
+            
+            <section class="item__group">
+                <a class="item__link" href="./goods/battery"> 
+                    <img src="./images/battery1.png" />
+                    <ul class="item__ul">
+                    <li class="item__name">モバイルバッテリー </li>
+                    <li class="item__price">¥3,580</li>
+                    
+                    </ul>
+                </a>
+            </section>
+            
+            <section class="item__group">
+                <a class="item__link" href="./goods/watch"> 
+                    <img src="./images/watch1.png" />
+                    <ul class="item__ul">
+                    <li class="item__name">apple watch </li>
+                    <li class="item__price">¥48,000</li>
+                    
+                    <li class="item__stock">Sold out</li>
+                    
+                    </ul>
+                </a>
+            </section>
+            
+        </div> 
+        
+        
+        <div class="btn__area">
+            <button class="btn__more">もっと見る</button>
+        </div>
+    </div>
 </main>
 
 <footer>
-
-<small></small>
-
+    <div class="foot">
+        <ul class="foot__Ulist">
+            <li class="foot__list">
+                <a class="foot__link" href="#">
+                    <img src="images/home.png"/>
+                </a>
+            </li>
+            <li class="foot__list">
+                <a class="foot__link" href="#"><img src="images/LINE.png"/></a>
+            </li>
+            <li class="foot__list"><a class="foot__link" href="#"><img src="images/twitter.png"/></a>
+            </li>
+            <li class="foot__list">
+                <a class="foot__link" href="#"><img src="images/instagram.png"/></a>
+            </li>
+        </ul>
+    </div>
+    <small>@oota manaya</small>
 </footer>
 
+		<script src="/js/index.js"></script>
 	</body>
 </html>

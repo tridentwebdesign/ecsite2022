@@ -1,96 +1,130 @@
 ﻿[
     {
         "images": [
-            "1109100011516_d0.jpg",
-            "handy1.jpg",
-            "handy2.jpg"
+            "handy1.png",
+            "handy2.png",
+            "handy3.png",
+            "handy4.png"
         ],
         "name": "手持ち扇風機オーロラ",
-        "price": 3200,
+        "price": "3,200",
         "state": false,
         "text": "卓上でも携帯型でも使える2WAYタイプのフレハンディファン。パワフルな風量と静音性を兼ね備えているだけでなく、充電すれば最長9時間連続で使えるのも嬉しいポイント！",
         "id": 1,
         "colors": "水色",
         "maker": "Francfranc",
-        "url": null
+        "url": "fun"
     },
     {
         "images": [
-            "1109100011516_d0.jpg",
-            "handy1.jpg",
-            "handy2.jpg"
+            "airpods1.png",
+            "airpods2.png",
+            "airpods3.png",
+            "airpods4.png"
         ],
         "name": "Airpods 第三世代",
-        "price": 24860,
+        "price": "24,860",
         "state": true,
         "text": "AirPodsを設定するには、AirPodsが入ったケースの蓋を開けて、iPhoneまたはiPadに近付けてから、画面に表示される指示に従います。",
         "id": 2,
         "colors": "白",
         "maker": "Apple",
-        "url": null
+        "url": "AirPods"
     },
     {
         "images": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
-        ],
-        "name": "mac book air",
-        "price": 124000,
-        "state": false,
-        "text": "業界をリードするプライバシー機能とクラス最高のセキュリティも用意されているので、安心して使えます。",
-        "id": 3,
-        "colors": "黒",
-        "maker": "Apple",
-        "url": null
-    },
-    {
-        "images": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "demo1.png",
+            "demo2.png",
+            "demo3.png",
+            "demo4.png"
         ],
         "name": "デモゴルゴン　キーホルダ",
         "price": 980,
         "state": true,
         "text": "ストレンジャーシングスに登場するキャラクターのストラップ。",
         "id": 4,
-        "colors": "黒",
+        "colors": "茶色",
         "maker": "レゴ　キーリング",
-        "url": null
+        "url": "demo"
     },
     {
         "images": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "cap1.png",
+            "cap2.png",
+            "cap3.png",
+            "cap4.png"
         ],
-        "name": "水筒",
-        "price": 1580,
+        "name": "ニューエラ　キャップ",
+        "price": "7,000",
         "state": true,
-        "text": "styleusの500mlの水筒。カラーはブラックで生産国は中国。",
+        "text": "メジャーリーグ・ベースボールの公式選手用オンフィールドキャップにも採用されているLP 59FIFTYは クラウンが低くデザインされ、バイザーはプレカーブ仕様となっています。 ",
         "id": 5,
         "colors": "黒",
-        "maker": "styleus",
-        "url": null
+        "maker": "NEW ERA",
+        "url": "cap"
     },
     {
         "images": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "chair1.png",
+            "chair2.png",
+            "chair3.png",
+            "chair4.png"
         ],
         "name": "座椅子",
-        "price": 5030,
-        "state": true,
+        "price": "5,030",
+        "state": false,
         "text": "Francfrancならではのフリルが可愛い座椅子です。起毛生地のフリルがかわいらしくFrancfrancの家具や雑貨とあわせやすいアイテムです。",
         "id": 6,
-        "colors": "黒",
+        "colors": "灰色",
         "maker": "Francfranc",
-        "url": null
+        "url": "chair"
+    },
+    {
+        "images": [
+            "perfume1.png",
+            "perfume2.png",
+            "perfume3.png",
+            "perfume1.png"
+        ],
+        "name": "CHANEL 香水",
+        "price": "12,000",
+        "state": true,
+        "text": "IKEAのベッドトレイです。やタブレットを立てておく溝があるので、ベッドでコーヒーを飲みながら、本を読んだり、タブレットを見たりできます。",
+        "id": 7,
+        "colors": "ピンク",
+        "maker": "CHANEL",
+        "url": "perfume"
+    },
+    {
+        "images": [
+            "battery1.png",
+            "battery2.png",
+            "battery3.png",
+            "battery4.png"
+        ],
+        "name": "モバイルバッテリー",
+        "price": "3,580",
+        "state": true,
+        "text": "大容量のモバイルバッテリー",
+        "id": 8,
+        "colors": "赤",
+        "maker": "不明",
+        "url": "battery"
+    },
+    {
+        "images": [
+            "watch1.png",
+            "watch2.png",
+            "watch3.png",
+            "watch4.png"
+        ],
+        "name": "apple watch",
+        "price": "48,000",
+        "state": false,
+        "text": "Apple Watch SE",
+        "id": 9,
+        "colors": "青",
+        "maker": "Apple",
+        "url": "watch"
     }
 ]

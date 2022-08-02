@@ -1,0 +1,113 @@
+---
+title: Myshop
+layout: layout.njk
+csspath: ../../css/
+pagination:
+  data: goods
+  size: 1
+  alias: product
+permalink: 'goods/{{ pagination.items[0].url | slugify }}/'
+---
+<header>
+<h1>{{ title }}</h1>
+<div class="nav">
+    <ul class="nav__Ulist">
+        <li class="nav__list">
+            <a class="nav__link" href="#">home</a>
+        </li>
+        <li class="nav__list">
+            <a class="nav__link"href="./about">about</a>
+        </li>
+        <li class="nav__list">
+            <a class="nav__link" href="#">カ</a>
+        </li>
+    </ul>
+</div>
+</header>
+<div class="pc">
+    <div class="goods">
+        <img class="goods__main-img" src="/images/{{ product.images[0] }}"></img>
+        <ul class="goods__Ulist">
+            <li class="goods__list"><img class="goods__images" src="/images/{{ product.images[0] }}"></img></li>
+            <li class="goods__list"><img class="goods__images" src="/images/{{ product.images[1] }}"></img></li>
+            <li class="goods__list"><img class="goods__images" src="/images/{{ product.images[2] }}"></img></li>
+            <li class="goods__list"><img class="goods__images" src="/images/{{ product.images[3] }}"></img></li>
+        </ul>
+    </div>
+
+    <div class="exp">
+        <p class="exp__name">{{ product.name }}</p>
+        <p class="exp__price">¥{{ product.price }}</p>
+            {% if good.state === false %}
+                <p class="exp__stock">Sold out</p>
+            {% endif %}   
+        <div class="exp__group">
+            <p class="exp__text">{{ product.text }}</p>
+            <p class="exp__pn">▼品番<br>{{ product.maker }}</p>
+            <p class="exp__color">▼カラー<br>{{ product.colors }}</p>
+            <p class="exp__size">▼サイズ<br>20cm</p>
+            <div class="exp__quantity">
+                <p class="exp__quantity-number">▼数量</p>
+                <select name="number" class="exp__select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="ov__group">
+            <button class="ov__cart">カートに入れる</button>
+            <div class="ov__text-color">
+                <p class="ov__delivery ov__text">※この商品は最短で6月30日（木）頃にお届けします。</p>
+                <p class="ov__price ov__text">※こちらの価格には消費税が含まれています。</p>
+                <p class="ov__postage ov__text">※この商品は送料無料です。</p>
+                <p class="ov__postage2 ov__text">¥8,250以上のご注文で国内送料が無料になります。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="others">
+    <div class="others__h2">
+        <h2 class="others__title">商品一覧</h2>
+    </div>
+        <div class="others__list inner">
+            {% for good in goods %}
+            <section class="others__group">
+                <a class="others__link" href="./goods/{{ good.url }}"> 
+                    <img src="../../images/{{ good.images[0] }}" />
+                    <ul class="others__ul">
+                    <li class="others__name">{{ good.name }} </li>
+                    <li class="others__price">¥{{ good.price }}</li>
+                    {% if good.state === false %}
+                    <li class="others__stock">Sold out</li>
+                    {% endif %}
+                    </ul>
+                </a>
+            </section>
+            {% endfor %}
+        </div>
+    </div>
+<footer>
+    <h1 class="foot-h1">{{ title }}</h1>
+    <div class="pp">
+        <a class="pp__policy" href="">プライバシーポリシー</a>
+        <a class="pp__policy" href="">特定取引法の基づく表記</a>
+    </div>
+    <div class="foot">
+        <ul class="foot__Ulist">
+            <li class="foot__list">
+                <a class="foot__link" href="#"><img src="../../images/home.png"/></a>
+            </li>
+            <li class="foot__list">
+                <a class="foot__link" href="#"><img src="../../images/LINE.png"/></a>
+            </li>
+            <li class="foot__list"><a class="foot__link" href="#"><img src="../../images/twitter.png"/></a>
+            </li>
+            <li class="foot__list">
+                <a class="foot__link" href="#"><img src="../../images/instagram.png"/></a>
+            </li>
+        </ul>
+    </div>
+    <small>@oota manaya</small>
+</footer>
