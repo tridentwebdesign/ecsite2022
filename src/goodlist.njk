@@ -71,7 +71,7 @@ permalink: 'goods/{{ pagination.items[0].url | slugify }}/'
         <div class="others__list inner">
             {% for good in goods %}
             <section class="others__group">
-                <a class="others__link" href="./goods/{{ good.url }}"> 
+                <a class="others__link" href="../../goods/{{ good.url }}"> 
                     <img src="../../images/{{ good.images[0] }}" />
                     <ul class="others__ul">
                     <li class="others__name">{{ good.name }} </li>
