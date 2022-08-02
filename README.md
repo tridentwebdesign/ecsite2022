@@ -19,6 +19,7 @@
 
 - 11ty@eleventy 1.0.1
 - Nunjucks
+- JavaScript
 
 # Author
 
