@@ -10,23 +10,20 @@
 		<link rel="stylesheet" type="text/css" href="css/5-2-4.css">
 	</head>
 	<body>
-		<header>
-<h1>Myshop</h1>
-<div class="nav">
-    <ul class="nav__Ulist">
-        <li class="nav__list">
-            <a class="nav__link" href="#">home</a>
-        </li>
-        <li class="nav__list">
-            <a class="nav__link"href="./about">about</a>
-        </li>
-        <li class="nav__list">
-            <a class="nav__link" href="#">カ</a>
-        </li>
-    </ul>
+		
+<header class="head-good">
+<div class="navtext-container">
+      <div class="navtext"><h1>Myshop</h1></div>
 </div>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="top"><a href="#home">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#cart">cart</a></li>
+    </ul>
 </header>
-<div class="pc">
+<div class="pc inner">
     <div class="goods">
         <img class="goods__main-img" src="/images/battery1.png"></img>
         <ul class="goods__Ulist">

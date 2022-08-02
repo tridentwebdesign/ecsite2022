@@ -8,7 +8,6 @@ body {
     font-size: 16px;
     font-family: 'Crimson Text', "Yu Mincho Medium", "游明朝体", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
     color: #000;
-    width: 94%;
     max-width: 900px;
     margin: 0 auto;
     letter-spacing: 0.1em;
@@ -26,7 +25,7 @@ img {
 }
 
 a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -36,6 +35,14 @@ li {
 
 .inner {
     @include inner();
+}
+
+.first {
+    background-image: url(/images/cat.jpg);
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: (30/16)+em;
 }
 
 /* nav */
@@ -52,6 +59,7 @@ li {
     transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
     transform: scale(1, 0);
     transform-origin: top;
+    background-color: rgba(128, 128, 128, .7);
 }
 
 .menu-btn:checked~.menu {
@@ -165,6 +173,14 @@ li {
 }
 
 /* index */
+
+.head {
+    background: var(--background-navbar);
+    width: 100%;
+    height: 52px;
+    position: fixed;
+    z-index: 999;
+}
 
 .nav {
 
@@ -421,6 +437,14 @@ small {
         max-width: 1200px;
     }
 
+    head {
+        position: static;
+    }
+
+    .head-good {
+        margin: (60/16)+em;
+    }
+
     .nav {
         &__list {
             margin-right: (20/16)+em;
@@ -429,6 +453,21 @@ small {
         &__list:last-child {
             margin-right: 0;
         }
+    }
+
+    /* hum */
+    .menu-btn {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .first {
+        background-image: url(/images/test.jpg);
+        position: relative;
+        margin-bottom: (30/16)+em;
     }
 
     .item {
