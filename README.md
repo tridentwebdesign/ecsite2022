@@ -9,8 +9,9 @@
 http://ryota-rofu.greater.jp/11ty/index.html
 
 ## Features
+サイト名：Silver
 
-シルバーアクセサリーに特化したECサイトを制作しました。
+シルバーアクセサリーに特化したECサイト。
 商品が目立つように、統一感を意識して全体的にコンパクトにまとめました。
 
 ## Requirement
