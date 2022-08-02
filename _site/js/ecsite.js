@@ -60,11 +60,13 @@ button.addEventListener("click",function(){
        console.log("テスト")
     for(let i= 9;i<view.length;i++){
         view[i].setAttribute("style","display:block");
+        view[i].classList.add("fadeUp")
         button.innerHTML = "view close"
     }
    }else{
     for(let i= 9;i<view.length;i++){
         view[i].setAttribute("style","display:none");
+        view[i].classList.remove("fadeUp")
         button.innerHTML = "view more"
     }
    }

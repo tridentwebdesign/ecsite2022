@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   text-align: center;
 }
@@ -50,6 +51,37 @@ img {
   color: #000;
 }
 
+.fadeUp {
+  -webkit-animation-name: fadeUpAnime;
+          animation-name: fadeUpAnime; /*アニメーションの定義名*/
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s; /*アニメーション変化時間 ※デフォルト*/
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; /*アニメーションの開始と終了時の状態を指定*/
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .main {
   margin: 1.25rem 0;
 }
