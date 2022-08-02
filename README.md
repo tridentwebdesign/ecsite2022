@@ -22,7 +22,7 @@ https://ryukii-aroi-5021.sub.jp/_site/index.html
 
 - 作成者：船橋 隆希
 - 所属：トライデントコンピュータ専門学校 Web デザイン学科 2 年
-- 志望職種：　Webデザイナー　ECサイト運営
+- 志望職種：　Web担当者
 
 # License
 
