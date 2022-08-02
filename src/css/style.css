@@ -138,6 +138,9 @@ img {
 .rababan__item {
   margin: 1.25rem 0;
 }
+.rababan__cart {
+  margin-bottom: 1.25rem;
+}
 .rababan__state {
   margin-bottom: 1.875rem;
 }
