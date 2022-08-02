@@ -84,6 +84,15 @@
         }
     }
 
+    &__border{
+        border-bottom: 1px dashed #3c3c3c;
+        margin: 1em 0;
+    }
+
+    &__comment{
+        margin-bottom: 3em;
+    }
+
     &__text{
         @include pc(){
             margin-top: 2em;
@@ -178,7 +187,7 @@
         border-radius: 8px;
         margin: 0.5em 0;
         @include pc(){
-            margin-top: 3em;
+            margin-top: 1em;
         }
     }
 

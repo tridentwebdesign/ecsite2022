@@ -9,9 +9,11 @@
 https://kita-yuiti.boy.jp/ecsite/
 
 ## Features
-
 <!-- セールスポイントや差別化などを説明する。-->
-自分の周りの物を売っています。soldoutしたものは買えないようにしています。
+KitaitiShop
+- 自分の周りの物を売っています。
+- soldoutしたものは買えないようにしています。
+- 自分なりの一言コメントを付け加えました。
 
 ## Requirement
 

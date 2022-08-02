@@ -32,6 +32,11 @@ path: ../../css
             <h1 class="item__title">{{ product.name }}</h1>
             <h3 class="item__price">¥{{ product.price }}</h3>
             <p class="item__text">{{ product.text }}</p>
+            <div class="item__border"></div>
+            <div class="item__comment">
+              <h3 class="item__comment-title">出品者のコメント</h3>
+              <p class="item__comment-text">{{ product.comment }}</p>
+            </div>
             <ul class="item__detail">
               <li class="item__list">■品番<span class="item__span ml">{{ product.id }}</span></li>
               <li class="item__list">■カラー<span class="item__span">{{ product.colors }}</span></li>
