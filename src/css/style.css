@@ -159,6 +159,9 @@ a {
 .footer__item {
   margin-left: 20px;
 }
+.footer__small {
+  margin: 30px 0 10px;
+}
 
 .single {
   margin: 80px auto 40px;
