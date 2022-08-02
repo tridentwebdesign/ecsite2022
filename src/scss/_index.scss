@@ -4,7 +4,7 @@ h1{
 
 .main{
     &__inner{
-
+        text-align: center;
     }
     // 検索バー
     &__search{
@@ -21,16 +21,20 @@ h1{
     // 商品表示
     &__goods{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap:wrap;
 
         &__item.gitem{
-            width: 425px;
+            width: 365px;
             .gitem{
                 &__link{
+                }
                     // 商品画像
                     &__img{
                         margin: 0 auto;
+                        width: 200px;
+                        height: 200px;
+                        text-align: center;
                     }
                     // 商品名
                     &__title{
@@ -43,16 +47,31 @@ h1{
                         }
                     }
                     // 商品購入ボタン・お気に入り登録
-                    
-                }
+
                 &__box{
                     display: flex;
                     justify-content: center;
                     flex-wrap: nowrap;
                     &__btn{
                     }
+                    &__btn p{
+                        margin: 0;
+                        background-color: #f9f9f9;
+                        border: 1px solid #000;
+                        border-radius: 10px;
+                        padding: (8em/14);
+                    }
+                    &__btn p:hover{
+                        margin: 0;
+                        background-color: #3e3e3e;
+                        color: #fff;
+                    }
                 }
             }
         }
     }
+}
+
+.main__goods__item{
+    margin: (15em/14) (15em/14);
 }

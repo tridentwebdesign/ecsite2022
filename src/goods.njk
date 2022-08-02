@@ -3,24 +3,37 @@ layout: layout.njk
 pagination:
   data: goods
   size: 1
+permalink: 'goods/{{ pagination.items[0].url | slugify }}/'
 ---
     <div class="main__inner">
       <div class="main__content">
-        <!-- 商品画像 -->
+        {# <!-- 商品画像 -->
         <div class="main__visaul">
-          <img src="images/{{ goods.itemphotos[0] }}" alt="" class="main__visaul__img" width="320px" height="240px">
-        </div>
+          <img src="/images/{{ pagination.items[0].itemphotos[0] }}" alt="" class="main__visaul__img">
+        </div> #}
+        {# サブ画像 #}
+          <div class="boxwrap">
+            <div class="main__visaul"><img src="/images/{{ pagination.items[0].itemphotos[0] }}" alt=""  class="main__visaul__img"></div>
+            <div class="simg">
+                <ul>
+                    <li><img src="/images/{{ pagination.items[0].itemphotos[0] }}" alt="" ></li>
+                    <li><img src="/images/{{ pagination.items[0].itemphotos[1] }}" alt="" ></li>
+                    <li><img src="/images/{{ pagination.items[0].itemphotos[2] }}" alt="" ></li>
+                </ul>
+            </div>
+          </div>
+          
         <!-- 商品紹介テキスト -->
         <div class="main__text">
-          <h2 class="main__text__title">{{ goods.name }}</h2>
+          <h2 class="main__text__title">{{ pagination.items[0].name }}</h2>
           <!-- 値段・購入ボタン -->
-          <div class="main__text__bay bay">
-            <p class="bay__price">¥ {{goods.price}} <span class="bay__price__span">税込</span></p>
+          <div class="main__text__buy buy">
+            <p class="buy__price">¥ {{pagination.items[0].price}} <span class="buy__price__span">税込</span></p>
             <!-- 購入ボタン -->
-            <a href="#" class="bay__btn"><p class="buy__btn__p">カート追加</p></a>
+            <a href="#" class="buy__btn"><p class="buy__btn__p">カート追加</p></a>
           </div>
           <!-- 商品紹介 -->
-          <p class="main__text__discriot">商品紹介　サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+          <p class="main__text__discript">{{pagination.items[0].text}}</p>
           <!-- タグ -->
           <ul class="main__text__g-tag g-tag">
             <li class="g-tag__item">オモチャ</li>
@@ -33,16 +46,16 @@ pagination:
             
             <table border="1" class="main__table" >
               <tr>
-                <th>ナンバー</th>
-                <td>09</td>
+                <th>メーカー</th>
+                <td>{{pagination.items[0].maker}}</td>
               </tr>
-              <tr>
-                <th>タイプ</th>
-                <td>自動車</td>
+              {# <tr>
+                <th>メーカー</th>
+                <td>{{pagination.items[0].maker}}</td>
               </tr>
-              <tr>
+              <tr> #}
                 <th>色</th>
-                <td>白</td>
+                <td>{{pagination.items[0].colors}}</td>
               </tr>
             </table>
           </div>
@@ -51,7 +64,7 @@ pagination:
       </div>
     </div>
 
-{# <!--  画像をループで取得 -->
+<!--  画像をループで取得 -->
 {% for photo in goods.itemphotos %}
 <img src="/images/{{ photo }}" />
-{% endfor %} #}
+{% endfor %}

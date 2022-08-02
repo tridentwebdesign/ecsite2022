@@ -1,0 +1,111 @@
+.main{
+  &__inner{
+
+  }
+  &__content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: (100em/14) 0;
+  }
+  &__visaul{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+    &__img{
+      width: 320px;
+      height: 320px;
+    }
+  }
+  &__text{
+    width: 60%;
+    padding-left: (40em/16);
+    &__title{
+      text-align: left;
+    }
+    &__buy.buy{
+      display: flex;
+      justify-content: space-between;
+      margin: (40em/16) 0;
+      .buy{
+        &__price{
+          &__span{
+
+          }
+        }
+        &__btn{
+          &__p{
+            margin: 0;
+            background-color: #f9f9f9;
+            border: 1px solid #000;
+            border-radius: 10px;
+            padding: (8em/14);
+          }
+          &__p:hover{
+            margin: 0;
+            background-color: #3e3e3e;
+            color: #fff;
+          }
+        }
+      }
+    }
+    &__discript{
+      margin: (20em/14) 0;
+      text-align: left;
+    }
+    &__g-tag.g-tag{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .g-tag{
+        &__item{
+          background-color: #f9f9f9;
+          color: #93939399;
+          border: 1px solid #000;
+          border-radius: 10px;
+          padding: (8em/14);
+          margin: (8em/14) (10em/14);
+        }
+      }
+      &__specification{
+       .main__table{
+        border: 1px solid #000;
+        tr{
+          border: 1px solid #000;
+        }
+        th{
+          border: 1px solid #000;
+        }
+        td{
+          border: 1px solid #000;
+        }
+       } 
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .main{
+    &__content{
+      display: block;
+      margin: (60em/14) 0;
+    }
+    &__visaul{
+      width: 100%;
+      align-items: center;
+      background-color: #666;
+      &__img{
+      }
+    }
+    &__text{
+      width: 100%;
+      padding-left: 0;
+      &__title{
+        text-align: left;
+      }
+    }
+  }
+}

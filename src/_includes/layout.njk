@@ -14,7 +14,8 @@
         {# header #}
         <header class="header">
             <div class="header__inner">
-
+                        <a href="http://localhost:8080/"><h1 class="header__logo">COCOROshop</h1></a>
+                {# header__nav #}
                 <nav class="header__nav">
                     <ul class="header__nav__list">
                         <li class="header__nav__list__contnet">
@@ -30,7 +31,7 @@
                             <ion-icon name="person-outline"></ion-icon>
                         </li>
                         <li class="header__nav__list__contnet">
-                            <ion-icon name="cart-outline"></ion-icon>
+                            <span class="cart"></span><ion-icon name="cart-outline"></ion-icon>
                         </li>
                     </ul>
                 </nav>
@@ -41,14 +42,23 @@
         <main class="main">
         {{ content | safe }}
         </main>
-        {# footer #}
-        <fotter class="footer">
-            <div class="footer__inner">
-
+        {# fotter #}
+        <fotter class="fotter">
+            <div class="fotter__inner">
+                <nav class="fotter__nav">
+					<ul class="fotter__nav__gnav">
+						<li class="fotter__nav__gnav__item">トップページ</li>
+						<li class="fotter__nav__gnav__item">お知らせ</li>
+						<li class="fotter__nav__gnav__item">お問い合わせ</li>
+					</ul>
+				</nav>
             </div>
         </fotter>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="/js/comon.js"></script>
         </body>
 </html>

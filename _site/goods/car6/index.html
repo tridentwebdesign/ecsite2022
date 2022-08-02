@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>cocoro オンラインショップ</title>
+        <link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body>
+        
+        <header class="header">
+            <div class="header__inner">
+                        <a href="http://localhost:8080/"><h1 class="header__logo">COCOROshop</h1></a>
+                
+                <nav class="header__nav">
+                    <ul class="header__nav__list">
+                        <li class="header__nav__list__contnet">
+                            <ion-icon name="reorder-three-outline"></ion-icon>
+                        </li>
+                        <li class="header__nav__list__contnet">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </li>
+                    </ul>
+                    
+                    <ul class="header__nav__list">
+                        <li class="header__nav__list__contnet">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </li>
+                        <li class="header__nav__list__contnet">
+                            <span class="cart"></span><ion-icon name="cart-outline"></ion-icon>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        
+        <main class="main">
+            <div class="main__inner">
+      <div class="main__content">
+        
+        
+          <div class="boxwrap">
+            <div class="main__visaul"><img src="/images/car6-1.JPG" alt=""  class="main__visaul__img"></div>
+            <div class="simg">
+                <ul>
+                    <li><img src="/images/car6-1.JPG" alt="" ></li>
+                    <li><img src="/images/car6-2.JPG" alt="" ></li>
+                    <li><img src="/images/car6-3.JPG" alt="" ></li>
+                </ul>
+            </div>
+          </div>
+          
+        <!-- 商品紹介テキスト -->
+        <div class="main__text">
+          <h2 class="main__text__title">SUPER GREAT トラック</h2>
+          <!-- 値段・購入ボタン -->
+          <div class="main__text__buy buy">
+            <p class="buy__price">¥ priceless <span class="buy__price__span">税込</span></p>
+            <!-- 購入ボタン -->
+            <a href="#" class="buy__btn"><p class="buy__btn__p">カート追加</p></a>
+          </div>
+          <!-- 商品紹介 -->
+          <p class="main__text__discript">SUPER GREAT トラックのトミカです。</p>
+          <!-- タグ -->
+          <ul class="main__text__g-tag g-tag">
+            <li class="g-tag__item">オモチャ</li>
+            <li class="g-tag__item">ミニカー</li>
+            <li class="g-tag__item">車</li>
+            <li class="g-tag__item">タカラトミー</li>
+          </ul>
+          <!-- 商品使用 -->
+          <div class="main__specification">
+            
+            <table border="1" class="main__table" >
+              <tr>
+                <th>メーカー</th>
+                <td>タカラトミー</td>
+              </tr>
+              
+                <th>色</th>
+                <td>緑色</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+<!--  画像をループで取得 -->
+
+        </main>
+        
+        <fotter class="fotter">
+            <div class="fotter__inner">
+                <nav class="fotter__nav">
+					<ul class="fotter__nav__gnav">
+						<li class="fotter__nav__gnav__item">トップページ</li>
+						<li class="fotter__nav__gnav__item">お知らせ</li>
+						<li class="fotter__nav__gnav__item">お問い合わせ</li>
+					</ul>
+				</nav>
+            </div>
+        </fotter>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="/js/comon.js"></script>
+        </body>
+</html>

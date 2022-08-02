@@ -1,0 +1,42 @@
+.main__goods {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .main__goods__item.gitem {
+
+    color: #fff;
+    
+    &.is-hidden {
+      display: none;
+      opacity: 0;
+    }
+    &.is-show {
+      animation: fadeIn 1s ease; /* フェードイン用のスタイル */
+    }
+  }
+  .btn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 25px;
+    color: #000;
+    
+    &:hover {
+      opacity: .9
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+       transform: translateY(0);
+      opacity: 1;
+    }
+  }

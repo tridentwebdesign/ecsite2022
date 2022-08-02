@@ -1,152 +1,152 @@
 [
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car1-1.JPG",
+            "car1-2.JPG",
+            "car1-3.JPG"
         ],
-        "name": "TOYOTA　MARK X",
-        "price": 12,
+        "name": "TOYOTA MARK X",
+        "price": "priceless",
         "state": true,
-        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
+        "text": "TOYOTA MARK Xのトミカです。",
         "id": 1,
         "colors": "白色",
         "maker": "タカラトミー",
-        "url ": "car1"
+        "url": "car1"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car2-1.JPG",
+            "car2-2.JPG",
+            "car2-3.JPG"
         ],
-        "name": "Lamborghini Countach　LP5000",
-        "price": 50,
+        "name": "Lamborghini Countach LP5000",
+        "price": "priceless",
         "state": false,
-        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
+        "text": "Lamborghini Countach LP5000 のトミカです。",
         "id": 2,
         "colors": "黄色",
         "maker": "タカラトミー",
-        "url ": "car2"
+        "url": "car2"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car3-1.JPG",
+            "car3-2.JPG",
+            "car3-3.JPG"
         ],
-        "name": "日産　フェアレディＺ",
-        "price": 100,
+        "name": "日産 フェアレディＺ",
+        "price": "priceless",
         "state": false,
-        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "text": "日産 フェアレディＺのトミカです。",
         "id": 3,
         "colors": "灰色",
         "maker": "タカラトミー",
-        "url ": "car3"
+        "url": "car3"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car4-1.JPG",
+            "car4-2.JPG",
+            "car4-3.JPG"
         ],
-        "name": "FU80　トラック　貨物ver.",
-        "price": 300,
+        "name": "FU80 トラック 貨物ver.",
+        "price": "priceless",
         "state": true,
-        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "text": "FU80 トラック 貨物ver.のトミカです。",
         "id": 4,
         "colors": "オレンジ色",
         "maker": "タカラトミー",
-        "url ": "car4"
+        "url": "car4"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car5-1.JPG",
+            "car5-2.JPG",
+            "car5-3.JPG"
         ],
-        "name": "FU80　トラック　動物ver.",
-        "price": 80,
+        "name": "FU80 トラック 動物ver.",
+        "price": "priceless",
         "state": false,
-        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "text": "FU80 トラック 動物ver.のトミカです。",
         "id": 5,
         "colors": "黄色",
         "maker": "タカラトミー",
-        "url ": "car5"
+        "url": "car5"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car6-1.JPG",
+            "car6-2.JPG",
+            "car6-3.JPG"
         ],
-        "name": "SUPER GREAT トラック　",
-        "price": 10,
+        "name": "SUPER GREAT トラック",
+        "price": "priceless",
         "state": true,
-        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "text": "SUPER GREAT トラックのトミカです。",
         "id": 6,
         "colors": "緑色",
         "maker": "タカラトミー",
-        "url ": "car6"
+        "url": "car6"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car7-1.JPG",
+            "car7-2.JPG",
+            "car7-3.JPG"
         ],
         "name": "いすゞ　エルフ清掃車",
-        "price": "3,000",
+        "price": "priceless",
         "state": true,
-        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "text": "いすゞ　エルフ清掃車のトミカです。",
         "id": 7,
         "colors": "青色",
         "maker": "タカラトミー",
-        "url ": "car7"
+        "url": "car7"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car8-1.JPG",
+            "car8-2.JPG",
+            "car8-3.JPG"
         ],
-        "name": "MAZDA　RX-7",
+        "name": "MAZDA RX-7",
         "price": "priceless",
         "state": true,
-        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "text": "MAZDA RX-7のトミカです。",
         "id": 8,
         "colors": "白色",
         "maker": "タカラトミー",
-        "url ": "car8"
+        "url": "car8"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car9-1.JPG",
+            "car9-2.JPG",
+            "car9-3.JPG"
         ],
-        "name": "日産　セドリック",
+        "name": "日産 セドリック",
         "price": "priceless",
         "state": true,
-        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "text": "日産 セドリックのトミカです。",
         "id": 9,
         "colors": "白色",
         "maker": "タカラトミー",
-        "url ": "car9"
+        "url": "car9"
     },
     {
         "itemphotos": [
-            "320x240_demo.png",
-            "320x240_demo.png",
-            "320x240_demo.png"
+            "car10-1.JPG",
+            "car10-2.JPG",
+            "car10-3.JPG"
         ],
         "name": "ホンダ　白バイ",
         "price": "priceless",
         "state": true,
-        "text": "サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。",
+        "text": "ホンダ　白バイのトミカです。",
         "id": 10,
         "colors": "白色",
         "maker": "タカラトミー",
-        "url ": "car10"
+        "url": "car10"
     }
 ]
