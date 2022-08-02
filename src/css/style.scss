@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@mixin pc {
+    @media screen and (max-width: 860px) {
+        @content
+    }
+}
+
 body {
     font-size: 1rem;
     line-height: 1.7;
@@ -64,16 +70,28 @@ a {
         width: 20%;
         margin: 20px 50px;
 
+        @include pc {
+            width: 40%;
+            margin: 10px 10px;
+        }
+
         &-hidden {
-            opacity: 0;
             display: none;
-            transition: .3s all;
+
+            @include pc {
+                display: block;
+            }
         }
     }
 
     &__text {
         font-size: 1.25rem;
         margin-top: 20px;
+
+        @include pc {
+            font-size: 0.75em;
+            margin-top: 5px;
+        }
     }
 }
 
@@ -111,6 +129,13 @@ a {
         color: #fff;
         border-radius: 0 20px 20px 0;
         padding: 10px 20px;
+
+        @include pc {
+            font-size: .75rem;
+            font-weight: normal;
+            bottom: 10px;
+            padding: 5px 10px;
+        }
     }
 }
 
@@ -128,6 +153,10 @@ a {
         background-color: #fff;
         color: #00A0E9;
         transition: all .4s;
+    }
+
+    @include pc {
+        display: none;
     }
 }
 
@@ -157,10 +186,20 @@ a {
     align-items: flex-start;
     flex-wrap: nowrap;
 
+    @include pc {
+        display: block;
+        width: 90%;
+    }
+
     &__block {
         position: relative;
         width: 40%;
         margin: 0 20px;
+
+        @include pc {
+            width: 100%;
+            margin: 0;
+        }
     }
 
     &__image {

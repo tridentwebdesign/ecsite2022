@@ -58,14 +58,29 @@ a {
   width: 20%;
   margin: 20px 50px;
 }
+@media screen and (max-width: 860px) {
+  .product__card {
+    width: 40%;
+    margin: 10px 10px;
+  }
+}
 .product__card-hidden {
-  opacity: 0;
   display: none;
-  transition: 0.3s all;
+}
+@media screen and (max-width: 860px) {
+  .product__card-hidden {
+    display: block;
+  }
 }
 .product__text {
   font-size: 1.25rem;
   margin-top: 20px;
+}
+@media screen and (max-width: 860px) {
+  .product__text {
+    font-size: 0.75em;
+    margin-top: 5px;
+  }
 }
 
 .card {
@@ -98,6 +113,14 @@ a {
   border-radius: 0 20px 20px 0;
   padding: 10px 20px;
 }
+@media screen and (max-width: 860px) {
+  .card__price {
+    font-size: 0.75rem;
+    font-weight: normal;
+    bottom: 10px;
+    padding: 5px 10px;
+  }
+}
 
 .button {
   display: block;
@@ -113,6 +136,11 @@ a {
   background-color: #fff;
   color: #00A0E9;
   transition: all 0.4s;
+}
+@media screen and (max-width: 860px) {
+  .button {
+    display: none;
+  }
 }
 
 .footer {
@@ -139,10 +167,22 @@ a {
   align-items: flex-start;
   flex-wrap: nowrap;
 }
+@media screen and (max-width: 860px) {
+  .single {
+    display: block;
+    width: 90%;
+  }
+}
 .single__block {
   position: relative;
   width: 40%;
   margin: 0 20px;
+}
+@media screen and (max-width: 860px) {
+  .single__block {
+    width: 100%;
+    margin: 0;
+  }
 }
 .single__image {
   position: relative;

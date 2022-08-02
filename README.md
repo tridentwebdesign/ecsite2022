@@ -5,6 +5,7 @@ https://harunixi.secret.jp/ecsite/
 ## Features
 
 メルカリを参考に、カードを売買できるようなECサイトの作成を目指しました。
+- サイト名:CardRARE
 
 ## Requirement
 
