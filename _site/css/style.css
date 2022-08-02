@@ -1,3 +1,7 @@
+body {
+  color: #3c3c3c;
+}
+
 @media (min-width: 800px) {
   .off {
     display: none;
@@ -17,7 +21,7 @@
   padding-top: 1em;
 }
 .header__inner {
-  width: 90%;
+  width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -25,6 +29,7 @@
 }
 .header__title {
   text-align: center;
+  color: #3c3c3c;
 }
 .header__cart {
   width: 10%;
@@ -49,7 +54,6 @@
 .header__link {
   text-decoration: none;
   display: block;
-  width: 30%;
   color: #3c3c3c;
 }
 
@@ -185,6 +189,10 @@
 .main__title {
   text-align: center;
   margin-bottom: 1em;
+  color: #3c3c3c;
+}
+.main__name {
+  color: #3c3c3c;
 }
 @media (min-width: 800px) {
   .main__name {
@@ -192,7 +200,11 @@
     margin-top: 0.2em;
   }
 }
+.main__price {
+  color: #3c3c3c;
+}
 .main__more {
+  color: #3c3c3c;
   display: none;
 }
 @media (min-width: 800px) {
@@ -212,7 +224,7 @@
   }
 }
 .main__inner {
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 .main__content {
