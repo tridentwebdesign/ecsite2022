@@ -109,10 +109,15 @@ img {
 }
 .item__artist {
   margin: 0.3125rem 0;
+  font-size: 0.8125rem;
 }
 .item__text {
   text-align: left;
   color: #000;
+}
+.item__name {
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 .rababan {

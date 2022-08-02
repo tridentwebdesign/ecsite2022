@@ -108,10 +108,15 @@ img{
     }
     &__artist{
         margin: rem(5) 0;
+        font-size: rem(13);
     }
     &__text{
         text-align: left;
         color: #000;
+    }
+    &__name{
+        font-weight: normal;
+        font-size: rem(16);
     }
     
 }
